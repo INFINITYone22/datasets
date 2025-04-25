@@ -1,0 +1,2676 @@
+[
+  {
+    "Problem Statement": "If you don't water a houseplant for many weeks, what will likely happen to it?",
+    "Solution": "The houseplant will likely wilt and die.",
+    "Step-by-Step Explanation": "1. Plants need water to live and perform basic functions like photosynthesis. 2. Water helps keep plant cells firm (turgor pressure). 3. Without water, the plant cannot get nutrients or maintain its structure, causing it to wilt and eventually die.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["plants", "cause and effect", "biology", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "You flip a light switch on the wall, but the room stays dark. What is a likely reason?",
+    "Solution": "The light bulb might be burnt out or the power might be off.",
+    "Step-by-Step Explanation": "1. Flipping a switch is intended to complete an electrical circuit, allowing power to flow to the light bulb. 2. If the bulb is burnt out, the circuit inside the bulb is broken, and it cannot light up. 3. Alternatively, if there is no power supplied to the circuit (e.g., a power outage or tripped breaker), the bulb won't light up either.",
+    "Metadata": {
+      "Type of Reasoning": "Abductive (inferring likely cause)",
+      "Difficulty Level": "Easy",
+      "Tags": ["electricity", "cause and effect", "troubleshooting", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you put food in the refrigerator?",
+    "Solution": "To keep it cold and make it last longer without spoiling.",
+    "Step-by-Step Explanation": "1. Refrigerators maintain a low temperature. 2. Cold temperatures slow down the growth of bacteria and mold, which cause food to spoil. 3. By slowing spoilage, the refrigerator helps keep food fresh and safe to eat for a longer time.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of food preservation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "preservation", "temperature", "bacteria", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you jump up in the air?",
+    "Solution": "You go up for a moment and then come back down.",
+    "Step-by-Step Explanation": "1. You push off the ground, creating an upward force that lifts you into the air. 2. The force of gravity constantly pulls you towards the Earth. 3. Once you leave the ground, gravity overcomes your upward momentum, slows your ascent, and pulls you back down.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on experience) / Deductive (applying gravity)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "gravity", "motion", "actions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you wear a coat when it's cold outside?",
+    "Solution": "To help stay warm.",
+    "Step-by-Step Explanation": "1. Your body generates heat. 2. Cold air outside causes your body to lose heat faster. 3. A coat acts as an insulator, trapping a layer of air near your body and slowing down the rate of heat loss, which helps you maintain body temperature and feel warmer.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of insulation and heat transfer)",
+      "Difficulty Level": "Easy",
+      "Tags": ["clothing", "temperature", "insulation", "heat", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you spill a glass of water on the floor, what will the floor be like?",
+    "Solution": "The floor will be wet.",
+    "Step-by-Step Explanation": "1. Water is a liquid. 2. When spilled, the liquid water spreads out onto the surface it lands on. 3. Therefore, the floor surface becomes covered in water, making it wet.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (property of liquids)",
+      "Difficulty Level": "Easy",
+      "Tags": ["liquids", "cause and effect", "properties", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does ice melt if you leave it out on the kitchen counter?",
+    "Solution": "Because the counter and the air around it are warmer than the ice.",
+    "Step-by-Step Explanation": "1. Ice is solid water, existing at or below 0°C (32°F). 2. The kitchen counter and air are typically at room temperature, which is warmer than 0°C. 3. Heat naturally flows from warmer areas (air/counter) to cooler areas (ice). 4. As the ice absorbs heat, its temperature rises to the melting point, and it changes state from solid to liquid water.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of heat transfer and states of matter)",
+      "Difficulty Level": "Easy",
+      "Tags": ["temperature", "heat transfer", "states of matter", "melting", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you put bread in a toaster and turn it on?",
+    "Solution": "The bread gets hot and turns into toast (becomes browner and crispier).",
+    "Step-by-Step Explanation": "1. A toaster uses heating elements (hot wires) to generate heat. 2. Placing bread near these elements exposes it to high temperatures. 3. The heat causes chemical changes in the bread's surface (like the Maillard reaction), making it brown, dry, and crispy.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cooking", "heat", "cause and effect", "food", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you mix red paint and blue paint, what color do you usually get?",
+    "Solution": "Purple.",
+    "Step-by-Step Explanation": "1. Red and blue are primary colors in subtractive color mixing (like pigments/paint). 2. Mixing these pigments combines their light-absorbing properties. 3. The resulting mixture reflects light that we perceive as purple or violet.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common knowledge)",
+      "Difficulty Level": "Easy",
+      "Tags": ["color", "art", "mixing", "properties", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why should you look both ways before crossing a street?",
+    "Solution": "To check for oncoming cars or other vehicles and avoid getting hit.",
+    "Step-by-Step Explanation": "1. Streets are used by moving vehicles (cars, bikes, buses). 2. These vehicles can injure a person if they collide. 3. Looking both ways allows you to see if any vehicles are approaching and judge if it is safe to cross without danger.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of traffic and safety)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "traffic", "decision-making", "awareness", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens to sugar when you stir it into hot tea?",
+    "Solution": "The sugar dissolves and disappears into the tea, making it sweet.",
+    "Step-by-Step Explanation": "1. Sugar is soluble in water (and tea is mostly water). 2. Stirring helps the sugar molecules break away from the crystal and mix with the water molecules. 3. The individual sugar molecules spread throughout the tea, making the tea taste sweet, but the molecules are too small to see.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of solubility)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "solubility", "mixing", "food", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you drop a ceramic mug on a hard tile floor, what is likely to happen?",
+    "Solution": "The mug is likely to break or shatter.",
+    "Step-by-Step Explanation": "1. Ceramic is a brittle material, meaning it fractures easily under sharp impact. 2. A tile floor is a hard, unyielding surface. 3. Dropping the mug causes it to hit the hard floor with force, exceeding the ceramic's ability to withstand the impact, leading to breakage.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on properties of materials and experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "physics", "cause and effect", "properties", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does a ball roll down a hill?",
+    "Solution": "Because of gravity.",
+    "Step-by-Step Explanation": "1. Hills have slopes (they are higher at one end than the other). 2. Gravity pulls objects downwards, towards the center of the Earth. 3. On a slope, a component of gravity pulls the ball along the surface of the hill, from the higher point towards the lower point, causing it to roll.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principle of gravity)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "gravity", "motion", "force", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What is the purpose of sunscreen?",
+    "Solution": "To protect skin from the harmful effects of the sun's ultraviolet (UV) radiation.",
+    "Step-by-Step Explanation": "1. Sunlight contains UV radiation, which can damage skin cells. 2. This damage can cause sunburn, premature aging, and increase the risk of skin cancer. 3. Sunscreen contains ingredients that either absorb or reflect UV rays, reducing the amount that penetrates the skin and thus providing protection.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on knowledge of biology and UV radiation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["health", "safety", "sun", "UV radiation", "skin", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you plant a seed in soil and give it water and light, what usually happens?",
+    "Solution": "It usually sprouts and grows into a plant.",
+    "Step-by-Step Explanation": "1. Seeds contain a baby plant (embryo) and stored food. 2. Water activates the seed and helps the embryo start growing (germination). 3. Soil provides nutrients and support. 4. Light provides energy for the new plant to make its own food once it has leaves (photosynthesis). 5. Given these conditions, the seed typically develops into a plant.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common knowledge of plants)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "plants", "growth", "life cycle", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you feel hungry?",
+    "Solution": "Because your body needs energy and nutrients from food.",
+    "Step-by-Step Explanation": "1. Your body constantly uses energy for functions like breathing, moving, and thinking. 2. When your energy stores get low, or after some time without eating, your body sends signals (like hormones and nerve signals) to your brain. 3. Your brain interprets these signals as the sensation of hunger, motivating you to eat and replenish your energy and nutrient supplies.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying basic physiological principles)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "physiology", "hunger", "energy", "health", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you touch a hot stove?",
+    "Solution": "You will likely get burned and feel pain.",
+    "Step-by-Step Explanation": "1. Stoves get very hot to cook food. 2. Your skin is sensitive to high temperatures. 3. Touching a very hot surface causes heat to transfer rapidly to your skin, damaging skin cells (a burn) and triggering pain receptors.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience and warnings)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "heat", "cause and effect", "pain", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does blowing on hot soup help cool it down?",
+    "Solution": "Blowing removes the hot air and water vapor just above the soup and increases evaporation.",
+    "Step-by-Step Explanation": "1. Hot soup heats the air directly above it and releases water vapor. This layer slows down further cooling. 2. Blowing pushes this hot, moist air away and replaces it with cooler, drier ambient air. 3. This increases the rate of heat loss through convection (moving air carries heat away). 4. It also increases the rate of evaporation from the soup's surface, and evaporation is a cooling process (it takes energy from the soup).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of heat transfer and evaporation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "heat transfer", "evaporation", "convection", "cooling", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What makes a boat float?",
+    "Solution": "It floats because its overall shape displaces enough water to create an upward force (buoyancy) equal to its weight, and its average density is less than water.",
+    "Step-by-Step Explanation": "1. A boat, even if made of heavy materials, is shaped to enclose a large volume, much of which is air. 2. This shape pushes aside (displaces) a large amount of water. 3. The water pushes back with an upward buoyant force equal to the weight of the displaced water (Archimedes' Principle). 4. Because the boat's average density (total weight divided by total volume) is less than water's density, the buoyant force is sufficient to support its weight, allowing it to float.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of buoyancy and density)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "buoyancy", "density", "water", "boats", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you brush your teeth?",
+    "Solution": "To clean away food particles and plaque (bacteria) to prevent cavities and keep your mouth healthy.",
+    "Step-by-Step Explanation": "1. Food particles get stuck on and between teeth after eating. 2. Bacteria in your mouth feed on these particles, especially sugars, producing acid. 3. This acid attacks tooth enamel, leading to cavities (tooth decay). Bacteria also form a sticky film called plaque. 4. Brushing physically removes food debris and plaque, reducing acid production and helping to prevent cavities, gum disease, and bad breath.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of hygiene and dental health)",
+      "Difficulty Level": "Easy",
+      "Tags": ["health", "hygiene", "teeth", "bacteria", "cavities", "everyday"]
+    }
+  }
+]
+[
+  {
+    "Problem Statement": "If you press the brake pedal in a car, what happens?",
+    "Solution": "The car slows down or stops.",
+    "Step-by-Step Explanation": "1. The brake pedal is connected to the car's braking system. 2. Pressing the pedal activates the brakes (e.g., pushing brake pads against rotors). 3. This creates friction, which opposes the motion of the wheels and slows the car down.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cars", "mechanics", "cause and effect", "actions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does soap help you wash dirt off your hands?",
+    "Solution": "Soap helps lift dirt and grease so water can wash them away.",
+    "Step-by-Step Explanation": "1. Dirt and grease often don't mix well with plain water. 2. Soap molecules have one end that attaches to dirt/grease and another end that attaches to water. 3. This allows the soap to surround the dirt particles and let the water rinse them off your hands.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying basic knowledge of soap's function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["hygiene", "chemistry", "cleaning", "soap", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you leave milk out of the refrigerator for a whole day?",
+    "Solution": "The milk will likely spoil and smell bad.",
+    "Step-by-Step Explanation": "1. Milk contains bacteria that are naturally present or introduced during processing. 2. Warm temperatures (like room temperature) allow these bacteria to multiply rapidly. 3. The bacteria consume sugars in the milk and produce waste products (like lactic acid), causing the milk to sour, curdle, and develop a bad smell/taste.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience) / Deductive (knowledge of bacteria)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "spoilage", "bacteria", "temperature", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do birds build nests?",
+    "Solution": "To have a safe place to lay eggs and raise their baby birds.",
+    "Step-by-Step Explanation": "1. Birds lay eggs to reproduce. 2. Eggs and young chicks are vulnerable to predators and bad weather. 3. A nest provides protection, support for the eggs, and a place for parents to care for the young until they can fly.",
+    "Metadata": {
+      "Type of Reasoning": "Abductive (inferring purpose from behavior)",
+      "Difficulty Level": "Easy",
+      "Tags": ["animals", "birds", "biology", "behavior", "reproduction", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you mix yellow and blue watercolors, what color will you get?",
+    "Solution": "Green.",
+    "Step-by-Step Explanation": "1. Yellow and blue are primary colors in subtractive mixing (like paints). 2. When mixed, they absorb different parts of the light spectrum. 3. The light that is reflected is primarily green, which is the color we see.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common knowledge)",
+      "Difficulty Level": "Easy",
+      "Tags": ["color", "art", "mixing", "properties", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you wear sunglasses on a bright sunny day?",
+    "Solution": "To protect your eyes from bright light and make it easier to see.",
+    "Step-by-Step Explanation": "1. Bright sunlight can be uncomfortable or even harmful to your eyes. 2. Sunglasses have tinted lenses that reduce the amount of light entering your eyes. 3. This makes it more comfortable to see in bright conditions and can reduce glare.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding function of sunglasses)",
+      "Difficulty Level": "Easy",
+      "Tags": ["eyes", "light", "safety", "clothing", "accessories", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when clothes get wet?",
+    "Solution": "They become heavy, dark in color, and feel damp.",
+    "Step-by-Step Explanation": "1. Fabric absorbs water into its fibers. 2. The added water increases the weight of the clothes. 3. Water filling the spaces in the fabric changes how light reflects off it, often making it appear darker. 4. The presence of water makes the fabric feel damp or wet to the touch.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on observation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "water", "properties", "observation", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do we sleep?",
+    "Solution": "To rest our bodies and brains, allowing them to repair and recharge.",
+    "Step-by-Step Explanation": "1. Being awake and active uses energy and puts stress on the body and brain. 2. Sleep allows the body to conserve energy, repair tissues, and strengthen the immune system. 3. Sleep is also crucial for brain functions like consolidating memories and processing information.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biological knowledge)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "health", "sleep", "physiology", "brain", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you throw a stone into a pond, what do you see on the water's surface?",
+    "Solution": "Ripples spreading out from where the stone entered.",
+    "Step-by-Step Explanation": "1. The stone hitting the water creates a disturbance. 2. This disturbance creates waves (ripples) that travel outwards across the water surface. 3. We see these waves moving away from the point of impact.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on observation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "waves", "water", "cause and effect", "observation", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does ice float in water?",
+    "Solution": "Because ice is less dense than liquid water.",
+    "Step-by-Step Explanation": "1. Density determines whether something floats or sinks in a liquid. Objects less dense than the liquid float. 2. When water freezes into ice, its molecules arrange into a crystal structure that takes up more space than in liquid form. 3. Because ice takes up more space for the same amount of mass, it is less dense than liquid water, causing it to float.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principle of density)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "density", "water", "ice", "states of matter", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What is the purpose of a key?",
+    "Solution": "To open a lock.",
+    "Step-by-Step Explanation": "1. Locks are designed to secure things (like doors or boxes). 2. Keys have a specific shape that matches the internal mechanism of a particular lock. 3. Inserting the correct key allows the lock mechanism to turn or release, opening the lock.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["objects", "function", "security", "tools", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you don't eat breakfast or lunch, how might you feel in the afternoon?",
+    "Solution": "You might feel hungry, tired, or have trouble concentrating.",
+    "Step-by-Step Explanation": "1. Food provides energy for your body and brain. 2. Skipping meals means your body isn't getting the fuel it needs. 3. Lack of energy can lead to feelings of tiredness, difficulty focusing, and physical hunger sensations.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience) / Deductive (energy needs)",
+      "Difficulty Level": "Easy",
+      "Tags": ["health", "food", "energy", "cause and effect", "feelings", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does a balloon pop if you poke it with a pin?",
+    "Solution": "The pin creates a hole, causing the air inside to rush out rapidly, tearing the balloon material.",
+    "Step-by-Step Explanation": "1. A balloon holds air under pressure; the stretched rubber pushes inwards, and the air inside pushes outwards. 2. A pin creates a tiny hole, breaking the integrity of the stretched rubber. 3. The high-pressure air inside rushes out violently through the hole, causing the rubber to tear rapidly, resulting in a pop.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of pressure and material failure)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "pressure", "materials", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens to wet clothes if you hang them outside on a sunny, windy day?",
+    "Solution": "They will dry.",
+    "Step-by-Step Explanation": "1. Wet clothes contain water. 2. Sunlight provides heat energy, and wind increases air circulation. 3. Both heat and moving air increase the rate of evaporation, causing the water in the clothes to turn into water vapor and leave the fabric.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of evaporation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["evaporation", "weather", "heat transfer", "drying", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you put gas (petrol) in a car?",
+    "Solution": "Gas is the fuel the car's engine needs to run and make the car move.",
+    "Step-by-Step Explanation": "1. Cars need energy to move. 2. Most car engines burn gasoline in a controlled way (combustion). 3. This burning process releases energy that powers the engine, which then turns the wheels, making the car go.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding function of fuel)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cars", "fuel", "energy", "engines", "combustion", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you hear a fire alarm, what should you generally do?",
+    "Solution": "Leave the building immediately using the nearest safe exit.",
+    "Step-by-Step Explanation": "1. A fire alarm signals a potential fire or other emergency in the building. 2. Fire can spread quickly and is dangerous. 3. The safest action is to evacuate the building calmly and quickly to get away from potential danger.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying safety procedures)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "emergency", "fire alarm", "procedures", "decision-making", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does wood float on water?",
+    "Solution": "Because wood is less dense than water.",
+    "Step-by-Step Explanation": "1. Whether an object floats depends on its density compared to the liquid's density. 2. Density is how much 'stuff' (mass) is packed into a certain amount of space (volume). 3. Wood, despite being solid, has a structure that makes it less dense overall than the same volume of water, so it floats.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principle of density)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "density", "buoyancy", "materials", "water", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you stand out in the rain without an umbrella or raincoat?",
+    "Solution": "You will get wet.",
+    "Step-by-Step Explanation": "1. Rain consists of water droplets falling from the sky. 2. Without protection like an umbrella or raincoat, the water droplets will land on your clothes and body. 3. Your clothes and skin will absorb or become covered in water, making you wet.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on direct experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["weather", "rain", "cause and effect", "observation", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you need light to read a book?",
+    "Solution": "So that light can reflect off the page and into your eyes, allowing you to see the words.",
+    "Step-by-Step Explanation": "1. Vision works by detecting light that enters the eyes. 2. Books don't produce their own light. 3. You need an external light source (like a lamp or sunlight) to shine on the book's pages. 4. The light reflects off the white paper and the dark print differently, creating contrast that your eyes detect and your brain interprets as words.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of light and vision)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "light", "vision", "reading", "senses", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If a glass is full of water and you try to add more water, what will happen?",
+    "Solution": "The extra water will spill over the edge of the glass.",
+    "Step-by-Step Explanation": "1. A glass has a limited volume (capacity). 2. When the glass is full, it cannot hold any more liquid. 3. Any additional water added will have nowhere to go inside the glass and will flow over the rim.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on physical limits and experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["volume", "liquids", "capacity", "cause and effect", "everyday"]
+    }
+  }
+]
+[
+  {
+    "Problem Statement": "What happens if you leave crayons in direct sunlight on a very hot day?",
+    "Solution": "The crayons will likely melt.",
+    "Step-by-Step Explanation": "1. Crayons are made of wax. 2. Wax melts when it gets hot enough. 3. Hot, direct sunlight provides enough heat to raise the temperature of the wax past its melting point.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of materials and heat)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "heat", "melting", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you need scissors to cut paper cleanly?",
+    "Solution": "Scissors have sharp blades that make a precise cut through the paper fibers.",
+    "Step-by-Step Explanation": "1. Paper is made of fibers. Tearing paper separates fibers unevenly. 2. Scissors have two sharpened blades that shear the paper fibers cleanly along a specific line when closed. 3. This shearing action results in a neat, straight cut.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["tools", "function", "materials", "cutting", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you drop a cookie in a glass of milk, what happens to the cookie?",
+    "Solution": "The cookie gets wet and soft, and might break apart.",
+    "Step-by-Step Explanation": "1. Cookies are porous and absorb liquid. 2. Milk is a liquid. 3. When the cookie sits in milk, it absorbs the liquid, losing its crispness and structure, making it soft and fragile.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "liquids", "absorption", "properties", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does smoke from a campfire rise upwards?",
+    "Solution": "Because the hot air and gases in the smoke are less dense than the surrounding cooler air.",
+    "Step-by-Step Explanation": "1. Fire heats the air and produces hot gases (smoke). 2. Hot air and gases are less dense (lighter) than cooler air. 3. Less dense fluids rise above denser fluids (buoyancy). Therefore, the hot smoke rises.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of density and buoyancy)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "density", "buoyancy", "heat", "fire", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What is the purpose of a bicycle helmet?",
+    "Solution": "To protect your head in case of a fall or accident.",
+    "Step-by-Step Explanation": "1. Falling off a bicycle can cause head injuries. 2. A helmet has a hard outer shell and soft inner padding. 3. It absorbs and distributes the force of an impact, reducing the risk of serious injury to the head and brain.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding safety equipment function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "equipment", "protection", "bicycles", "health", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you put a metal spoon in a mug of hot chocolate, what happens to the spoon handle after a few minutes?",
+    "Solution": "The spoon handle will get warm or hot.",
+    "Step-by-Step Explanation": "1. Metal is a good conductor of heat. 2. The hot chocolate heats the part of the spoon submerged in it. 3. Heat travels quickly through the metal spoon from the hot end to the cooler handle (conduction).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of heat conduction)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "heat transfer", "conduction", "materials", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you put seeds in the ground to grow plants?",
+    "Solution": "The ground (soil) provides support, water, and nutrients for the seed to sprout and grow.",
+    "Step-by-Step Explanation": "1. Seeds need certain conditions to germinate and grow roots and shoots. 2. Soil anchors the plant and holds moisture near the seed/roots. 3. Soil also contains minerals and nutrients that the growing plant absorbs through its roots.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on knowledge of plant needs)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "plants", "gardening", "growth", "soil", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you blow up a balloon too much?",
+    "Solution": "It pops (bursts).",
+    "Step-by-Step Explanation": "1. Blowing into a balloon fills it with air, increasing the pressure inside and stretching the balloon material. 2. Balloon material (like rubber) can only stretch so far before it breaks. 3. If you put too much air in, the pressure becomes too great, the material stretches beyond its limit and ruptures suddenly.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience) / Deductive (material limits)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "pressure", "materials", "limits", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do we use towels after showering?",
+    "Solution": "To dry the water off our bodies.",
+    "Step-by-Step Explanation": "1. After showering, our skin is covered in water. 2. Towels are made of absorbent material (like cotton). 3. Rubbing the towel on skin absorbs the water from the skin onto the towel, leaving the skin dry.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["hygiene", "materials", "absorption", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you don't charge your phone, what will eventually happen?",
+    "Solution": "The battery will run out, and the phone will turn off.",
+    "Step-by-Step Explanation": "1. Phones use electrical energy stored in a battery to operate. 2. Using the phone consumes this stored energy. 3. If the battery is not recharged, it will eventually be depleted of energy, and the phone will shut down.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on technology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["technology", "phones", "battery", "energy", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does shaking a can of soda before opening it make it fizz excessively?",
+    "Solution": "Shaking dissolves more gas into the liquid under pressure and creates nucleation sites, causing the gas to come out rapidly when opened.",
+    "Step-by-Step Explanation": "1. Soda contains carbon dioxide gas dissolved under pressure. 2. Shaking agitates the liquid, temporarily forcing more gas to dissolve and creating tiny bubbles throughout the liquid. 3. When you open the can, the pressure is released suddenly. The dissolved gas quickly comes out of solution, forming large amounts of foam and fizz using the tiny bubbles as starting points (nucleation sites).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of gas solubility and pressure)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "pressure", "gases", "solubility", "food", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What is the purpose of traffic lights?",
+    "Solution": "To control the flow of traffic at intersections and prevent accidents.",
+    "Step-by-Step Explanation": "1. Intersections are where roads cross, creating potential conflicts between vehicles. 2. Traffic lights use signals (red, yellow, green) to tell drivers and pedestrians when it is safe to stop, slow down, or go. 3. This organized control helps prevent collisions and keeps traffic moving in an orderly manner.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding system function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["traffic", "safety", "rules", "systems", "transportation", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you leave butter out on a warm day, what happens to it?",
+    "Solution": "It gets very soft or melts.",
+    "Step-by-Step Explanation": "1. Butter is a fat that is solid at cool temperatures but melts at warmer temperatures. 2. On a warm day, the surrounding air temperature is high enough to soften or melt the butterfat. 3. The butter loses its solid structure and becomes soft or liquid.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of materials and heat)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "materials", "heat", "melting", "temperature", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do cats purr?",
+    "Solution": "Cats purr in various situations, often when content, but also possibly when stressed or healing.",
+    "Step-by-Step Explanation": "1. Purring is a low, continuous vibrating sound made by cats. 2. It is commonly associated with positive feelings like contentment, relaxation, and affection (e.g., when being petted). 3. However, cats may also purr when they are anxious, injured, or recovering, possibly as a self-soothing mechanism or because the vibration frequency might promote healing.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on observed correlations) / Abductive",
+      "Difficulty Level": "Easy",
+      "Tags": ["animals", "cats", "behavior", "communication", "biology", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you try to push against a solid wall?",
+    "Solution": "The wall doesn't move (usually), and you feel resistance.",
+    "Step-by-Step Explanation": "1. Walls are strong, fixed structures designed to resist force. 2. When you push on the wall (apply a force), the wall pushes back on you with an equal and opposite force (Newton's Third Law). 3. Since the wall is massive and anchored, your push is typically not enough to move it, and you feel the reaction force as resistance.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying Newton's laws)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "forces", "Newton's laws", "action-reaction", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you add soap or detergent to a washing machine?",
+    "Solution": "To help clean the clothes by removing dirt and stains.",
+    "Step-by-Step Explanation": "1. Water alone doesn't remove all types of dirt, especially grease and oils. 2. Detergents contain surfactants (like soap) that help lift dirt and grease from fabrics. 3. The detergent allows the dirt to mix with the water so it can be rinsed away, leaving clothes clean.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding cleaning agent function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["hygiene", "cleaning", "chemistry", "detergent", "laundry", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you put water in an ice cube tray and place it in the freezer, what happens?",
+    "Solution": "The water freezes and turns into solid ice cubes.",
+    "Step-by-Step Explanation": "1. Freezers are kept at temperatures below the freezing point of water (0°C or 32°F). 2. Placing liquid water in the freezer causes it to lose heat to the cold environment. 3. When the water temperature reaches the freezing point, it changes state from liquid to solid ice.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of temperature and states of matter)",
+      "Difficulty Level": "Easy",
+      "Tags": ["temperature", "states of matter", "freezing", "water", "phase change", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you need to study for a test?",
+    "Solution": "To remember the information and be able to answer the questions correctly.",
+    "Step-by-Step Explanation": "1. Tests are designed to assess your knowledge or understanding of a subject. 2. Studying involves reviewing and practicing the material covered. 3. This process helps reinforce the information in your memory, making it easier to recall and apply during the test, leading to better performance.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect related to learning)",
+      "Difficulty Level": "Easy",
+      "Tags": ["learning", "memory", "education", "studying", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you shine a flashlight on a mirror?",
+    "Solution": "The light beam reflects off the mirror.",
+    "Step-by-Step Explanation": "1. Flashlights produce a beam of light. 2. Mirrors have a very smooth, reflective surface. 3. When light hits the mirror, the surface bounces the light rays back rather than absorbing them, creating a reflection.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of light reflection)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "light", "reflection", "optics", "mirrors", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does popcorn pop?",
+    "Solution": "Heating popcorn kernels turns the moisture inside into steam, building pressure until the kernel bursts open.",
+    "Step-by-Step Explanation": "1. Popcorn kernels have a hard outer shell (pericarp) and contain a starchy center with a small amount of moisture. 2. When heated, the moisture inside turns into steam, creating high pressure within the kernel. 3. Eventually, the pressure becomes too great for the hard shell to contain, causing the kernel to rupture explosively. 4. The soft starch inside expands rapidly and cooks as it bursts out, forming the fluffy white popcorn.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of pressure, heat, and states of matter)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "physics", "chemistry", "pressure", "heat", "states of matter", "everyday"]
+    }
+  }
+]
+[
+  {
+    "Problem Statement": "If you turn on a fan in a room, what do you usually feel?",
+    "Solution": "You usually feel moving air, which can feel cool.",
+    "Step-by-Step Explanation": "1. Fans have blades that rotate quickly when turned on. 2. This rotation pushes air, creating airflow (wind). 3. Moving air helps evaporate sweat from your skin, which creates a cooling sensation.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["objects", "function", "physics", "cooling", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you close your eyes?",
+    "Solution": "You can't see what's around you.",
+    "Step-by-Step Explanation": "1. Your eyes need light from objects to enter them in order for you to see. 2. Your eyelids block the light from entering your eyes when closed. 3. Without light entering the eyes, you cannot see.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biology/physics of vision)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "vision", "light", "actions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you pour water on a small campfire, what usually happens?",
+    "Solution": "The fire usually goes out.",
+    "Step-by-Step Explanation": "1. Fire needs heat, fuel, and oxygen to burn. 2. Water absorbs a lot of heat, cooling the fire down. 3. Water can also smother the fire, separating the fuel from oxygen. 4. Removing heat and/or oxygen extinguishes the fire.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of fire triangle)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "fire", "water", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What is the purpose of using an eraser on pencil marks?",
+    "Solution": "To remove the pencil marks from the paper.",
+    "Step-by-Step Explanation": "1. Pencil marks are made of graphite particles left on the paper. 2. An eraser is made of material (like rubber) that is slightly sticky and abrasive. 3. Rubbing the eraser lifts the graphite particles off the paper surface.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["tools", "function", "materials", "writing", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you hit a nail with a hammer into a piece of wood?",
+    "Solution": "The nail goes into the wood.",
+    "Step-by-Step Explanation": "1. A hammer provides a strong force when swung. 2. A nail has a sharp point to enter the wood and a head to receive the hammer's force. 3. The force from the hammer drives the pointed nail into the wood fibers.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on tools)",
+      "Difficulty Level": "Easy",
+      "Tags": ["tools", "physics", "force", "materials", "construction", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "How does rain help plants?",
+    "Solution": "It gives them the water they need to live and grow.",
+    "Step-by-Step Explanation": "1. Plants absorb water through their roots in the soil. 2. Rain provides water to the soil. 3. Plants use this water for essential processes like photosynthesis and transporting nutrients.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on knowledge of plant needs)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "plants", "water", "weather", "growth", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens to a small puddle of water on the sidewalk on a hot, sunny day?",
+    "Solution": "It dries up (evaporates).",
+    "Step-by-Step Explanation": "1. Heat from the sun provides energy to the water molecules in the puddle. 2. This energy allows water molecules to change from liquid to gas (water vapor). 3. The water vapor mixes with the air, and the puddle disappears.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principle of evaporation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "weather", "evaporation", "heat", "states of matter", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why might a dog bark when someone knocks on the door?",
+    "Solution": "To alert its owners or warn off the person at the door.",
+    "Step-by-Step Explanation": "1. Dogs often use barking as a form of communication or warning. 2. A knock on the door is an unexpected sound indicating someone's arrival. 3. The dog may bark to let its family know someone is there (alert) or as a territorial response (warning).",
+    "Metadata": {
+      "Type of Reasoning": "Abductive (inferring reason for behavior)",
+      "Difficulty Level": "Easy",
+      "Tags": ["animals", "dogs", "behavior", "communication", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you stir salt into a glass of water?",
+    "Solution": "The salt dissolves and seems to disappear into the water.",
+    "Step-by-Step Explanation": "1. Salt is soluble in water. 2. Stirring helps the salt crystals break down into tiny ions. 3. These ions spread evenly throughout the water, becoming too small to see.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of solubility)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "solubility", "mixing", "properties", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you stretch a rubber band, what happens to its length?",
+    "Solution": "It gets longer.",
+    "Step-by-Step Explanation": "1. Rubber bands are made of elastic material. 2. Pulling on the ends applies tension. 3. The elastic material stretches under tension, increasing the band's length.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on observation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "physics", "elasticity", "properties", "actions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you let go of a stretched rubber band?",
+    "Solution": "It quickly snaps back to its original shorter length.",
+    "Step-by-Step Explanation": "1. Stretching the rubber band stores potential energy in the elastic material. 2. When released, this stored energy is converted back into kinetic energy. 3. The elastic forces pull the material back to its relaxed, shorter state.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principle of elasticity)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "physics", "elasticity", "energy", "actions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you put shoes on your feet before going outside?",
+    "Solution": "To protect your feet from rough surfaces, dirt, and potential injury.",
+    "Step-by-Step Explanation": "1. The ground outside can be uneven, sharp, dirty, hot, or cold. 2. Shoes provide a protective layer between your feet and the ground. 3. This protection prevents cuts, scrapes, bruises, burns, and keeps feet clean.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding purpose of clothing)",
+      "Difficulty Level": "Easy",
+      "Tags": ["clothing", "protection", "safety", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you turn the steering wheel in a moving car, what does the car do?",
+    "Solution": "The car changes direction (turns).",
+    "Step-by-Step Explanation": "1. The steering wheel is connected to the car's front wheels. 2. Turning the steering wheel changes the angle of the front wheels. 3. As the car moves forward, the angled wheels guide the car in a new direction.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cars", "mechanics", "actions", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What is the main purpose of using a fork when eating?",
+    "Solution": "To pick up pieces of solid food and bring them to your mouth.",
+    "Step-by-Step Explanation": "1. Forks have tines (prongs) that can pierce or scoop food. 2. This allows you to easily lift food from your plate. 3. The handle allows you to guide the food to your mouth without touching it directly.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["tools", "function", "eating", "utensils", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you close a window on a windy day?",
+    "Solution": "It stops the wind from blowing into the room.",
+    "Step-by-Step Explanation": "1. Wind is moving air. 2. An open window allows outside air to enter the room. 3. Closing the window creates a physical barrier, blocking the airflow from outside.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on barrier)",
+      "Difficulty Level": "Easy",
+      "Tags": ["weather", "wind", "actions", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why might someone wear headphones?",
+    "Solution": "To listen to audio privately without disturbing others, or to block out external noise.",
+    "Step-by-Step Explanation": "1. Headphones direct sound output directly into or over the listener's ears. 2. This prevents the sound from spreading widely into the room, allowing for private listening. 3. Some headphones also physically block or electronically cancel outside sounds.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding technology function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["technology", "sound", "audio", "function", "privacy", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you press a doorbell button?",
+    "Solution": "It usually makes a sound (like a chime or ring) inside the house.",
+    "Step-by-Step Explanation": "1. The doorbell button is connected to an electrical circuit. 2. Pressing the button completes the circuit. 3. This sends power to a device (chime or bell) inside, causing it to make a sound to alert occupants.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["objects", "function", "electricity", "sound", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What does the wind do to leaves on a tree?",
+    "Solution": "It makes the leaves move, shake, or rustle.",
+    "Step-by-Step Explanation": "1. Wind is moving air, which exerts a force on objects it encounters. 2. Leaves are light and flexible. 3. The force of the wind pushes the leaves, causing them to move back and forth.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on observation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["weather", "wind", "plants", "physics", "force", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you drop a feather and a small rock at the same time from the same height, which one usually hits the ground first?",
+    "Solution": "The rock usually hits the ground first.",
+    "Step-by-Step Explanation": "1. Both objects are pulled down by gravity. 2. Air resistance pushes up against falling objects, slowing them down. 3. The feather is very light and has a large surface area, so air resistance affects it much more than the denser, smaller rock. 4. The rock overcomes air resistance more easily and falls faster.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (observation) / Deductive (simple air resistance)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "gravity", "air resistance", "motion", "comparison", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you kick a ball?",
+    "Solution": "The ball moves away from your foot.",
+    "Step-by-Step Explanation": "1. Kicking applies a force to the ball. 2. This force causes the ball, which was likely at rest, to accelerate and gain speed. 3. The ball travels in the direction of the force applied by the kick.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying Newton's laws simply)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "force", "motion", "actions", "sports", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you turn off a television using the power button?",
+    "Solution": "The screen goes dark, and the sound stops.",
+    "Step-by-Step Explanation": "1. The power button controls the electricity supply to the TV's main components. 2. Turning it off cuts the power. 3. Without power, the screen cannot display an image, and the speakers cannot produce sound.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["technology", "television", "electricity", "function", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why might someone plant flowers in their garden?",
+    "Solution": "To make the garden look pretty or colorful, or to attract pollinators.",
+    "Step-by-Step Explanation": "1. Flowers often have bright colors and pleasant shapes, which many people find aesthetically pleasing. 2. Planting them adds visual appeal to a garden space. 3. Flowers also attract bees and butterflies (pollinators), which some people like to encourage.",
+    "Metadata": {
+      "Type of Reasoning": "Abductive (inferring motive)",
+      "Difficulty Level": "Easy",
+      "Tags": ["gardening", "plants", "aesthetics", "motivation", "pollinators", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What does glue do?",
+    "Solution": "It sticks things together.",
+    "Step-by-Step Explanation": "1. Glue is an adhesive substance. 2. When applied between two surfaces and allowed to dry or cure, it forms a bond that holds the surfaces together. 3. This allows you to join separate pieces into one.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding material function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "adhesives", "function", "properties", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you zip up a jacket?",
+    "Solution": "The two sides of the jacket front are joined together, closing it.",
+    "Step-by-Step Explanation": "1. A zipper has two rows of teeth and a slider. 2. Moving the slider up interlocks the teeth from both sides. 3. This action fastens the two edges of the jacket opening together.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding mechanism function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["clothing", "mechanisms", "zipper", "function", "actions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens to snow when the weather gets warm?",
+    "Solution": "It melts and turns into water.",
+    "Step-by-Step Explanation": "1. Snow is frozen water (ice crystals). 2. When the temperature rises above the freezing point (0°C or 32°F), the ice absorbs heat. 3. This absorbed heat causes the snow to change state from solid ice to liquid water.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of states of matter)",
+      "Difficulty Level": "Easy",
+      "Tags": ["weather", "temperature", "states of matter", "melting", "snow", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What do you see coming out of a kettle when water is boiling vigorously?",
+    "Solution": "Steam.",
+    "Step-by-Step Explanation": "1. Boiling means water is rapidly changing from liquid to gas (water vapor) due to heat. 2. This water vapor, which is invisible itself, mixes with cooler air as it exits the kettle spout. 3. It then condenses into tiny visible water droplets, which we call steam.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of states of matter)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "chemistry", "states of matter", "boiling", "steam", "water", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why might a dog wag its tail?",
+    "Solution": "It often means the dog is happy, excited, or friendly.",
+    "Step-by-Step Explanation": "1. Tail wagging is a common form of canine body language. 2. While context matters, a relaxed, wagging tail often indicates positive emotions like happiness or excitement, especially when greeting someone.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (associating behavior with emotion)",
+      "Difficulty Level": "Easy",
+      "Tags": ["animals", "dogs", "behavior", "communication", "emotions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you sometimes sweat when it's hot outside?",
+    "Solution": "Sweating helps cool your body down.",
+    "Step-by-Step Explanation": "1. When you get hot, your body needs to lose heat to maintain a stable temperature. 2. Sweat glands release sweat (mostly water) onto your skin. 3. As the sweat evaporates, it takes heat away from your skin, producing a cooling effect.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of thermoregulation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "physiology", "thermoregulation", "sweating", "cooling", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why might someone put bread in the freezer?",
+    "Solution": "To make it last much longer without getting moldy or stale.",
+    "Step-by-Step Explanation": "1. Freezing temperatures drastically slow down the processes that cause bread spoilage (mold growth and staling). 2. By keeping the bread frozen, its freshness can be preserved for weeks or months. 3. The bread can be thawed later when needed.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of food preservation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "preservation", "freezing", "temperature", "spoilage", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What do eyeglasses do for people who need them?",
+    "Solution": "They help people see more clearly.",
+    "Step-by-Step Explanation": "1. Some people's eyes don't focus light correctly onto the retina, causing blurry vision. 2. Eyeglasses have corrective lenses that bend light before it enters the eye. 3. These lenses adjust the light path so that it focuses properly on the retina, resulting in clearer vision.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding technology function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["health", "vision", "optics", "technology", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "How does a cloudy day usually affect the brightness outside?",
+    "Solution": "It usually makes it less bright or dimmer outside.",
+    "Step-by-Step Explanation": "1. Sunlight is the primary source of outdoor brightness. 2. Clouds are made of water droplets or ice crystals that block or scatter sunlight. 3. When clouds cover the sun, less direct sunlight reaches the ground, making the day appear darker or overcast.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on observation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["weather", "clouds", "light", "sun", "observation", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you peel a banana before eating it?",
+    "Solution": "To remove the outer skin (peel), which is not usually eaten, and access the soft fruit inside.",
+    "Step-by-Step Explanation": "1. Bananas have a thick outer peel that protects the fruit. 2. The peel is generally tough, fibrous, and bitter, making it undesirable to eat for most people. 3. Peeling removes this outer layer, revealing the edible, soft, sweet fruit.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding food preparation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "fruit", "preparation", "actions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What does a microwave oven do to food?",
+    "Solution": "It heats the food quickly.",
+    "Step-by-Step Explanation": "1. Microwaves use specific radio waves (microwaves) to heat food. 2. These waves cause water molecules inside the food to vibrate rapidly. 3. This vibration creates friction and generates heat, cooking or reheating the food much faster than conventional ovens.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding technology function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["technology", "cooking", "heat", "microwaves", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you turn on a water faucet (tap)?",
+    "Solution": "Water usually comes out.",
+    "Step-by-Step Explanation": "1. Faucets are connected to a plumbing system that supplies water under pressure. 2. Turning the faucet handle opens a valve within the faucet. 3. Opening the valve allows the pressurized water to flow out through the spout.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["plumbing", "water", "function", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you use an umbrella when it's raining?",
+    "Solution": "To stay dry.",
+    "Step-by-Step Explanation": "1. Rain consists of falling water droplets. 2. An umbrella has a wide, waterproof canopy. 3. Holding the umbrella above you blocks the falling raindrops, preventing them from landing on you and keeping you dry.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["weather", "rain", "tools", "function", "protection", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you add sugar to your coffee or tea?",
+    "Solution": "It makes the drink taste sweeter.",
+    "Step-by-Step Explanation": "1. Sugar has a sweet taste. 2. When sugar dissolves in a liquid like coffee or tea, the sugar molecules disperse throughout the drink. 3. Your taste buds detect the sugar molecules, resulting in the perception of sweetness.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect related to taste)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "taste", "chemistry", "solubility", "senses", "everyday"]
+    }
+  }
+]
+[
+  {
+    "Problem Statement": "What happens to a kite when the wind blows strongly?",
+    "Solution": "The kite flies higher or pulls harder on the string.",
+    "Step-by-Step Explanation": "1. Wind pushes against the surface of the kite. 2. This push creates an upward force (lift). 3. Stronger wind creates more lift, making the kite go higher or pull more strongly.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of aerodynamics simply)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "wind", "aerodynamics", "kites", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you put batteries in a remote control?",
+    "Solution": "To provide the power the remote needs to work.",
+    "Step-by-Step Explanation": "1. Remote controls are electronic devices that require electrical energy. 2. Batteries store chemical energy and convert it into electrical energy. 3. Inserting batteries supplies the necessary power for the remote to send signals.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding technology function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["technology", "electronics", "batteries", "energy", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you leave a book out in the rain?",
+    "Solution": "The book will get wet, and the pages might wrinkle or stick together.",
+    "Step-by-Step Explanation": "1. Rain is water. Paper absorbs water easily. 2. The absorbed water makes the paper fibers swell and deform, causing wrinkling. 3. Wet pages can easily stick together and may be damaged.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "water", "damage", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do cars have windshield wipers?",
+    "Solution": "To clear rain, snow, or dirt from the windshield so the driver can see clearly.",
+    "Step-by-Step Explanation": "1. Rain, snow, or dirt on the windshield obstructs the driver's vision. 2. Windshield wipers are mechanical arms with rubber blades. 3. When turned on, they sweep across the glass, wiping away obstructions to improve visibility.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding vehicle component function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cars", "safety", "visibility", "function", "weather", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you drop your phone without a protective case onto concrete?",
+    "Solution": "The screen or body of the phone might crack or break.",
+    "Step-by-Step Explanation": "1. Phones contain fragile components like glass screens. Concrete is a very hard surface. 2. Dropping the phone causes a forceful impact. 3. Without a case to absorb some of the impact energy, the force can easily exceed the strength of the glass or plastic, causing damage.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience/warnings)",
+      "Difficulty Level": "Easy",
+      "Tags": ["technology", "phones", "damage", "materials", "physics", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you wear shoes that fit your feet?",
+    "Solution": "For comfort and to avoid hurting your feet.",
+    "Step-by-Step Explanation": "1. Shoes that are too tight can pinch and cause pain or blisters. 2. Shoes that are too loose can rub or make it hard to walk properly, also causing discomfort or blisters. 3. Properly fitting shoes provide support and comfort without causing injury.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (relating fit to comfort/safety)",
+      "Difficulty Level": "Easy",
+      "Tags": ["clothing", "comfort", "health", "fit", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you mix blue and red light together (additive mixing)?",
+    "Solution": "You get magenta light.",
+    "Step-by-Step Explanation": "1. Additive color mixing involves combining different colors of light. 2. Red and blue are primary colors of light. 3. When red light and blue light sources overlap, our eyes perceive the combined light as magenta.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of additive color theory)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "light", "color theory", "additive color", "optics", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does food cook faster in a pressure cooker?",
+    "Solution": "The pressure cooker increases the boiling point of water, allowing food to cook at a higher temperature.",
+    "Step-by-Step Explanation": "1. A pressure cooker seals steam inside, increasing the pressure above normal atmospheric pressure. 2. Higher pressure raises the temperature at which water boils (above 100°C or 212°F). 3. Cooking food in this higher-temperature steam/water transfers heat more quickly, reducing cooking time.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying physics of pressure and boiling point)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "chemistry", "cooking", "pressure", "temperature", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you try to breathe with your mouth and nose covered?",
+    "Solution": "You won't be able to breathe.",
+    "Step-by-Step Explanation": "1. Humans need to inhale air (containing oxygen) through their nose or mouth to breathe. 2. Covering both the nose and mouth blocks the pathway for air to enter the lungs. 3. Without air intake, breathing stops.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biology of respiration)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "physiology", "respiration", "safety", "actions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do bees visit flowers?",
+    "Solution": "To collect nectar (for food) and pollen.",
+    "Step-by-Step Explanation": "1. Flowers produce nectar, a sugary liquid, to attract pollinators like bees. Bees use nectar as an energy source (to make honey). 2. Flowers also produce pollen, which bees collect as a protein source for their larvae. 3. While collecting nectar and pollen, bees inadvertently transfer pollen between flowers, helping the plants reproduce.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on knowledge of biology/ecology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "animals", "insects", "bees", "plants", "pollination", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you run very fast for a long time?",
+    "Solution": "You will likely get tired and start breathing heavily.",
+    "Step-by-Step Explanation": "1. Running requires a lot of energy and oxygen. 2. Your muscles work hard, consuming energy reserves and producing waste products. Your lungs and heart work harder to supply oxygen. 3. Eventually, your body gets fatigued, and you need to breathe faster and deeper to get enough oxygen and remove carbon dioxide.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on experience) / Deductive (physiology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "physiology", "exercise", "energy", "fatigue", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does metal rust?",
+    "Solution": "Rust forms when iron (or steel) reacts with oxygen and water.",
+    "Step-by-Step Explanation": "1. Rust is iron oxide, a chemical compound. 2. When iron is exposed to both oxygen (from the air) and moisture (water), a chemical reaction called oxidation occurs. 3. This reaction transforms the iron into reddish-brown rust, which weakens the metal.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying basic chemistry)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "materials", "oxidation", "rust", "corrosion", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you try to build a tower with round balls?",
+    "Solution": "It's very difficult or impossible; the balls will likely roll off, and the tower will fall.",
+    "Step-by-Step Explanation": "1. Round balls have curved surfaces and roll easily. 2. They don't have flat, stable surfaces to stack securely on top of each other. 3. Gravity pulls the balls downwards, and their shape makes them unstable when stacked, causing the tower to collapse.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on physical properties and experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "stability", "gravity", "shape", "building", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people yawn, especially when tired or bored?",
+    "Solution": "The exact reason isn't fully known, but it might help increase oxygen intake, cool the brain, or signal tiredness.",
+    "Step-by-Step Explanation": "1. Yawning is an involuntary reflex involving a deep inhalation and exhalation. 2. One theory is it helps bring more oxygen into the blood and remove carbon dioxide buildup, especially when breathing is shallow due to tiredness. 3. Another theory suggests the deep inhale cools blood flowing to the brain. It's also known to be contagious, possibly related to empathy.",
+    "Metadata": {
+      "Type of Reasoning": "Abductive (exploring potential reasons for behavior)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "physiology", "behavior", "yawning", "mystery", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when water freezes in a pipe?",
+    "Solution": "The water expands as it turns to ice, which can potentially crack or burst the pipe.",
+    "Step-by-Step Explanation": "1. When water freezes, its molecules form a crystal structure that takes up about 9% more volume than liquid water. 2. If water freezes inside a confined space like a pipe, this expansion exerts immense pressure on the pipe walls. 3. This pressure can exceed the strength of the pipe material, causing it to crack or burst.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying physics of water expansion)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "chemistry", "states of matter", "expansion", "damage", "plumbing", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does a map help you find places?",
+    "Solution": "A map is a visual representation of an area, showing locations and routes.",
+    "Step-by-Step Explanation": "1. Maps show geographical features like roads, landmarks, towns, etc., in their relative positions. 2. By looking at the map, you can identify where you are, where you want to go, and the paths (like roads) connecting them. 3. This helps you navigate from one point to another.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["navigation", "maps", "tools", "geography", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you drop something heavy on your foot?",
+    "Solution": "It hurts, and might cause a bruise or break a bone.",
+    "Step-by-Step Explanation": "1. A heavy object falling has significant kinetic energy and momentum. 2. When it hits your foot, this energy is transferred rapidly, causing impact force. 3. This force can damage tissues (causing pain and bruising) or even fracture bones.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience/consequences)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "force", "impact", "health", "injury", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do animals have fur or feathers?",
+    "Solution": "For insulation (to stay warm or cool), protection, camouflage, or display.",
+    "Step-by-Step Explanation": "1. Fur and feathers trap air, creating an insulating layer that helps regulate body temperature. 2. They can provide protection from the elements (sun, rain) or minor injuries. 3. Coloration can help animals blend in (camouflage) or stand out (for mating displays).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biological adaptations)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "animals", "adaptation", "insulation", "protection", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens to the sound if you cover your ears?",
+    "Solution": "Sounds from outside become much quieter or muffled.",
+    "Step-by-Step Explanation": "1. Sound travels as waves through the air to your ears. 2. Covering your ears with your hands creates a physical barrier. 3. This barrier blocks or absorbs some of the sound waves, reducing the amount of sound energy reaching your eardrums.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying basic acoustics)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "sound", "acoustics", "hearing", "actions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you need to charge devices like tablets or laptops?",
+    "Solution": "To replenish the energy in their batteries so they can continue to work.",
+    "Step-by-Step Explanation": "1. Tablets and laptops run on electrical power stored in rechargeable batteries. 2. Using the device depletes the battery's stored energy. 3. Charging uses an external power source to reverse the chemical process in the battery, storing energy again for future use.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding technology function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["technology", "electronics", "battery", "energy", "charging", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you add too much salt to your food?",
+    "Solution": "The food will likely taste too salty and unpleasant.",
+    "Step-by-Step Explanation": "1. Salt has a strong taste that enhances flavor in moderation. 2. Our taste perception for saltiness has limits. 3. Exceeding a certain concentration makes the salty taste overpowering and generally undesirable.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common taste experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "taste", "cooking", "senses", "moderation", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do plants need sunlight?",
+    "Solution": "To make their own food through photosynthesis.",
+    "Step-by-Step Explanation": "1. Plants use a process called photosynthesis to create energy (sugars). 2. This process requires light energy, carbon dioxide, and water. 3. Sunlight provides the necessary light energy for photosynthesis to occur, allowing the plant to grow.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biological knowledge)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "plants", "photosynthesis", "light", "energy", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What is the purpose of brakes on a bicycle?",
+    "Solution": "To slow down or stop the bicycle.",
+    "Step-by-Step Explanation": "1. Bicycles can move quickly. Brakes provide a way to control speed. 2. Applying the brake levers activates brake pads that press against the wheel rims or rotors. 3. This friction converts the bicycle's motion energy into heat, causing it to decelerate.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding component function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["bicycles", "safety", "mechanics", "friction", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you mix all the colors of paint together, what color do you usually get?",
+    "Solution": "A dark, muddy brown or black color.",
+    "Step-by-Step Explanation": "1. Paint mixing is subtractive; each pigment absorbs certain wavelengths of light. 2. Mixing many different pigments together means more wavelengths are absorbed. 3. When most or all visible wavelengths are absorbed, very little light is reflected back, resulting in a dark, brownish, or black appearance.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience) / Deductive (subtractive color)",
+      "Difficulty Level": "Easy",
+      "Tags": ["color", "art", "mixing", "paint", "subtractive color", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do we put stamps on letters before mailing them?",
+    "Solution": "Stamps show that postage (payment for delivery) has been paid.",
+    "Step-by-Step Explanation": "1. Postal services charge a fee to transport and deliver mail. 2. A postage stamp is proof that this fee has been paid for the letter or package. 3. Mail without proper postage will typically not be delivered.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding system requirement)",
+      "Difficulty Level": "Easy",
+      "Tags": ["mail", "postal service", "stamps", "payment", "systems", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you try to drink boiling hot water?",
+    "Solution": "You would severely burn your mouth and throat.",
+    "Step-by-Step Explanation": "1. Boiling water is at a very high temperature (100°C or 212°F). 2. The tissues in your mouth and throat are extremely sensitive to heat. 3. Contact with boiling water would cause immediate and severe burns.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of heat and biology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "health", "heat", "temperature", "burns", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people shiver when they get very cold?",
+    "Solution": "Shivering is the body's way of trying to generate heat.",
+    "Step-by-Step Explanation": "1. When your body temperature drops too low, your brain triggers involuntary muscle contractions. 2. These rapid muscle movements (shivering) use energy and generate heat as a byproduct. 3. This helps to raise your body temperature back towards normal.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on physiological response)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "physiology", "thermoregulation", "body temperature", "cold", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What is the function of a roof on a house?",
+    "Solution": "To protect the inside of the house from weather like rain, snow, and sun.",
+    "Step-by-Step Explanation": "1. Houses need protection from the external environment. 2. The roof is the top covering of the house. 3. It is designed to shed water (rain, snow) and block direct sunlight, keeping the interior dry and sheltered.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding structural function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["architecture", "construction", "function", "protection", "weather", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you don't get enough sleep for many days?",
+    "Solution": "You will likely feel very tired, have trouble concentrating, and might get irritable.",
+    "Step-by-Step Explanation": "1. Sleep is essential for physical and mental restoration. 2. Chronic lack of sleep prevents the body and brain from recovering properly. 3. This leads to fatigue, impaired cognitive functions (like attention and memory), and can affect mood.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience) / Deductive (physiology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["health", "sleep", "fatigue", "cognition", "well-being", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does pressing the gas pedal make a car go faster?",
+    "Solution": "The gas pedal controls how much fuel goes to the engine, making it produce more power.",
+    "Step-by-Step Explanation": "1. Car engines create power by burning fuel. The gas pedal (accelerator) regulates the fuel/air mixture entering the engine. 2. Pressing the pedal allows more fuel and air into the engine. 3. Burning more fuel releases more energy, generating more power to turn the wheels faster, causing the car to accelerate.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding mechanism function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cars", "engines", "fuel", "power", "acceleration", "everyday"]
+    }
+  }
+]
+[
+  {
+    "Problem Statement": "What happens if you place a heavy book on top of a soft pillow?",
+    "Solution": "The pillow gets compressed or squashed under the book.",
+    "Step-by-Step Explanation": "1. Pillows are soft and filled with compressible material (like feathers or foam). 2. A heavy book exerts downward force due to gravity. 3. This force squashes the soft pillow material, reducing its thickness where the book rests.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying properties of materials and force)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "materials", "force", "compression", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you use soap when washing dishes?",
+    "Solution": "Soap helps remove grease and stuck-on food from the dishes.",
+    "Step-by-Step Explanation": "1. Grease and some food residues don't dissolve easily in plain water. 2. Dish soap contains surfactants that break down grease and help lift food particles. 3. This allows the grease and food to be washed away with water, leaving the dishes clean.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding cleaning agent function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cleaning", "chemistry", "soap", "function", "hygiene", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What is the purpose of wearing socks with shoes?",
+    "Solution": "To absorb sweat, provide comfort, and prevent rubbing/blisters.",
+    "Step-by-Step Explanation": "1. Feet sweat inside shoes. Socks absorb this moisture, keeping feet drier. 2. Socks provide a soft layer between the foot and the shoe, increasing comfort. 3. They also reduce friction between the foot and shoe, helping to prevent blisters.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding clothing function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["clothing", "comfort", "hygiene", "function", "protection", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "If you see dark clouds gathering quickly and hear thunder, what should you probably do?",
+    "Solution": "Seek shelter indoors quickly.",
+    "Step-by-Step Explanation": "1. Dark clouds and thunder are signs of an approaching thunderstorm. 2. Thunderstorms bring lightning, heavy rain, and possibly strong winds, which can be dangerous outdoors. 3. Going indoors provides protection from these elements.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of weather and safety)",
+      "Difficulty Level": "Easy",
+      "Tags": ["weather", "safety", "thunderstorm", "decision-making", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you turn the volume knob or slider on a radio or speaker?",
+    "Solution": "The sound gets louder or quieter.",
+    "Step-by-Step Explanation": "1. The volume control adjusts the power (amplitude) of the audio signal sent to the speakers. 2. Increasing the power makes the speaker cones vibrate more strongly, producing louder sound. 3. Decreasing the power reduces the vibration, making the sound quieter.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["technology", "sound", "audio", "function", "electronics", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do fish have fins?",
+    "Solution": "Fins help fish swim, steer, and balance in the water.",
+    "Step-by-Step Explanation": "1. Fish live in water and need to move through it efficiently. 2. Fins provide surfaces that push against the water for propulsion (like the tail fin). 3. Other fins help with steering, stability, stopping, and maneuvering.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biological adaptation/function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "animals", "fish", "adaptation", "swimming", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you leave a faucet dripping for a long time?",
+    "Solution": "It wastes a lot of water.",
+    "Step-by-Step Explanation": "1. A dripping faucet releases small amounts of water continuously. 2. Even small drips add up over hours and days. 3. This results in significant water loss and waste.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cumulative effect)",
+      "Difficulty Level": "Easy",
+      "Tags": ["water", "conservation", "waste", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people build fences around their yards?",
+    "Solution": "To mark property boundaries, keep pets or children in, keep unwanted animals out, or for privacy.",
+    "Step-by-Step Explanation": "1. Fences create a physical barrier. 2. This barrier can define the edge of a property. 3. It can prevent animals or people from entering or leaving the enclosed area, or block visibility for privacy.",
+    "Metadata": {
+      "Type of Reasoning": "Abductive (inferring purpose from structure)",
+      "Difficulty Level": "Easy",
+      "Tags": ["structures", "property", "safety", "privacy", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens to play-dough if you leave it uncovered for a long time?",
+    "Solution": "It dries out and becomes hard.",
+    "Step-by-Step Explanation": "1. Play-dough contains water to keep it soft and pliable. 2. When left uncovered, the water evaporates into the air. 3. Losing moisture causes the dough to dry, harden, and become brittle.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principle of evaporation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "evaporation", "properties", "drying", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do you use oven mitts to take hot things out of the oven?",
+    "Solution": "To protect your hands from getting burned.",
+    "Step-by-Step Explanation": "1. Items in a hot oven become very hot. 2. Oven mitts are made of thick, insulating material that slows down heat transfer. 3. Wearing mitts prevents the intense heat from reaching your hands quickly, avoiding burns.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding safety equipment function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "heat", "insulation", "tools", "cooking", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you mix sand and water?",
+    "Solution": "The sand gets wet but doesn't dissolve; it usually settles to the bottom.",
+    "Step-by-Step Explanation": "1. Sand particles are small grains of rock or mineral. 2. Sand is not soluble in water; it doesn't dissolve. 3. Sand is denser than water, so when mixed, the sand particles will eventually sink and settle at the bottom of the water.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on properties of materials)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "chemistry", "physics", "solubility", "density", "mixing", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people wear seat belts in cars?",
+    "Solution": "To help keep them safe in case of a sudden stop or crash.",
+    "Step-by-Step Explanation": "1. If a car stops suddenly, inertia keeps the people inside moving forward. 2. Seat belts restrain passengers, preventing them from hitting the inside of the car or being thrown out. 3. This significantly reduces the risk of injury.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding safety equipment function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cars", "safety", "physics", "inertia", "protection", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you erase a whiteboard marker writing with a whiteboard eraser?",
+    "Solution": "The marker writing comes off the whiteboard.",
+    "Step-by-Step Explanation": "1. Whiteboard markers use ink designed not to permanently bond with the smooth whiteboard surface. 2. The eraser (usually felt or similar material) physically lifts the dried ink particles off the surface. 3. This leaves the whiteboard clean.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool and material interaction)",
+      "Difficulty Level": "Easy",
+      "Tags": ["tools", "materials", "function", "cleaning", "writing", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do some animals camouflage themselves?",
+    "Solution": "To blend in with their surroundings, helping them hide from predators or sneak up on prey.",
+    "Step-by-Step Explanation": "1. Camouflage means having colors or patterns that match the environment. 2. This makes it harder for other animals to see them. 3. Prey animals use it to avoid being eaten; predators use it to avoid being detected before attacking.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biological adaptation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "animals", "adaptation", "camouflage", "predation", "survival", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you water a plant with salt water?",
+    "Solution": "The plant will likely wilt, get sick, or die.",
+    "Step-by-Step Explanation": "1. Plants need freshwater; high salt concentrations are toxic to most plants. 2. Salt water draws moisture out of the plant roots (osmosis) and prevents them from absorbing freshwater. 3. Lack of water and salt toxicity damages the plant cells, leading to wilting and death.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying biological principles)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "plants", "water", "osmosis", "toxicity", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do we use pillows when sleeping?",
+    "Solution": "To support the head and neck for comfort and proper alignment.",
+    "Step-by-Step Explanation": "1. Sleeping flat without support can strain the neck and misalign the spine. 2. A pillow elevates the head, helping to keep the neck aligned with the spine. 3. This provides comfort and can prevent neck pain or stiffness.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding purpose based on comfort/health)",
+      "Difficulty Level": "Easy",
+      "Tags": ["comfort", "health", "sleep", "support", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you drop a glass bottle?",
+    "Solution": "It is likely to break.",
+    "Step-by-Step Explanation": "1. Glass is brittle and shatters easily upon sharp impact. 2. Dropping the bottle causes it to hit the ground with force. 3. The impact force exceeds the glass's strength, causing it to fracture.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on material properties and experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "physics", "properties", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do buildings have foundations?",
+    "Solution": "To provide a stable base that supports the weight of the building and anchors it to the ground.",
+    "Step-by-Step Explanation": "1. Buildings are heavy structures. The ground beneath needs to support this weight evenly. 2. Foundations spread the building's weight over a larger area of soil or rock. 3. They provide stability, prevent settling, and anchor the building against forces like wind.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding structural function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["architecture", "construction", "engineering", "stability", "function", "structures", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when oil is poured into water?",
+    "Solution": "The oil floats on top of the water in a separate layer.",
+    "Step-by-Step Explanation": "1. Oil and water do not mix well (they are immiscible) because of differences in their molecular properties (polarity). 2. Oil is generally less dense than water. 3. Because it's less dense and doesn't mix, the oil floats as a distinct layer on the water's surface.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of density and miscibility)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "density", "liquids", "polarity", "mixing", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people exercise?",
+    "Solution": "To improve physical health, maintain fitness, manage weight, and improve mood.",
+    "Step-by-Step Explanation": "1. Exercise strengthens muscles and the cardiovascular system (heart and lungs). 2. It helps burn calories, aiding in weight management. 3. Physical activity also releases endorphins, which can improve mood and reduce stress.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on knowledge of health benefits)",
+      "Difficulty Level": "Easy",
+      "Tags": ["health", "exercise", "fitness", "well-being", "physiology", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you put a piece of metal in a microwave oven?",
+    "Solution": "It can cause sparks, damage the microwave, and is dangerous.",
+    "Step-by-Step Explanation": "1. Microwaves work by generating electromagnetic waves. 2. Metal reflects these waves and can cause electrical charges to build up. 3. This buildup can lead to arcing (sparks) between the metal and the microwave walls, potentially damaging the oven or starting a fire.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of microwave function and materials)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "technology", "microwaves", "materials", "electricity", "danger", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do leaves fall off many trees in autumn?",
+    "Solution": "Trees shed their leaves to conserve water and energy during the cold, dry winter.",
+    "Step-by-Step Explanation": "1. In autumn, days get shorter and colder, signaling the tree to prepare for winter. 2. Leaves lose water through transpiration, and water can be scarce when the ground freezes. Maintaining leaves also requires energy. 3. The tree forms a layer at the base of the leaf stem, cutting it off and causing it to fall, thus conserving resources.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biological adaptation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "plants", "trees", "seasons", "adaptation", "autumn", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you try to read in complete darkness?",
+    "Solution": "You won't be able to see the words or read.",
+    "Step-by-Step Explanation": "1. Seeing requires light reflecting off objects and entering your eyes. 2. In complete darkness, there is no light to reflect off the book's pages. 3. Without light entering your eyes from the pages, you cannot perceive the words.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of vision)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "light", "vision", "senses", "darkness", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people use blankets when they sleep?",
+    "Solution": "To stay warm and feel comfortable.",
+    "Step-by-Step Explanation": "1. Body temperature can drop slightly during sleep. 2. Blankets trap body heat, creating an insulating layer of warm air. 3. This helps maintain a comfortable body temperature and provides a feeling of security or coziness.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding function based on comfort/warmth)",
+      "Difficulty Level": "Easy",
+      "Tags": ["comfort", "warmth", "insulation", "sleep", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you step on a LEGO brick barefoot?",
+    "Solution": "It usually causes sharp pain.",
+    "Step-by-Step Explanation": "1. LEGO bricks are made of hard plastic with sharp edges and corners. 2. The sole of the foot is sensitive and has many nerve endings. 3. Stepping on the hard, pointy brick concentrates force on a small area, strongly stimulating pain receptors.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common, painful experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["pain", "materials", "physics", "force", "senses", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do countries have flags?",
+    "Solution": "Flags are symbols that represent a country, its identity, and its values.",
+    "Step-by-Step Explanation": "1. Flags use specific colors and designs that have meaning associated with a country's history or ideals. 2. They serve as a visual identifier for the nation. 3. Flags are used in official capacities, ceremonies, and by citizens to show national pride or affiliation.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding symbolic function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["symbols", "identity", "countries", "flags", "culture", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you add yeast to warm water and sugar?",
+    "Solution": "The yeast becomes active and produces bubbles of carbon dioxide gas.",
+    "Step-by-Step Explanation": "1. Yeast is a microorganism that feeds on sugar. 2. Warm water activates the dormant yeast. 3. As the yeast consumes the sugar, it undergoes fermentation, releasing alcohol and carbon dioxide gas as byproducts. The gas forms bubbles.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of biology/chemistry)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "chemistry", "yeast", "fermentation", "food", "baking", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do clocks have hands (or digital numbers)?",
+    "Solution": "To indicate the current time.",
+    "Step-by-Step Explanation": "1. Clocks are devices designed to measure and display time. 2. The moving hands (hour, minute, second) point to numbers on the clock face to show the time in an analog format. 3. Digital numbers directly display the hours, minutes, and sometimes seconds numerically.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["time", "clocks", "tools", "function", "measurement", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you try to pour water uphill?",
+    "Solution": "The water will flow back downhill.",
+    "Step-by-Step Explanation": "1. Gravity pulls everything, including water, towards the center of the Earth (downwards). 2. Water naturally flows from a higher elevation to a lower elevation due to gravity. 3. Pouring water uphill goes against gravity, so the water will simply flow back down the slope.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principle of gravity)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "gravity", "liquids", "flow", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people refrigerate eggs?",
+    "Solution": "To keep them fresh longer and reduce the risk of bacterial growth.",
+    "Step-by-Step Explanation": "1. Refrigeration slows down the natural degradation process of eggs. 2. Crucially, it inhibits the growth of bacteria, like Salmonella, that could potentially be present. 3. Keeping eggs consistently cold helps maintain their quality and safety.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of food safety/preservation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "safety", "preservation", "refrigeration", "bacteria", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you strike a match?",
+    "Solution": "It ignites and produces a flame.",
+    "Step-by-Step Explanation": "1. The match head contains chemicals that ignite easily with friction. 2. Striking the match against a rough surface creates friction, generating heat. 3. This heat triggers a chemical reaction in the match head, causing it to burst into flame.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of friction and chemistry)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "friction", "combustion", "fire", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do cars have headlights?",
+    "Solution": "To illuminate the road ahead when it's dark, allowing the driver to see.",
+    "Step-by-Step Explanation": "1. Driving at night or in poor visibility conditions requires external light to see the road and obstacles. 2. Headlights are powerful lamps on the front of the car. 3. They project beams of light forward, lighting up the path so the driver can navigate safely.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding vehicle component function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cars", "safety", "visibility", "light", "function", "technology", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you mix flour and water?",
+    "Solution": "You get a paste or dough.",
+    "Step-by-Step Explanation": "1. Flour consists of fine powder (often starch and protein). 2. When mixed with water, the flour absorbs the liquid. 3. Depending on the ratio, this forms a sticky, thick paste or a pliable dough.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "cooking", "baking", "materials", "mixing", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do boats need anchors?",
+    "Solution": "To keep the boat from drifting away when stopped in the water.",
+    "Step-by-Step Explanation": "1. Wind and water currents can easily push a boat around. 2. An anchor is a heavy object attached to a rope or chain, dropped to the seabed. 3. It digs into or rests on the bottom, holding the boat in a relatively fixed position.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["boats", "tools", "navigation", "function", "physics", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you leave ice cream out in the sun?",
+    "Solution": "It melts quickly.",
+    "Step-by-Step Explanation": "1. Ice cream is frozen and melts easily at warm temperatures. 2. Sunlight provides significant heat energy. 3. Leaving ice cream in the sun causes it to absorb heat rapidly, changing from solid to liquid.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of heat and states of matter)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "heat", "melting", "temperature", "states of matter", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people wear gloves in the winter?",
+    "Solution": "To keep their hands warm.",
+    "Step-by-Step Explanation": "1. Hands can get cold easily in winter weather, losing heat to the air. 2. Gloves provide a layer of insulation around the hands. 3. This insulation traps body heat and slows down heat loss, keeping hands warmer.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding clothing function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["clothing", "warmth", "insulation", "winter", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you plug an electrical appliance into a wall socket and turn it on?",
+    "Solution": "Electricity flows from the socket to the appliance, powering it to perform its function.",
+    "Step-by-Step Explanation": "1. Wall sockets provide access to the building's electrical supply. 2. Plugging in the appliance connects it to this supply. 3. Turning it on completes the circuit, allowing electrical current to flow and operate the appliance (e.g., light a lamp, run a motor).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on electricity)",
+      "Difficulty Level": "Easy",
+      "Tags": ["electricity", "technology", "circuits", "power", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do birds sing?",
+    "Solution": "To communicate, often to attract mates, defend territory, or warn of danger.",
+    "Step-by-Step Explanation": "1. Birdsong is a complex vocalization used for communication. 2. Male birds often sing elaborate songs to attract females during mating season. 3. Singing can also signal to other birds that a territory is occupied or alert others to the presence of predators.",
+    "Metadata": {
+      "Type of Reasoning": "Abductive (inferring purpose of behavior)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "animals", "birds", "communication", "behavior", "sound", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you pull a door that says 'Push'?",
+    "Solution": "The door probably won't open easily, or at all.",
+    "Step-by-Step Explanation": "1. Doors are typically designed to open in only one direction (inward or outward) using hinges. 2. A 'Push' sign indicates the door opens away from you. 3. Pulling applies force in the wrong direction, working against the door's hinges and frame, preventing it from opening.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (interpreting instructions and mechanics)",
+      "Difficulty Level": "Easy",
+      "Tags": ["instructions", "mechanics", "doors", "actions", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people brush their hair?",
+    "Solution": "To untangle it, make it look neater, and distribute natural oils.",
+    "Step-by-Step Explanation": "1. Hair can become tangled or messy. 2. Brushing helps separate strands, removing tangles and smoothing the hair. 3. It can also help spread natural oils from the scalp along the hair shaft, potentially improving its condition.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding grooming purpose)",
+      "Difficulty Level": "Easy",
+      "Tags": ["hygiene", "grooming", "hair", "function", "aesthetics", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you throw a ball up into the air?",
+    "Solution": "It goes up, slows down, stops momentarily, and then falls back down.",
+    "Step-by-Step Explanation": "1. You give the ball upward velocity. 2. Gravity constantly pulls the ball downward, slowing its upward motion. 3. At the peak of its trajectory, its upward velocity becomes zero. 4. Gravity then pulls it back down, increasing its downward velocity until it lands.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of gravity and motion)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "gravity", "motion", "acceleration", "trajectory", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do we put ingredients together when baking a cake?",
+    "Solution": "Combining the right ingredients in the right amounts is necessary to create the cake batter, which then bakes into a cake.",
+    "Step-by-Step Explanation": "1. Cake recipes require specific ingredients (flour, sugar, eggs, fat, leavening agent, liquid) that perform different functions. 2. Flour provides structure, sugar adds sweetness, eggs bind ingredients, fat adds tenderness, leavening makes it rise, and liquid provides moisture. 3. Mixing them combines these properties correctly to form a batter that will bake with the desired texture and flavor.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding process and function of ingredients)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cooking", "baking", "food", "chemistry", "process", "ingredients", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you put your hand over a candle flame?",
+    "Solution": "You will get burned very quickly.",
+    "Step-by-Step Explanation": "1. A candle flame is extremely hot. 2. Placing your hand directly in or very close to the flame exposes your skin to intense heat. 3. This causes rapid damage to skin cells (a burn) and intense pain.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of heat and safety)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "heat", "fire", "burns", "danger", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people wear hats?",
+    "Solution": "For protection from the sun or cold, for fashion, or as part of a uniform.",
+    "Step-by-Step Explanation": "1. Hats can shade the face and head from sun exposure. 2. In cold weather, hats help prevent heat loss from the head. 3. Hats are also worn as fashion accessories or to signify membership in a group (uniforms).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding clothing function/purpose)",
+      "Difficulty Level": "Easy",
+      "Tags": ["clothing", "protection", "fashion", "function", "weather", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you mix vinegar and baking soda?",
+    "Solution": "It fizzes and bubbles rapidly.",
+    "Step-by-Step Explanation": "1. Vinegar (acetic acid) is an acid, and baking soda (sodium bicarbonate) is a base. 2. When they mix, they react chemically. 3. This reaction produces carbon dioxide gas, which forms the bubbles and causes the fizzing.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying basic chemistry)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "acid-base reaction", "gas production", "fizzing", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why does a compass needle point north?",
+    "Solution": "The needle is a small magnet that aligns itself with the Earth's magnetic field.",
+    "Step-by-Step Explanation": "1. The Earth acts like a giant magnet with a magnetic field running roughly north-south. 2. The compass needle is magnetized and free to rotate. 3. The needle's north pole is attracted to the Earth's North Magnetic Pole, causing it to align in that direction.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of magnetism)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "magnetism", "navigation", "Earth science", "tools", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you eat food that has gone bad (spoiled)?",
+    "Solution": "You might get sick (food poisoning).",
+    "Step-by-Step Explanation": "1. Spoiled food often contains harmful bacteria, molds, or toxins produced by them. 2. Ingesting these harmful microorganisms or toxins can disrupt your digestive system. 3. This can lead to symptoms like nausea, vomiting, diarrhea, and stomach cramps (food poisoning).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of food safety and biology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "safety", "health", "bacteria", "spoilage", "sickness", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do cars need tires?",
+    "Solution": "Tires provide grip, support the car's weight, and absorb shocks from the road.",
+    "Step-by-Step Explanation": "1. Tires are made of rubber and filled with air, creating a connection between the car and the road. 2. The tread pattern provides grip (friction) for accelerating, braking, and turning. 3. The air inside supports the vehicle's load and cushions the ride by absorbing bumps.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding vehicle component function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cars", "mechanics", "physics", "friction", "function", "transportation", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you try to pick up water with your bare hands?",
+    "Solution": "Most of the water slips through your fingers.",
+    "Step-by-Step Explanation": "1. Water is a liquid and flows easily. 2. Your hands are not watertight; there are gaps between your fingers. 3. While you can cup some water, much of it will flow out through the gaps due to gravity.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on physical properties and experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["liquids", "properties", "physics", "actions", "gravity", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people lock their doors?",
+    "Solution": "To prevent unauthorized people from entering and to keep their property safe.",
+    "Step-by-Step Explanation": "1. Locks provide security by making doors difficult to open without the correct key or combination. 2. Locking a door creates a barrier against intruders. 3. This helps protect the occupants and their belongings inside.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding purpose based on security)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "security", "locks", "property", "function", "everyday"]
+    }
+  }
+]
+[
+  {
+    "Problem Statement": "What happens if you shine a red light on a white wall?",
+    "Solution": "The wall appears red.",
+    "Step-by-Step Explanation": "1. White surfaces reflect almost all colors of light that hit them. 2. Red light contains only red wavelengths. 3. When red light hits the white wall, the wall reflects the red light back to your eyes, making it look red.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of light and color)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "light", "color", "reflection", "optics", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do squirrels bury nuts?",
+    "Solution": "To store food for the winter when other food sources are scarce.",
+    "Step-by-Step Explanation": "1. Squirrels eat nuts and seeds. These become hard to find in winter. 2. Burying nuts in many different locations during autumn creates hidden food caches. 3. The squirrel can retrieve these nuts later when needed, helping it survive the winter.",
+    "Metadata": {
+      "Type of Reasoning": "Abductive (inferring purpose of behavior)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "animals", "squirrels", "behavior", "survival", "food storage", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you forget to put the lid back on a pen?",
+    "Solution": "The ink in the pen tip might dry out, and the pen might stop writing.",
+    "Step-by-Step Explanation": "1. Pen ink contains liquid solvents that keep the colorant flowing. 2. The lid prevents these solvents from evaporating quickly into the air. 3. Without the lid, the solvent evaporates, leaving dried ink clogging the pen tip.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of evaporation and pen function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "evaporation", "writing", "tools", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people use calendars?",
+    "Solution": "To keep track of dates, days of the week, months, and appointments or events.",
+    "Step-by-Step Explanation": "1. Calendars provide a structured way to view time over days, weeks, and months. 2. They help people know the date and plan activities. 3. People often mark important dates, like birthdays or meetings, on calendars as reminders.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["time", "organization", "tools", "calendars", "planning", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you lean too far back in a chair?",
+    "Solution": "The chair might tip over backwards, and you could fall.",
+    "Step-by-Step Explanation": "1. Chairs have a base of support (usually the legs). Your weight needs to stay over this base for stability. 2. Leaning too far back shifts your center of gravity beyond the chair's base of support. 3. This makes the chair unstable, and gravity will pull it (and you) over.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of physics - stability, center of gravity)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "stability", "gravity", "safety", "actions", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do cars have rearview and side mirrors?",
+    "Solution": "To allow the driver to see traffic and conditions behind and beside the car.",
+    "Step-by-Step Explanation": "1. Drivers need to be aware of their surroundings, including what's behind them. 2. Mirrors reflect light, allowing the driver to see areas not in their direct line of sight. 3. Rearview and side mirrors provide visibility to the rear and sides (blind spots), crucial for changing lanes or reversing safely.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding component function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cars", "safety", "visibility", "mirrors", "optics", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens to bread after many days, especially if it's damp?",
+    "Solution": "It often gets moldy.",
+    "Step-by-Step Explanation": "1. Mold spores are present in the air. 2. Bread provides nutrients, and moisture creates favorable conditions for mold growth. 3. Over time, mold spores land on the bread and grow, appearing as fuzzy patches (often green, white, or black).",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on observation) / Deductive (biology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["food", "spoilage", "biology", "mold", "fungi", "hygiene", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people use knives to cut food?",
+    "Solution": "Knives have sharp edges that make it easier to divide food into smaller pieces.",
+    "Step-by-Step Explanation": "1. Food items often need to be cut into manageable sizes for cooking or eating. 2. A knife's sharp edge concentrates force onto a very small area. 3. This high pressure allows the blade to easily slice through the food material.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["tools", "function", "cutting", "food", "physics", "pressure", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you try to talk with your mouth full of food?",
+    "Solution": "It's difficult to speak clearly, and food might fall out.",
+    "Step-by-Step Explanation": "1. Speaking involves precise movements of the tongue, lips, and jaw to shape sounds. 2. Having a mouth full of food obstructs these movements. 3. This makes clear articulation difficult, and opening the mouth to talk increases the chance of food spilling.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience)",
+      "Difficulty Level": "Easy",
+      "Tags": ["actions", "speech", "etiquette", "physiology", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people water their lawns?",
+    "Solution": "To provide the grass with the water it needs to stay green and healthy, especially during dry weather.",
+    "Step-by-Step Explanation": "1. Grass, like other plants, needs water to survive and grow. 2. Rain doesn't always provide enough water, particularly in dry spells. 3. Watering the lawn supplements rainfall, ensuring the grass roots get adequate moisture.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on knowledge of plant needs)",
+      "Difficulty Level": "Easy",
+      "Tags": ["plants", "gardening", "water", "lawns", "biology", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you mix sugar and sand?",
+    "Solution": "You get a mixture of sugar and sand; they don't dissolve into each other.",
+    "Step-by-Step Explanation": "1. Sugar and sand are both solid particles. 2. They do not chemically react or dissolve in each other when mixed. 3. The result is simply a physical mixture where both components remain distinct.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on properties of materials)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "chemistry", "mixing", "properties", "mixtures", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do firefighters wear special coats and helmets?",
+    "Solution": "To protect them from intense heat, flames, falling debris, and other dangers.",
+    "Step-by-Step Explanation": "1. Fighting fires involves exposure to extreme heat, potential burns, and hazards like collapsing structures. 2. Firefighter gear (turnout gear) is made from fire-resistant and insulating materials to protect against heat and flames. 3. Helmets protect the head from impacts and heat.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding safety equipment function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "firefighting", "protection", "equipment", "materials", "heat", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you press the keys on a computer keyboard?",
+    "Solution": "Characters (letters, numbers, symbols) appear on the computer screen, or commands are executed.",
+    "Step-by-Step Explanation": "1. Each key corresponds to a specific character or function. 2. Pressing a key sends an electrical signal to the computer. 3. The computer interprets the signal and displays the corresponding character or performs the requested action (like 'Enter' or 'Delete').",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on technology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["technology", "computers", "keyboard", "function", "input", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do spiders make silk?",
+    "Solution": "To build webs for catching prey, create shelters, wrap eggs, or help them move around.",
+    "Step-by-Step Explanation": "1. Spiders have special glands that produce liquid silk, which hardens on contact with air. 2. This strong, flexible material has many uses for the spider's survival. 3. Common uses include trapping insects in webs, lining burrows, protecting eggs in sacs, and creating draglines for safety or travel.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biological knowledge)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "animals", "spiders", "silk", "adaptation", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you put a metal fork in an electrical outlet?",
+    "Solution": "You could get a severe electrical shock, cause a short circuit, and it is extremely dangerous.",
+    "Step-by-Step Explanation": "1. Electrical outlets provide high-voltage electricity. Metal is an excellent conductor. 2. Inserting metal into the outlet creates a pathway for electricity to flow through the metal and potentially through your body if you are touching it. 3. This can cause dangerous electrical shock, burns, and potentially start a fire or trip circuit breakers due to a short circuit.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of electricity and safety)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "danger", "electricity", "conductivity", "shock", "hazard", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people use sunscreen?",
+    "Solution": "To protect their skin from damage caused by the sun's ultraviolet (UV) rays.",
+    "Step-by-Step Explanation": "1. Sunlight contains UV radiation that can harm skin, causing sunburn and increasing long-term risks like skin cancer. 2. Sunscreen contains chemicals or minerals that absorb or block these harmful UV rays. 3. Applying sunscreen reduces the amount of UV radiation reaching the skin.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding product function and health risks)",
+      "Difficulty Level": "Easy",
+      "Tags": ["health", "safety", "sunscreen", "UV radiation", "skin", "protection", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you blow air into a whistle?",
+    "Solution": "The whistle makes a loud sound.",
+    "Step-by-Step Explanation": "1. Whistles are designed to produce sound when air is forced through them. 2. Blowing creates airflow that vibrates within the whistle's chamber or against an edge (like the fipple). 3. These vibrations create sound waves at a specific frequency (pitch).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect based on function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["sound", "physics", "acoustics", "tools", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do some drinks come in cans?",
+    "Solution": "Cans protect the drink from light and air, are durable, and chill quickly.",
+    "Step-by-Step Explanation": "1. Aluminum cans block light completely, preventing degradation of light-sensitive drinks. 2. They provide an airtight seal, keeping carbonation in and oxygen out, preserving freshness. 3. Cans are less fragile than glass and conduct heat well, allowing drinks to cool down fast.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding packaging function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["packaging", "materials", "food", "drinks", "preservation", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you don't change the batteries in a smoke detector?",
+    "Solution": "The smoke detector might start beeping periodically (low battery warning), or eventually stop working altogether, failing to alert you in case of a fire.",
+    "Step-by-Step Explanation": "1. Smoke detectors rely on battery power (or mains power with battery backup) to function. 2. As batteries run out of energy, the detector's performance degrades. 3. Many detectors are designed to chirp when the battery is low. If ignored, the battery will eventually die completely, rendering the detector useless.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect related to power source)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "technology", "batteries", "fire safety", "warning", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people use measuring cups and spoons when cooking or baking?",
+    "Solution": "To measure ingredients accurately, ensuring the recipe turns out correctly.",
+    "Step-by-Step Explanation": "1. Cooking and especially baking often require precise amounts of ingredients for the desired chemical reactions and texture. 2. Measuring cups and spoons are tools calibrated to measure specific volumes (like cups, tablespoons, teaspoons). 3. Using them ensures consistency and helps achieve the intended result of the recipe.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function in a process)",
+      "Difficulty Level": "Easy",
+      "Tags": ["cooking", "baking", "tools", "measurement", "accuracy", "process", "everyday"]
+    }
+  },
+    {
+    "Problem Statement": "What happens if you leave wet clothes in a pile for days?",
+    "Solution": "They will likely start to smell bad due to mildew or bacteria growth.",
+    "Step-by-Step Explanation": "1. Wet clothes provide a damp environment. 2. Bacteria and mildew spores, present in the air or on clothes, thrive in damp conditions with limited airflow. 3. These microorganisms grow and produce waste products, causing unpleasant musty or sour odors.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of microbiology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["hygiene", "biology", "bacteria", "mildew", "spoilage", "laundry", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do airplanes have wings?",
+    "Solution": "Wings generate the lift force needed for the airplane to fly.",
+    "Step-by-Step Explanation": "1. Airplanes need an upward force (lift) to overcome gravity (weight). 2. Wings have a special shape (airfoil) that causes air to flow faster over the top surface than the bottom. 3. This difference in airflow speed creates lower pressure on top and higher pressure below, resulting in an upward lift force.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying basic aerodynamic principles)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "aerodynamics", "flight", "airplanes", "lift", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you put sugar in water and stir?",
+    "Solution": "The sugar dissolves into the water, making the water sweet.",
+    "Step-by-Step Explanation": "1. Sugar is soluble in water. 2. Stirring helps the sugar crystals break apart into individual molecules. 3. These molecules spread evenly throughout the water, creating a sweet solution where the solid sugar is no longer visible.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of solubility)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "solubility", "mixing", "solutions", "food", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people wear helmets when riding motorcycles?",
+    "Solution": "To protect their head from serious injury in case of an accident.",
+    "Step-by-Step Explanation": "1. Motorcycle accidents can involve high speeds and impacts. 2. The head is very vulnerable to injury. 3. Helmets are designed with strong outer shells and impact-absorbing liners to significantly reduce the risk of head trauma during a crash.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding safety equipment function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "motorcycles", "helmets", "protection", "injury prevention", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you try to glue two wet surfaces together?",
+    "Solution": "The glue probably won't stick well, or the bond will be very weak.",
+    "Step-by-Step Explanation": "1. Most common glues work by adhering directly to the surfaces and then hardening. 2. A layer of water on the surfaces prevents the glue from making proper contact. 3. Water can also interfere with the glue's curing or drying process, resulting in a poor bond.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of adhesion)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "adhesives", "glue", "water", "properties", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people use alarm clocks?",
+    "Solution": "To wake them up at a specific time.",
+    "Step-by-Step Explanation": "1. People often need to wake up by a certain time for work, school, or appointments. 2. An alarm clock can be set to make a sound (or vibrate) at the desired time. 3. This sound alerts the sleeping person, helping them wake up on schedule.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["time", "tools", "alarms", "function", "scheduling", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when sunlight shines through a glass window?",
+    "Solution": "Most of the light passes through the glass, illuminating the area inside.",
+    "Step-by-Step Explanation": "1. Glass is transparent, meaning light can pass through it. 2. When sunlight hits the windowpane, most of the light rays travel through the glass. 3. This allows daylight to enter a room.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying properties of light and materials)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "light", "optics", "materials", "transparency", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do runners wear special running shoes?",
+    "Solution": "Running shoes provide cushioning, support, and grip designed for running.",
+    "Step-by-Step Explanation": "1. Running puts repetitive impact stress on the feet and legs. 2. Running shoes have cushioned soles to absorb shock. 3. They are designed to support the foot during the running motion and have tread for good traction.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding specialized equipment function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["clothing", "sports", "running", "function", "support", "cushioning", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you put an empty plastic bottle (with the cap on) in the freezer?",
+    "Solution": "The bottle might get slightly crushed or dented inward.",
+    "Step-by-Step Explanation": "1. Air inside the bottle cools down when placed in the freezer. 2. Cooling causes the air to contract and exert less pressure on the inside walls of the bottle. 3. The higher atmospheric pressure outside the bottle then pushes inward, potentially causing the flexible plastic bottle to dent or buckle.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of gas behavior and pressure)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "pressure", "temperature", "gases", "contraction", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do musicians tune their instruments?",
+    "Solution": "To make sure the instrument produces the correct musical pitches (notes).",
+    "Step-by-Step Explanation": "1. Musical instruments need to produce specific sound frequencies (pitches) to play music correctly and sound good with other instruments. 2. Tuning involves adjusting parts of the instrument (like string tension or valve slides) to achieve these standard pitches. 3. An untuned instrument will sound 'off' or out of harmony.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding process and purpose)",
+      "Difficulty Level": "Easy",
+      "Tags": ["music", "sound", "instruments", "tuning", "pitch", "frequency", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you unplug a lamp?",
+    "Solution": "The lamp turns off.",
+    "Step-by-Step Explanation": "1. Lamps require electricity to light the bulb. 2. Unplugging the lamp disconnects it from the electrical power source. 3. Without electricity flowing to it, the bulb cannot light up.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (cause and effect related to electricity)",
+      "Difficulty Level": "Easy",
+      "Tags": ["electricity", "technology", "lamps", "power", "cause and effect", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people wear aprons when cooking?",
+    "Solution": "To protect their clothes from getting dirty or stained by food.",
+    "Step-by-Step Explanation": "1. Cooking can involve splashing liquids, grease spatters, or spilling ingredients. 2. An apron provides a protective layer over clothing. 3. Any spills or splatters land on the apron instead of the clothes underneath.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding clothing function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["clothing", "cooking", "protection", "hygiene", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you try to write on smooth plastic with a regular pencil?",
+    "Solution": "It usually doesn't work well; the pencil mark is faint or doesn't appear.",
+    "Step-by-Step Explanation": "1. Pencils work by depositing graphite particles onto the surface being written on, usually relying on the paper's texture. 2. Smooth plastic lacks the texture (tooth) needed for graphite particles to adhere easily. 3. As a result, the pencil slides without leaving much, if any, graphite behind.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on experience) / Deductive (material interaction)",
+      "Difficulty Level": "Easy",
+      "Tags": ["materials", "writing", "tools", "properties", "friction", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do plants wilt if they don't get enough water?",
+    "Solution": "They lose turgor pressure, which keeps their stems and leaves firm.",
+    "Step-by-Step Explanation": "1. Plant cells contain water, which pushes against the cell walls, creating pressure (turgor) that supports the plant. 2. When the plant can't absorb enough water to replace what it loses through transpiration, the cells lose water. 3. Loss of water reduces turgor pressure, causing the cells to become limp, and the plant's leaves and stems droop or wilt.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying biological principles)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "plants", "water", "physiology", "turgor pressure", "wilting", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What is the purpose of streetlights?",
+    "Solution": "To illuminate streets and public areas at night for visibility and safety.",
+    "Step-by-Step Explanation": "1. It is difficult and potentially unsafe to navigate outdoors in darkness. 2. Streetlights provide artificial light along roads and sidewalks. 3. This improves visibility for drivers and pedestrians, helping to prevent accidents and deter crime.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding infrastructure function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "visibility", "light", "infrastructure", "technology", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you put baking soda on a small grease fire?",
+    "Solution": "It can help extinguish the fire.",
+    "Step-by-Step Explanation": "1. Grease fires should NOT have water thrown on them (it can spread the fire). 2. Baking soda (sodium bicarbonate), when heated, releases carbon dioxide. 3. Pouring baking soda generously onto a small grease fire can smother it by cutting off the oxygen supply with the released CO2 and the powder itself.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying chemistry and fire safety principles)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "fire safety", "chemistry", "cooking", "extinguishing", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do people use shopping carts or baskets at the grocery store?",
+    "Solution": "To conveniently carry multiple items while shopping.",
+    "Step-by-Step Explanation": "1. Grocery shopping often involves buying many items. 2. Carrying numerous items in your hands is difficult and cumbersome. 3. Shopping carts and baskets provide a container to hold groceries, making it easier to gather items and move around the store.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (understanding tool function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["tools", "shopping", "convenience", "function", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you step on ice?",
+    "Solution": "It can be very slippery, and you might fall.",
+    "Step-by-Step Explanation": "1. Ice has a very low coefficient of friction, meaning surfaces slide across it easily. 2. A thin layer of water can also form on the ice surface, further reducing friction. 3. This lack of friction makes it hard for your shoes to grip, increasing the risk of slipping and falling.",
+    "Metadata": {
+      "Type of Reasoning": "Inductive (based on common experience) / Deductive (physics)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "friction", "ice", "safety", "weather", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "Why do bees make honey?",
+    "Solution": "As a food source for the bee colony, especially to survive through the winter.",
+    "Step-by-Step Explanation": "1. Bees collect sugary nectar from flowers. 2. They process this nectar (adding enzymes, reducing water content) and store it in the honeycomb as honey. 3. Honey is a concentrated energy source that feeds the bees when flowers are not available (like during winter).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biological knowledge)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "animals", "insects", "bees", "honey", "food storage", "survival", "everyday"]
+    }
+  },
+  {
+    "Problem Statement": "What happens if you look directly at the sun?",
+    "Solution": "It can severely damage your eyes, potentially causing permanent vision loss.",
+    "Step-by-Step Explanation": "1. The sun emits extremely intense light, including harmful ultraviolet (UV) radiation. 2. Looking directly at it focuses this intense energy onto the retina at the back of your eye. 3. This can rapidly burn and damage the sensitive retinal cells, leading to temporary or permanent blindness (solar retinopathy).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of light intensity and biology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["safety", "health", "vision", "sun", "light", "danger", "everyday"]
+    }
+  }
+]
+[
+  {
+    "Problem Statement": "Why does a dropped apple fall down instead of up?",
+    "Solution": "Gravity pulls the apple towards the center of the Earth.",
+    "Step-by-Step Explanation": "1. Earth has a large mass and exerts a gravitational force on all objects near it. 2. This force attracts objects towards the Earth's center. 3. When the apple is dropped, gravity is the dominant force acting on it, causing it to accelerate downwards.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying law of gravity)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "gravity", "force", "motion"]
+    }
+  },
+  {
+    "Problem Statement": "What happens to water when it boils?",
+    "Solution": "It turns into a gas called steam or water vapor.",
+    "Step-by-Step Explanation": "1. Boiling occurs when water reaches a specific temperature (100°C or 212°F at sea level). 2. At this temperature, the water molecules gain enough energy to overcome the forces holding them together as a liquid. 3. They escape as a gas (steam/water vapor).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying knowledge of states of matter)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "states of matter", "phase change", "boiling"]
+    }
+  },
+  {
+    "Problem Statement": "Why can't we see things in a completely dark room?",
+    "Solution": "Our eyes need light to see; in complete darkness, there is no light.",
+    "Step-by-Step Explanation": "1. Vision works when light reflects off objects and enters our eyes. 2. Our eyes detect this light and send signals to the brain, which interprets them as images. 3. In a completely dark room, there is no light source, so no light reflects off objects, and we cannot see.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of vision and light)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "physics", "vision", "light", "senses"]
+    }
+  },
+  {
+    "Problem Statement": "What causes the seasons (summer, winter, etc.)?",
+    "Solution": "The tilt of the Earth's axis as it orbits the Sun.",
+    "Step-by-Step Explanation": "1. Earth is tilted on its axis by about 23.5 degrees. 2. As Earth orbits the Sun, this tilt causes different parts of the Earth to receive more direct sunlight at different times of the year. 3. More direct sunlight leads to warmer temperatures (summer), while less direct sunlight leads to cooler temperatures (winter).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying astronomical principles)",
+      "Difficulty Level": "Easy",
+      "Tags": ["astronomy", "Earth science", "seasons", "orbit", "tilt"]
+    }
+  },
+  {
+    "Problem Statement": "Why does metal feel colder than wood if they are both at the same room temperature?",
+    "Solution": "Metal conducts heat away from your hand faster than wood does.",
+    "Step-by-Step Explanation": "1. Your hand is usually warmer than room temperature objects. 2. Metal is a good thermal conductor; wood is a poor conductor (insulator). 3. When you touch metal, it quickly draws heat from your hand, making it feel cold. Wood draws heat much slower, so it feels less cold.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of heat transfer)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "heat transfer", "conduction", "materials", "temperature"]
+    }
+  },
+  {
+    "Problem Statement": "What gas do plants release during photosynthesis?",
+    "Solution": "Oxygen.",
+    "Step-by-Step Explanation": "1. Photosynthesis is the process plants use to make food using sunlight, water, and carbon dioxide. 2. A byproduct of this chemical process is oxygen gas. 3. Plants release this oxygen into the atmosphere.",
+    "Metadata": {
+      "Type of Reasoning": "Factual Recall (Biology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "plants", "photosynthesis", "oxygen", "chemistry"]
+    }
+  },
+  {
+    "Problem Statement": "Why does a compass needle point north?",
+    "Solution": "The needle aligns with the Earth's magnetic field.",
+    "Step-by-Step Explanation": "1. The Earth behaves like a giant magnet with a magnetic field. 2. A compass needle is a small magnet that is free to rotate. 3. The needle aligns itself with the lines of the Earth's magnetic field, which run approximately north-south.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of magnetism)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "magnetism", "Earth science", "navigation"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you mix an acid (like vinegar) with a base (like baking soda)?",
+    "Solution": "They react, often producing gas (bubbles), salt, and water.",
+    "Step-by-Step Explanation": "1. Acids and bases have opposite chemical properties and react when mixed (neutralization). 2. The reaction between vinegar (acetic acid) and baking soda (sodium bicarbonate) creates carbonic acid, which quickly breaks down. 3. This breakdown releases carbon dioxide gas (the bubbles), sodium acetate (a salt), and water.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of chemistry)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "acid-base reaction", "chemical reaction", "gas production"]
+    }
+  },
+  {
+    "Problem Statement": "Why does sound travel slower than light?",
+    "Solution": "Light travels as electromagnetic waves, while sound travels as mechanical waves through a medium.",
+    "Step-by-Step Explanation": "1. Light waves travel extremely fast (about 300,000 km/s in a vacuum) and don't require a medium. 2. Sound waves are vibrations that travel through a medium (like air, water, solids) by causing particles to bump into each other. 3. This process of transferring vibration through particle collisions is much slower (about 0.343 km/s in air at room temperature) than the speed of light.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (comparing properties of waves)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "waves", "light", "sound", "speed"]
+    }
+  },
+  {
+    "Problem Statement": "What is evaporation?",
+    "Solution": "The process where a liquid turns into a gas.",
+    "Step-by-Step Explanation": "1. Molecules in a liquid are constantly moving. 2. Some molecules near the surface gain enough energy (often from heat) to escape the liquid. 3. These escaped molecules become a gas (vapor), and the process is called evaporation.",
+    "Metadata": {
+      "Type of Reasoning": "Definition/Deductive",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "states of matter", "phase change", "evaporation"]
+    }
+  },
+  {
+    "Problem Statement": "Why do objects weigh less on the Moon than on Earth?",
+    "Solution": "The Moon has less mass than Earth, so its gravitational pull is weaker.",
+    "Step-by-Step Explanation": "1. Weight is the force of gravity acting on an object's mass (Weight = mass × gravitational acceleration). 2. The strength of gravity depends on the mass of the celestial body. 3. The Moon is much smaller and less massive than Earth, resulting in weaker gravity (about 1/6th of Earth's). Therefore, objects weigh less there.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of gravity)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "astronomy", "gravity", "mass", "weight", "Moon"]
+    }
+  },
+  {
+    "Problem Statement": "What is condensation?",
+    "Solution": "The process where a gas turns into a liquid.",
+    "Step-by-Step Explanation": "1. Gas molecules move freely and have high energy. 2. When a gas cools down, its molecules lose energy and slow down. 3. They begin to attract each other and clump together, forming a liquid. This change of state is condensation (e.g., water vapor forming dew).",
+    "Metadata": {
+      "Type of Reasoning": "Definition/Deductive",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "states of matter", "phase change", "condensation"]
+    }
+  },
+  {
+    "Problem Statement": "Why do magnets attract objects made of iron or steel?",
+    "Solution": "Iron and steel are ferromagnetic materials, meaning they are strongly attracted to magnets.",
+    "Step-by-Step Explanation": "1. Magnetism is a force exerted by magnets. 2. Certain materials, called ferromagnetic materials (like iron, nickel, cobalt, and steel which contains iron), have internal structures (magnetic domains) that align strongly with a magnet's field. 3. This alignment creates a strong attractive force between the magnet and the material.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of magnetism)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "magnetism", "materials", "properties", "ferromagnetism"]
+    }
+  },
+  {
+    "Problem Statement": "What gas do humans breathe out?",
+    "Solution": "Primarily carbon dioxide, along with nitrogen and some unused oxygen.",
+    "Step-by-Step Explanation": "1. We breathe in air, which contains mostly nitrogen, oxygen, and small amounts of other gases including carbon dioxide. 2. Our bodies use oxygen in cellular respiration to produce energy. 3. A major waste product of cellular respiration is carbon dioxide. 4. We exhale the unused gases plus the carbon dioxide waste.",
+    "Metadata": {
+      "Type of Reasoning": "Factual Recall (Biology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "physiology", "respiration", "gases", "carbon dioxide"]
+    }
+  },
+  {
+    "Problem Statement": "What causes rust on iron objects?",
+    "Solution": "A chemical reaction between iron, oxygen, and water.",
+    "Step-by-Step Explanation": "1. Rust is iron oxide, formed through a process called oxidation. 2. Iron atoms react with oxygen atoms (usually from the air). 3. The presence of water greatly speeds up this reaction. The result is the reddish-brown, flaky substance called rust.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying chemistry principles)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "chemical reaction", "oxidation", "rust", "corrosion"]
+    }
+  },
+  {
+    "Problem Statement": "Why do we see different phases of the Moon (crescent, half, full)?",
+    "Solution": "We see different amounts of the Moon's sunlit side as it orbits the Earth.",
+    "Step-by-Step Explanation": "1. The Moon reflects sunlight; half of it is always lit by the Sun. 2. The Moon orbits the Earth. 3. From our perspective on Earth, the angle between the Sun, Earth, and Moon changes throughout the orbit. 4. This changing angle means we see varying portions of the Moon's illuminated half, creating the phases.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying astronomical principles)",
+      "Difficulty Level": "Easy",
+      "Tags": ["astronomy", "Moon", "orbit", "light", "phases"]
+    }
+  },
+  {
+    "Problem Statement": "What is friction?",
+    "Solution": "A force that opposes motion between surfaces in contact.",
+    "Step-by-Step Explanation": "1. When two surfaces rub against each other, irregularities on the surfaces interact. 2. This interaction creates a force that resists the sliding or rolling motion. 3. Friction converts motion energy into heat.",
+    "Metadata": {
+      "Type of Reasoning": "Definition/Deductive",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "force", "friction", "motion"]
+    }
+  },
+  {
+    "Problem Statement": "How do plants get water from the soil?",
+    "Solution": "Through their roots.",
+    "Step-by-Step Explanation": "1. Plants have roots that grow down into the soil. 2. Roots have tiny root hairs that absorb water and dissolved nutrients from the soil particles. 3. This water is then transported up through the stem to the rest of the plant.",
+    "Metadata": {
+      "Type of Reasoning": "Factual Recall (Biology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "plants", "roots", "water", "absorption"]
+    }
+  },
+  {
+    "Problem Statement": "What makes things visible?",
+    "Solution": "Light reflecting off the things and entering our eyes.",
+    "Step-by-Step Explanation": "1. Objects don't usually produce their own visible light (except sources like lamps or the sun). 2. Light from a source (like the sun) hits an object. 3. The object reflects some of that light. 4. If this reflected light enters our eyes, our brain processes it, allowing us to see the object.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of light and vision)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "light", "vision", "reflection", "optics"]
+    }
+  },
+  {
+    "Problem Statement": "What is density?",
+    "Solution": "How much mass (stuff) is packed into a certain volume (space).",
+    "Step-by-Step Explanation": "1. Density measures the compactness of a substance. 2. It's calculated by dividing the mass of an object by its volume (Density = Mass / Volume). 3. A dense object (like lead) has a lot of mass in a small space, while a less dense object (like foam) has less mass in the same space.",
+    "Metadata": {
+      "Type of Reasoning": "Definition",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "chemistry", "density", "mass", "volume"]
+    }
+  },
+  {
+    "Problem Statement": "Why does ice float on water?",
+    "Solution": "Because ice is less dense than liquid water.",
+    "Step-by-Step Explanation": "1. When water freezes, its molecules arrange in a crystal structure that takes up more space. 2. More space for the same mass means lower density. 3. Objects float in a liquid if they are less dense than the liquid.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying concept of density)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "chemistry", "density", "buoyancy", "states of matter", "water"]
+    }
+  },
+  {
+    "Problem Statement": "What is sound?",
+    "Solution": "Vibrations that travel through a medium (like air) as waves.",
+    "Step-by-Step Explanation": "1. Something vibrates (like vocal cords or a guitar string). 2. These vibrations disturb the particles of the surrounding medium (e.g., air molecules). 3. The disturbance travels as a wave of compressions and rarefactions through the medium, which our ears detect as sound.",
+    "Metadata": {
+      "Type of Reasoning": "Definition",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "sound", "waves", "vibration", "acoustics"]
+    }
+  },
+  {
+    "Problem Statement": "How does a magnifying glass make things look bigger?",
+    "Solution": "It uses a convex lens to bend light rays, making them appear to come from a larger object.",
+    "Step-by-Step Explanation": "1. A magnifying glass has a convex lens (thicker in the middle). 2. This lens shape bends light rays coming from the object inwards (converges them). 3. When you look through the lens, your brain interprets these bent rays as if they came straight from a larger, closer virtual image of the object.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of optics)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "optics", "lenses", "light", "magnification"]
+    }
+  },
+  {
+    "Problem Statement": "What is electricity?",
+    "Solution": "The flow of electric charge, usually electrons.",
+    "Step-by-Step Explanation": "1. Matter is made of atoms, which contain charged particles (protons +, electrons -). 2. In some materials (conductors, like metal wires), electrons can move relatively freely. 3. The movement or flow of these electrons (electric charge) is called electric current, or electricity.",
+    "Metadata": {
+      "Type of Reasoning": "Definition",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "electricity", "charge", "electrons", "current"]
+    }
+  },
+  {
+    "Problem Statement": "Why do electrical wires often have plastic coating?",
+    "Solution": "The plastic acts as an insulator, preventing shocks and short circuits.",
+    "Step-by-Step Explanation": "1. The metal wire inside conducts electricity. 2. Plastic is an electrical insulator, meaning electricity does not flow through it easily. 3. The plastic coating prevents the electricity from escaping the wire if touched, protecting people from shocks and stopping wires from touching each other (short circuit).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of electricity and materials)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "electricity", "safety", "insulation", "materials"]
+    }
+  },
+  {
+    "Problem Statement": "What is energy?",
+    "Solution": "The ability to do work or cause change.",
+    "Step-by-Step Explanation": "1. Energy is required for any action or process to occur. 2. It exists in many forms (kinetic, potential, thermal, chemical, electrical, light, etc.). 3. Energy can be transferred between objects or converted from one form to another, but it cannot be created or destroyed.",
+    "Metadata": {
+      "Type of Reasoning": "Definition",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "energy", "work", "concepts"]
+    }
+  },
+  {
+    "Problem Statement": "Why do we breathe?",
+    "Solution": "To take in oxygen needed by our body cells and get rid of carbon dioxide waste.",
+    "Step-by-Step Explanation": "1. Our body cells need oxygen to combine with nutrients (from food) to release energy (cellular respiration). 2. Breathing brings oxygen from the air into our lungs, where it enters the bloodstream. 3. Cellular respiration produces carbon dioxide as waste, which enters the bloodstream, goes to the lungs, and is removed when we breathe out.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "physiology", "respiration", "oxygen", "carbon dioxide"]
+    }
+  },
+  {
+    "Problem Statement": "What are clouds made of?",
+    "Solution": "Tiny water droplets or tiny ice crystals floating in the atmosphere.",
+    "Step-by-Step Explanation": "1. Water evaporates from the Earth's surface, becoming invisible water vapor in the air. 2. As moist air rises, it cools. Cooler air can hold less water vapor. 3. The excess water vapor condenses onto tiny dust or salt particles, forming visible water droplets or ice crystals, which collectively form clouds.",
+    "Metadata": {
+      "Type of Reasoning": "Factual Recall (Meteorology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["Earth science", "weather", "clouds", "water cycle", "condensation"]
+    }
+  },
+  {
+    "Problem Statement": "Why is the sky blue?",
+    "Solution": "Air molecules scatter blue sunlight more than other colors.",
+    "Step-by-Step Explanation": "1. Sunlight contains all colors of the rainbow. 2. As sunlight enters Earth's atmosphere, it collides with tiny air molecules (mostly nitrogen and oxygen). 3. These molecules scatter the sunlight. Blue and violet light (shorter wavelengths) are scattered much more effectively than red light (longer wavelengths). 4. Our eyes see this scattered blue light coming from all parts of the sky.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying physics - Rayleigh scattering)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "light", "atmosphere", "color", "scattering"]
+    }
+  },
+  {
+    "Problem Statement": "What is happening when you see steam rising from a hot drink?",
+    "Solution": "Hot water vapor from the drink is cooling and condensing into tiny visible water droplets in the air.",
+    "Step-by-Step Explanation": "1. The hot drink causes water to evaporate quickly, creating invisible water vapor just above the surface. 2. This hot, moist vapor mixes with the cooler surrounding air. 3. As it cools, the water vapor condenses back into microscopic liquid water droplets. 4. These tiny droplets suspended in the air are what we see as steam.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of phase change)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "states of matter", "condensation", "evaporation", "steam"]
+    }
+  },
+    {
+    "Problem Statement": "What is DNA?",
+    "Solution": "The molecule that carries the genetic instructions for the development, functioning, growth and reproduction of all known organisms.",
+    "Step-by-Step Explanation": "1. DNA (Deoxyribonucleic acid) is a long molecule found in the cells of living things. 2. It has a double helix structure and contains coded information (genes). 3. This code determines an organism's traits and directs the cell's activities.",
+    "Metadata": {
+      "Type of Reasoning": "Definition",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "genetics", "DNA", "molecules", "cells"]
+    }
+  },
+  {
+    "Problem Statement": "Why do balls eventually stop rolling?",
+    "Solution": "Due to opposing forces like friction and air resistance.",
+    "Step-by-Step Explanation": "1. Friction occurs between the ball's surface and the ground it's rolling on. 2. Air resistance (drag) pushes against the ball as it moves through the air. 3. These forces oppose the ball's motion, gradually slowing it down until it stops.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying physics principles)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "force", "friction", "air resistance", "motion"]
+    }
+  },
+  {
+    "Problem Statement": "What is photosynthesis?",
+    "Solution": "The process plants use to convert light energy into chemical energy (food).",
+    "Step-by-Step Explanation": "1. Plants take in carbon dioxide from the air and water from the soil. 2. Using chlorophyll (a green pigment) and energy from sunlight, they chemically combine the carbon dioxide and water. 3. This process produces glucose (sugar, which is food for the plant) and releases oxygen.",
+    "Metadata": {
+      "Type of Reasoning": "Definition/Deductive",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "plants", "photosynthesis", "energy", "chemistry"]
+    }
+  },
+  {
+    "Problem Statement": "Why do echoes happen?",
+    "Solution": "Sound waves bounce off a surface and return to the listener.",
+    "Step-by-Step Explanation": "1. Sound travels as waves. 2. When these waves hit a hard, distant surface (like a cliff or wall), they reflect (bounce off). 3. If the surface is far enough away, the reflected sound takes a noticeable time to travel back to the listener, arriving slightly later than the original sound, creating an echo.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of wave reflection)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "sound", "waves", "reflection", "acoustics", "echo"]
+    }
+  },
+  {
+    "Problem Statement": "What are fossils?",
+    "Solution": "The preserved remains or traces of ancient organisms.",
+    "Step-by-Step Explanation": "1. When plants or animals die, their remains can sometimes be buried by sediment (like mud or sand). 2. Over long periods, the soft parts decay, but hard parts (like bones, shells, or wood) can be replaced by minerals or leave impressions in the surrounding rock. 3. These preserved remains or traces from the past are called fossils.",
+    "Metadata": {
+      "Type of Reasoning": "Definition",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "paleontology", "geology", "fossils", "history"]
+    }
+  },
+  {
+    "Problem Statement": "Why do we need a skeleton?",
+    "Solution": "It provides support for the body, protects organs, and allows movement.",
+    "Step-by-Step Explanation": "1. The skeleton acts as a framework, giving the body shape and structure. 2. Bones protect vital internal organs (e.g., skull protects brain, ribs protect heart and lungs). 3. Muscles attach to bones, and together they allow the body to move.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (based on biological function)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "anatomy", "physiology", "skeleton", "support", "protection", "movement"]
+    }
+  },
+  {
+    "Problem Statement": "What happens when you mix oil and water?",
+    "Solution": "They separate into layers, with oil usually floating on top.",
+    "Step-by-Step Explanation": "1. Oil and water molecules have different properties (oil is nonpolar, water is polar) and don't attract each other strongly, so they don't mix (immiscible). 2. Oil is typically less dense than water. 3. Because they don't mix and oil is less dense, it forms a separate layer that floats above the water.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying chemistry and physics principles)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "liquids", "density", "polarity", "immiscibility"]
+    }
+  },
+  {
+    "Problem Statement": "What is temperature a measure of?",
+    "Solution": "The average kinetic energy (motion) of the particles in a substance.",
+    "Step-by-Step Explanation": "1. All matter is made of tiny particles (atoms or molecules) that are constantly moving or vibrating. 2. Temperature is a measure of how fast, on average, these particles are moving. 3. Higher temperature means faster average particle motion; lower temperature means slower average particle motion.",
+    "Metadata": {
+      "Type of Reasoning": "Definition",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "thermodynamics", "temperature", "energy", "kinetic energy"]
+    }
+  },
+  {
+    "Problem Statement": "Why do we add salt to icy roads in winter?",
+    "Solution": "Salt lowers the freezing point of water, helping to melt ice and snow.",
+    "Step-by-Step Explanation": "1. Water normally freezes at 0°C (32°F). 2. Dissolving salt (or other substances) in water disrupts the formation of the ice crystal structure. 3. This means the salty water needs to be colder than 0°C to freeze. If the road temperature is between the new lower freezing point and 0°C, the salt causes existing ice to melt.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying chemistry principles - freezing point depression)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "states of matter", "freezing point", "solutions", "winter"]
+    }
+  },
+  {
+    "Problem Statement": "What is the difference between a solid, a liquid, and a gas?",
+    "Solution": "They are different states of matter defined by how particles are arranged and move.",
+    "Step-by-Step Explanation": "1. Solid: Particles are tightly packed in fixed positions and mainly vibrate. Solids have a definite shape and volume. 2. Liquid: Particles are close together but can move past each other. Liquids have a definite volume but take the shape of their container. 3. Gas: Particles are far apart and move rapidly and randomly. Gases have no definite shape or volume, filling their container.",
+    "Metadata": {
+      "Type of Reasoning": "Definition/Comparison",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "states of matter", "solid", "liquid", "gas"]
+    }
+  },
+    {
+    "Problem Statement": "Why do shadows form?",
+    "Solution": "An opaque object blocks the path of light.",
+    "Step-by-Step Explanation": "1. Light travels in straight lines from a source (like the sun or a lamp). 2. When an object that light cannot pass through (opaque) gets in the way, it stops the light rays. 3. The area behind the object where the light is blocked appears darker than the surrounding area, forming a shadow.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of light propagation)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "light", "optics", "shadows", "properties"]
+    }
+  },
+  {
+    "Problem Statement": "What is the function of the heart?",
+    "Solution": "To pump blood throughout the body.",
+    "Step-by-Step Explanation": "1. The heart is a muscular organ in the circulatory system. 2. It contracts rhythmically, pumping oxygenated blood to the body's tissues and organs. 3. It also pumps deoxygenated blood to the lungs to pick up fresh oxygen.",
+    "Metadata": {
+      "Type of Reasoning": "Factual Recall (Biology)",
+      "Difficulty Level": "Easy",
+      "Tags": ["biology", "physiology", "anatomy", "heart", "circulatory system", "blood"]
+    }
+  },
+  {
+    "Problem Statement": "Why does static electricity cause hair to stand on end sometimes?",
+    "Solution": "Friction builds up static charge on the hairs, and like charges repel each other.",
+    "Step-by-Step Explanation": "1. Rubbing (like combing hair or taking off a hat) can transfer electrons, causing individual hairs to become electrically charged (usually with the same type of charge, e.g., all positive or all negative). 2. Like charges repel each other. 3. Each charged hair pushes away from its neighboring hairs, causing them to stand on end or spread out.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of electrostatics)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "electricity", "static electricity", "charge", "repulsion"]
+    }
+  },
+  {
+    "Problem Statement": "What is dissolving?",
+    "Solution": "When a solid breaks down into tiny particles and mixes evenly into a liquid.",
+    "Step-by-Step Explanation": "1. A substance that dissolves (solute, like sugar) is added to a liquid (solvent, like water). 2. The liquid molecules surround the solid particles, pulling them apart from the solid structure. 3. These tiny particles (molecules or ions) spread out uniformly throughout the liquid, forming a solution.",
+    "Metadata": {
+      "Type of Reasoning": "Definition",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "solutions", "solubility", "mixing", "dissolving"]
+    }
+  },
+  {
+    "Problem Statement": "Why do helium balloons float?",
+    "Solution": "Helium gas is less dense (lighter) than the surrounding air.",
+    "Step-by-Step Explanation": "1. Objects float in a fluid (like air) if they are less dense than the fluid (Archimedes' principle). 2. Helium gas has much less mass per unit volume than air. 3. A balloon filled with helium weighs less than the volume of air it displaces, so the buoyant force from the air pushes it upwards.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of density and buoyancy)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "density", "buoyancy", "gases", "helium"]
+    }
+  },
+  {
+    "Problem Statement": "What makes rainbows appear?",
+    "Solution": "Sunlight passing through raindrops, which splits the light into its different colors.",
+    "Step-by-Step Explanation": "1. Sunlight (white light) is made of many colors. 2. When sunlight enters a raindrop, it bends (refracts) and separates slightly into its different colors (dispersion), like a prism. 3. The light then reflects off the back of the raindrop and bends again as it exits. 4. This process separates the colors further, and we see them arranged as a rainbow arc in the sky.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of optics)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "light", "optics", "refraction", "reflection", "dispersion", "rainbow"]
+    }
+  },
+  {
+    "Problem Statement": "What is inertia?",
+    "Solution": "The tendency of an object to resist changes in its state of motion.",
+    "Step-by-Step Explanation": "1. An object at rest tends to stay at rest, and an object in motion tends to stay in motion with the same speed and direction (Newton's First Law). 2. Inertia is this resistance to acceleration or deceleration. 3. Objects with more mass have more inertia, meaning it takes more force to change their motion.",
+    "Metadata": {
+      "Type of Reasoning": "Definition",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "motion", "inertia", "force", "Newton's laws"]
+    }
+  },
+  {
+    "Problem Statement": "Why do batteries eventually run out?",
+    "Solution": "The chemical reactions inside that produce electricity use up the stored chemicals.",
+    "Step-by-Step Explanation": "1. Batteries store chemical energy. 2. Specific chemical reactions inside the battery convert this chemical energy into electrical energy, pushing electrons through a circuit. 3. These reactions consume the reactant chemicals within the battery. 4. Eventually, the reactants are depleted, the reactions stop, and the battery can no longer produce electricity.",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of electrochemistry)",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "electrochemistry", "batteries", "energy", "chemical reaction"]
+    }
+  },
+  {
+    "Problem Statement": "What are the tiny building blocks of all matter called?",
+    "Solution": "Atoms.",
+    "Step-by-Step Explanation": "1. All substances, whether solid, liquid, or gas, are composed of extremely small particles. 2. The fundamental building blocks of chemical elements are called atoms. 3. Atoms can combine to form molecules, which make up most substances.",
+    "Metadata": {
+      "Type of Reasoning": "Definition/Factual Recall",
+      "Difficulty Level": "Easy",
+      "Tags": ["chemistry", "physics", "atoms", "matter", "particles"]
+    }
+  },
+  {
+    "Problem Statement": "Why does heating metal often make it glow (like in a toaster)?",
+    "Solution": "Very hot objects emit visible light through a process called incandescence.",
+    "Step-by-Step Explanation": "1. Heating an object increases the vibration and energy of its atoms. 2. When an object gets hot enough, these energetic atoms emit electromagnetic radiation. 3. At sufficiently high temperatures, some of this radiation falls within the visible light spectrum, causing the object to glow (typically red, then orange, yellow, and white as temperature increases).",
+    "Metadata": {
+      "Type of Reasoning": "Deductive (applying principles of thermodynamics and light)",
+      "Difficulty Level": "Easy",
+      "Tags": ["physics", "heat", "light", "radiation", "incandescence", "temperature"]
+    }
+  }
+]

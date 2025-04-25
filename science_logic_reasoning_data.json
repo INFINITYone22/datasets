@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "sl_001",
+    "category": "logic",
+    "type": "deductive",
+    "prompt": "All mammals are warm-blooded. A dolphin is a mammal. What can be concluded about dolphins?",
+    "reasoning_steps": [
+      "Premise 1: All mammals are warm-blooded.",
+      "Premise 2: A dolphin is a mammal.",
+      "Conclusion: Therefore, based on the premises, a dolphin must be warm-blooded."
+    ],
+    "answer": "A dolphin is warm-blooded."
+  },
+  {
+    "id": "sl_002",
+    "category": "science",
+    "type": "scientific_method",
+    "prompt": "A student observes that plants in one corner of the garden grow taller than plants in another corner. They hypothesize it's due to differences in sunlight. What is the next logical step according to the scientific method?",
+    "reasoning_steps": [
+      "Observation: Differential plant growth.",
+      "Hypothesis: Sunlight difference is the cause.",
+      "Scientific Method Step: Design an experiment to test the hypothesis.",
+      "Experimental Design: Grow identical plants under controlled conditions, varying only the amount of sunlight, and measure growth."
+    ],
+    "answer": "Design a controlled experiment to test the hypothesis by varying sunlight levels while keeping other factors (water, soil) constant."
+  },
+  {
+    "id": "sl_003",
+    "category": "logic",
+    "type": "inductive",
+    "prompt": "Every swan I have ever seen is white. What is a likely, though not certain, conclusion?",
+    "reasoning_steps": [
+      "Observation 1: Swan 1 is white.",
+      "Observation 2: Swan 2 is white.",
+      "... Observation N: Swan N is white.",
+      "Inductive Leap: Based on repeated observations, generalize the property to all members of the class.",
+      "Caveat: Inductive conclusions are probabilistic, not guaranteed (e.g., black swans exist)."
+    ],
+    "answer": "All swans are white."
+  },
+  {
+    "id": "sl_004",
+    "category": "science",
+    "type": "causal",
+    "prompt": "When the temperature drops below 0°C, water turns into ice. What is the causal relationship described?",
+    "reasoning_steps": [
+      "Event A: Temperature drops below 0°C.",
+      "Event B: Water turns into ice.",
+      "Relationship: Event A causes Event B.",
+      "Scientific Principle: This describes the phase transition of water (freezing)."
+    ],
+    "answer": "The temperature dropping below 0°C causes water to freeze and turn into ice."
+  },
+  {
+    "id": "sl_005",
+    "category": "logic",
+    "type": "analogy",
+    "prompt": "A battery is to a flashlight as a heart is to a ______. Explain the relationship.",
+    "reasoning_steps": [
+      "Identify the relationship in the first pair: A battery provides power to a flashlight, enabling it to function.",
+      "Apply the same relationship to the second pair: The heart provides the necessary function (pumping blood) for an animal to live.",
+      "Find the term that fits: An animal (or organism/body) requires the heart to function."
+    ],
+    "answer": "An animal (or body/organism). The heart pumps blood, providing the necessary function for the animal's body, just as a battery provides power for the flashlight."
+  },
+  {
+    "id": "sl_006",
+    "category": "science",
+    "type": "classification",
+    "prompt": "Is a whale a fish or a mammal? Justify your answer based on biological characteristics.",
+    "reasoning_steps": [
+      "Recall defining characteristics of fish: Gills for breathing underwater, typically cold-blooded, lay eggs.",
+      "Recall defining characteristics of mammals: Lungs for breathing air, warm-blooded, give birth to live young, produce milk.",
+      "Compare whale characteristics: Whales breathe air using lungs (must surface), are warm-blooded, give birth to live young, and nurse their young with milk.",
+      "Conclusion: Whales possess the defining characteristics of mammals, not fish."
+    ],
+    "answer": "A whale is a mammal. Unlike fish which have gills, whales breathe air with lungs. They are also warm-blooded, give birth to live young, and produce milk, all key characteristics of mammals."
+  },
+  {
+    "id": "sl_007",
+    "category": "logic",
+    "type": "deductive",
+    "prompt": "If it is raining, the ground is wet. The ground is not wet. What can you conclude?",
+    "reasoning_steps": [
+      "Premise 1 (Conditional): If P (it is raining), then Q (the ground is wet).",
+      "Premise 2: Not Q (the ground is not wet).",
+      "Logical Rule (Modus Tollens): If P implies Q, and Q is false, then P must be false.",
+      "Conclusion: Therefore, it is not raining."
+    ],
+    "answer": "It is not raining."
+  },
+  {
+    "id": "sl_008",
+    "category": "science",
+    "type": "prediction",
+    "prompt": "Based on the theory of gravity, what will happen if you release a ball held in the air?",
+    "reasoning_steps": [
+      "Identify relevant theory: Newton's Law of Universal Gravitation states that objects with mass attract each other.",
+      "Apply theory to scenario: The Earth has significant mass, and the ball has mass. Earth will exert a gravitational force on the ball.",
+      "Predict outcome: The force will cause the ball to accelerate towards the center of the Earth (i.e., fall downwards)."
+    ],
+    "answer": "The ball will fall to the ground due to the force of gravity exerted by the Earth."
+  },
+  {
+    "id": "sl_009",
+    "category": "logic",
+    "type": "syllogism",
+    "prompt": "Premise 1: All birds have feathers. Premise 2: Penguins are birds. Conclusion?",
+    "reasoning_steps": [
+      "Major Premise: All members of category A (birds) have property B (feathers).",
+      "Minor Premise: Item C (Penguins) is a member of category A (birds).",
+      "Deductive Conclusion: Therefore, Item C (Penguins) must have property B (feathers)."
+    ],
+    "answer": "Penguins have feathers."
+  },
+  {
+    "id": "sl_010",
+    "category": "science",
+    "type": "explanation",
+    "prompt": "Why do leaves change color in the fall?",
+    "reasoning_steps": [
+      "Identify the primary pigment: Chlorophyll gives leaves their green color and is essential for photosynthesis.",
+      "Explain the seasonal change: In fall, shorter days and cooler temperatures signal trees to stop producing chlorophyll.",
+      "Reveal underlying pigments: As chlorophyll breaks down, other pigments already present in the leaves (carotenoids - yellows/oranges, anthocyanins - reds/purples) become visible.",
+      "Connect to function: This process conserves resources for the tree during winter."
+    ],
+    "answer": "Leaves change color in the fall because trees stop producing chlorophyll (the green pigment) as days get shorter and colder. This allows other pigments, like yellow and orange carotenoids and red/purple anthocyanins, which were masked by the green chlorophyll, to become visible."
+  },
+  {
+    "id": "sl_011",
+    "category": "logic",
+    "type": "conditional_reasoning",
+    "prompt": "The sign says 'If you are over 1.2m tall, you can ride the rollercoaster'. Sarah is 1.1m tall. Can Sarah ride?",
+    "reasoning_steps": [
+      "Condition: Height > 1.2m for riding.",
+      "Sarah's Height: 1.1m.",
+      "Comparison: 1.1m is not greater than 1.2m.",
+      "Conclusion: Sarah does not meet the condition."
+    ],
+    "answer": "No, Sarah cannot ride the rollercoaster because she does not meet the height requirement."
+  },
+  {
+    "id": "sl_012",
+    "category": "science",
+    "type": "process_understanding",
+    "prompt": "Describe the process of photosynthesis in simple terms.",
+    "reasoning_steps": [
+      "Inputs: Plants take in carbon dioxide (from air), water (from soil), and sunlight (energy).",
+      "Location: Process occurs in chloroplasts, containing chlorophyll.",
+      "Transformation: Sunlight energy is used to convert carbon dioxide and water into glucose (sugar/food for the plant).",
+      "Output: Oxygen is released as a byproduct."
+    ],
+    "answer": "Photosynthesis is how plants make their own food. They use sunlight, water, and carbon dioxide to create sugar (glucose) for energy, and release oxygen as a byproduct."
+  },
+  {
+    "id": "sl_013",
+    "category": "logic",
+    "type": "negation",
+    "prompt": "Statement: 'All cats like fish'. What is the logical negation of this statement?",
+    "reasoning_steps": [
+      "Original Statement Quantifier: Universal ('All').",
+      "Negation Principle: To negate a universal statement ('All A are B'), you need to show that *at least one* A is *not* B.",
+      "Apply Negation: The negation is 'Not all cats like fish', or equivalently, 'Some cats do not like fish'."
+    ],
+    "answer": "Some cats do not like fish (or: Not all cats like fish)."
+  },
+  {
+    "id": "sl_014",
+    "category": "science",
+    "type": "energy_transformation",
+    "prompt": "When you turn on a lamp, what energy transformation takes place?",
+    "reasoning_steps": [
+      "Input Energy Form: Electricity flows into the lamp.",
+      "Device Function: The lamp's purpose is to produce light.",
+      "Primary Output Energy Form: Light energy is emitted.",
+      "Secondary Output Energy Form: Heat is also generated as a byproduct (lamps get warm).",
+      "Transformation Summary: Electrical energy is converted primarily into light energy and secondarily into heat energy."
+    ],
+    "answer": "Electrical energy is transformed into light energy and heat energy."
+  },
+  {
+    "id": "sl_015",
+    "category": "logic",
+    "type": "fallacy_identification",
+    "prompt": "'My grandfather smoked cigars his whole life and lived to be 95. Therefore, smoking cigars is not harmful.' What logical fallacy is present?",
+    "reasoning_steps": [
+      "Analyze the Argument: The argument uses a single personal case (anecdote) to counter general scientific evidence.",
+      "Identify the Flaw: A single case does not disprove a general trend or statistical correlation (many factors affect lifespan; smoking is a known risk factor).",
+      "Name the Fallacy: This is an example of Hasty Generalization or Anecdotal Evidence fallacy."
+    ],
+    "answer": "Hasty Generalization (or Anecdotal Fallacy). A single case doesn't disprove the general scientific consensus that smoking is harmful."
+  },
+  {
+    "id": "sl_016",
+    "category": "science",
+    "type": "states_of_matter",
+    "prompt": "What happens to the molecules in water when it boils and turns into steam?",
+    "reasoning_steps": [
+      "Initial State (Liquid Water): Molecules are close together but can move past each other.",
+      "Process (Boiling): Heat energy is added.",
+      "Effect of Energy: Increased energy causes molecules to move much faster and overcome the forces holding them together.",
+      "Final State (Steam/Gas): Molecules spread far apart and move randomly at high speeds.",
+      "Phase Change: This describes the transition from liquid to gas."
+    ],
+    "answer": "The water molecules gain energy, move much faster, overcome the forces holding them together, and spread far apart, transitioning into a gaseous state (steam)."
+  },
+  {
+    "id": "sl_017",
+    "category": "logic",
+    "type": "set_theory",
+    "prompt": "Set A = {1, 2, 3, 4}. Set B = {3, 4, 5, 6}. What is the intersection of Set A and Set B (A ∩ B)?",
+    "reasoning_steps": [
+      "Definition of Intersection: The intersection of two sets contains elements that are present in *both* sets.",
+      "Examine Set A: {1, 2, 3, 4}",
+      "Examine Set B: {3, 4, 5, 6}",
+      "Identify Common Elements: The numbers 3 and 4 are in both Set A and Set B.",
+      "Result: A ∩ B = {3, 4}"
+    ],
+    "answer": "{3, 4}"
+  },
+  {
+    "id": "sl_018",
+    "category": "science",
+    "type": "adaptation",
+    "prompt": "Why do cacti have spines instead of leaves?",
+    "reasoning_steps": [
+      "Environment: Cacti typically live in hot, dry deserts.",
+      "Problem 1: Water loss through leaves (transpiration).",
+      "Adaptation 1: Spines have much less surface area than leaves, significantly reducing water loss.",
+      "Problem 2: Protection from animals seeking water.",
+      "Adaptation 2: Spines deter animals from eating the cactus.",
+      "Photosynthesis: Photosynthesis occurs in the cactus stem, not leaves."
+    ],
+    "answer": "Cacti have spines primarily to reduce water loss in their dry environment (spines have less surface area than leaves) and to protect themselves from animals."
+  },
+  {
+    "id": "sl_019",
+    "category": "logic",
+    "type": "causal_fallacy",
+    "prompt": "'Every time I wear my lucky socks, my team wins. My lucky socks cause the team to win.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Observation: Correlation between wearing socks (A) and team winning (B).",
+      "Claim: A causes B.",
+      "Identify the Flaw: Correlation does not imply causation. Just because two events happen together doesn't mean one causes the other. There could be coincidence or other factors.",
+      "Name the Fallacy: Post hoc ergo propter hoc (after this, therefore because of this) or False Cause."
+    ],
+    "answer": "False Cause (or Post hoc ergo propter hoc). The argument mistakenly assumes that because one event follows another, the first event must have caused the second. Correlation does not equal causation."
+  },
+  {
+    "id": "sl_020",
+    "category": "science",
+    "type": "ecosystem_role",
+    "prompt": "What is the role of decomposers (like fungi and bacteria) in an ecosystem?",
+    "reasoning_steps": [
+      "Identify Decomposers: Organisms like fungi and bacteria.",
+      "Input: They feed on dead organic matter (dead plants, animals, waste).",
+      "Process: They break down complex organic compounds into simpler inorganic substances.",
+      "Output/Role: Return essential nutrients (like nitrogen, phosphorus) back into the soil/water.",
+      "Importance: These nutrients are then available for producers (plants) to use, completing the nutrient cycle."
+    ],
+    "answer": "Decomposers break down dead plants and animals, returning essential nutrients to the soil and water, making them available for plants to use again. They are crucial for nutrient cycling."
+  },
+  {
+    "id": "sl_021",
+    "category": "logic",
+    "type": "quantifiers",
+    "prompt": "If 'Some mammals can fly' is true, what can be definitively concluded about the statement 'No mammals can fly'?",
+    "reasoning_steps": [
+      "Statement 1: 'Some mammals can fly' (There exists at least one mammal that can fly - e.g., bats). This is TRUE.",
+      "Statement 2: 'No mammals can fly' (For all mammals, they cannot fly).",
+      "Relationship: Statement 1 directly contradicts Statement 2. If at least one mammal can fly, it cannot be true that zero mammals can fly.",
+      "Conclusion: If 'Some mammals can fly' is true, then 'No mammals can fly' must be false."
+    ],
+    "answer": "The statement 'No mammals can fly' must be false."
+  },
+  {
+    "id": "sl_022",
+    "category": "science",
+    "type": "force_and_motion",
+    "prompt": "According to Newton's First Law of Motion, what happens to an object in motion if no external forces act on it?",
+    "reasoning_steps": [
+      "Recall Newton's First Law (Law of Inertia): An object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.",
+      "Condition: No external forces acting on the object.",
+      "Scenario: Object is already in motion.",
+      "Conclusion: The object will continue to move at a constant velocity (same speed and same direction)."
+    ],
+    "answer": "The object will continue to move at a constant velocity (constant speed and direction)."
+  },
+  {
+    "id": "sl_023",
+    "category": "logic",
+    "type": "truth_tables",
+    "prompt": "Consider the logical operator AND (∧). If statement P is True and statement Q is False, what is the truth value of P ∧ Q?",
+    "reasoning_steps": [
+      "Definition of AND (∧): The statement P ∧ Q is true if and only if *both* P and Q are true.",
+      "Given P: True.",
+      "Given Q: False.",
+      "Evaluation: Since Q is False, the condition 'both P and Q are true' is not met.",
+      "Conclusion: P ∧ Q is False."
+    ],
+    "answer": "False."
+  },
+  {
+    "id": "sl_024",
+    "category": "science",
+    "type": "sound_transmission",
+    "prompt": "Why can't you hear sound in the vacuum of space?",
+    "reasoning_steps": [
+      "Nature of Sound: Sound is a mechanical wave, meaning it requires a medium (solid, liquid, or gas) to travel.",
+      "How Sound Travels: Sound waves propagate by causing vibrations in the particles of the medium.",
+      "Condition of Space: Space is largely a vacuum, meaning it lacks a significant amount of particles (matter).",
+      "Conclusion: Without a medium for the vibrations to travel through, sound waves cannot propagate."
+    ],
+    "answer": "Sound requires a medium (like air, water, or solids) to travel through by vibrating particles. Space is a vacuum, meaning there are virtually no particles to carry the sound vibrations."
+  },
+  {
+    "id": "sl_025",
+    "category": "logic",
+    "type": "equivalence",
+    "prompt": "Is the statement 'If it is sunny, I will go to the park' logically equivalent to 'If I do not go to the park, then it is not sunny'?",
+    "reasoning_steps": [
+      "Original Statement (P → Q): P = 'it is sunny', Q = 'I will go to the park'.",
+      "Second Statement (¬Q → ¬P): ¬Q = 'I do not go to the park', ¬P = 'it is not sunny'.",
+      "Logical Equivalence Rule: The conditional statement (P → Q) is logically equivalent to its contrapositive (¬Q → ¬P).",
+      "Conclusion: Yes, the two statements are logically equivalent. They represent the same logical relationship."
+    ],
+    "answer": "Yes, the statements are logically equivalent. The second statement is the contrapositive of the first."
+  },
+  {
+    "id": "sl_026",
+    "category": "science",
+    "type": "hypothesis_testing",
+    "prompt": "A scientist hypothesizes that a new fertilizer increases crop yield. They set up two fields: one with the fertilizer (Group A) and one without (Group B, control). After harvest, Group A has a significantly higher yield. Does this prove the hypothesis?",
+    "reasoning_steps": [
+      "Hypothesis: Fertilizer increases yield.",
+      "Experiment: Controlled test with treatment (A) and control (B) groups.",
+      "Result: Group A yield > Group B yield.",
+      "Interpretation: The result *supports* the hypothesis.",
+      "Caveat: 'Proof' in science is strong. Need replication, consideration of other variables, statistical significance. But the evidence is consistent with the hypothesis."
+    ],
+    "answer": "The result strongly supports the hypothesis, but doesn't definitively 'prove' it in a single experiment. Replication and further analysis are needed, but the evidence is consistent with the fertilizer increasing yield."
+  },
+  {
+    "id": "sl_027",
+    "category": "logic",
+    "type": "disjunction",
+    "prompt": "The rule is: 'You can have cake or ice cream'. If you choose cake, can you also have ice cream according to this specific rule?",
+    "reasoning_steps": [
+      "Operator: 'OR' (disjunction).",
+      "Interpretation in Logic: Inclusive OR usually means one, the other, or both, unless specified as exclusive.",
+      "Interpretation in Natural Language: Often implies exclusive OR ('choose one').",
+      "Analysis: The phrasing 'cake OR ice cream' typically implies a choice between the two in a real-world context.",
+      "Conclusion: Based on common understanding, choosing cake likely excludes ice cream under this rule."
+    ],
+    "answer": "Typically, in this context, 'or' implies a choice, so choosing cake means you cannot also have ice cream according to the rule as commonly understood. (Note: In formal logic, 'or' is often inclusive)."
+  },
+  {
+    "id": "sl_028",
+    "category": "science",
+    "type": "density",
+    "prompt": "Why does oil float on water?",
+    "reasoning_steps": [
+      "Concept: Density (mass per unit volume).",
+      "Comparison: Oil is less dense than water.",
+      "Principle: When two immiscible liquids are mixed, the less dense liquid will float on top of the denser liquid.",
+      "Conclusion: Because oil has a lower density than water, it floats on top."
+    ],
+    "answer": "Oil floats on water because it is less dense than water."
+  },
+  {
+    "id": "sl_029",
+    "category": "logic",
+    "type": "modus_ponens",
+    "prompt": "Premise 1: If a shape is a square, then it has four equal sides. Premise 2: This shape is a square. Conclusion?",
+    "reasoning_steps": [
+      "Premise 1 (Conditional): If P (is a square), then Q (has four equal sides).",
+      "Premise 2: P (This shape is a square).",
+      "Logical Rule (Modus Ponens): If P implies Q, and P is true, then Q must be true.",
+      "Conclusion: Therefore, this shape has four equal sides."
+    ],
+    "answer": "This shape has four equal sides."
+  },
+  {
+    "id": "sl_030",
+    "category": "science",
+    "type": "reflection",
+    "prompt": "Why do mirrors reverse left and right, but not top and bottom?",
+    "reasoning_steps": [
+      "Mirror Function: Mirrors reflect light.",
+      "Reflection Axis: Reflection occurs along the axis perpendicular to the mirror surface (front-to-back).",
+      "Effect: What is closer to the mirror appears closer in the reflection, what is further appears further. This reverses the front-back dimension.",
+      "Apparent Left-Right Reversal: Our perception interprets this front-back reversal as a left-right swap because we mentally 'turn' the reflection to face us.",
+      "Top-Bottom: The top of an object points up, and its reflection's top also points up relative to the reflected environment. There's no reversal along this axis."
+    ],
+    "answer": "Mirrors actually reverse front-to-back relative to the mirror's surface. Our brain interprets this front-back reversal as a left-right swap when we imagine rotating the reflection to face us. Top and bottom are not reversed along the reflection axis."
+  },
+  {
+    "id": "sl_031",
+    "category": "logic",
+    "type": "existential_quantifier",
+    "prompt": "Statement: 'There exists a prime number greater than 100'. Is this statement true or false?",
+    "reasoning_steps": [
+      "Quantifier: 'There exists' (Existential Quantifier, ∃).",
+      "Condition: A number that is both prime (divisible only by 1 and itself) and greater than 100.",
+      "Search for Example: We need to find just one example. 101 is prime (not divisible by 2, 3, 5, 7).",
+      "Conclusion: Since we found an example (101), the statement is true."
+    ],
+    "answer": "True (e.g., 101 is a prime number greater than 100)."
+  },
+  {
+    "id": "sl_032",
+    "category": "science",
+    "type": "chemical_reaction",
+    "prompt": "What happens chemically when iron rusts?",
+    "reasoning_steps": [
+      "Reactants: Iron (Fe), Oxygen (O2) from the air, and Water (H2O) often acts as a catalyst.",
+      "Process: Oxidation. Iron atoms lose electrons.",
+      "Product: Iron oxides are formed, typically hydrated iron(III) oxide (Fe2O3·nH2O).",
+      "Observation: Reddish-brown, flaky substance appears on the iron surface."
+    ],
+    "answer": "Iron reacts with oxygen in the presence of water (or moisture) in a chemical process called oxidation. This forms iron oxides, commonly known as rust."
+  },
+  {
+    "id": "sl_033",
+    "category": "logic",
+    "type": "contradiction",
+    "prompt": "Can a statement be both true and false at the same time in standard logic?",
+    "reasoning_steps": [
+      "Principle: Law of Non-Contradiction.",
+      "Statement of Law: A proposition (statement) cannot be both true (T) and false (F) simultaneously in the same sense.",
+      "Formula: ¬(P ∧ ¬P) is always true.",
+      "Conclusion: No, according to the Law of Non-Contradiction."
+    ],
+    "answer": "No, according to the Law of Non-Contradiction, a statement cannot be both true and false at the same time."
+  },
+  {
+    "id": "sl_034",
+    "category": "science",
+    "type": "evolution",
+    "prompt": "Explain the concept of natural selection in brief.",
+    "reasoning_steps": [
+      "Variation: Individuals within a population have variations in their traits.",
+      "Heritability: These traits can be passed down from parents to offspring.",
+      "Differential Survival/Reproduction: Some traits give individuals an advantage in surviving and reproducing in their specific environment.",
+      "Result: Individuals with advantageous traits are more likely to survive and pass those traits on. Over generations, these traits become more common in the population."
+    ],
+    "answer": "Natural selection is the process where organisms with traits better suited to their environment tend to survive and reproduce more offspring, leading to those advantageous traits becoming more common over generations."
+  },
+  {
+    "id": "sl_035",
+    "category": "logic",
+    "type": "biconditional",
+    "prompt": "Statement: 'A triangle has three sides if and only if it is a three-sided polygon'. Is this statement true?",
+    "reasoning_steps": [
+      "Operator: 'if and only if' (Biconditional, ↔).",
+      "Meaning: P if and only if Q (P ↔ Q) means (P → Q) AND (Q → P).",
+      "Part 1 (P → Q): If a triangle has three sides (P), then it is a three-sided polygon (Q). True by definition.",
+      "Part 2 (Q → P): If it is a three-sided polygon (Q), then a triangle has three sides (P). True by definition.",
+      "Conclusion: Since both implications are true, the biconditional statement is true."
+    ],
+    "answer": "Yes, the statement is true because both implications ('if triangle has 3 sides, then it's a 3-sided polygon' and 'if it's a 3-sided polygon, then a triangle has 3 sides') are true."
+  },
+  {
+    "id": "sl_036",
+    "category": "science",
+    "type": "plate_tectonics",
+    "prompt": "What causes earthquakes?",
+    "reasoning_steps": [
+      "Earth's Structure: The Earth's outer layer (lithosphere) is broken into large pieces called tectonic plates.",
+      "Plate Movement: These plates are constantly moving slowly.",
+      "Interaction: Plates interact at boundaries - they can collide, pull apart, or slide past each other.",
+      "Stress Accumulation: Movement builds up stress (energy) in the rocks at plate boundaries.",
+      "Release (Earthquake): When the stress exceeds the rock's strength, the rock breaks or slips suddenly along a fault, releasing the stored energy as seismic waves.",
+      "Effect: These waves travel through the Earth, causing the ground shaking we feel as an earthquake."
+    ],
+    "answer": "Earthquakes are primarily caused by the sudden movement or slipping of tectonic plates along faults. This movement releases stored energy in the form of seismic waves, which cause the ground to shake."
+  },
+  {
+    "id": "sl_037",
+    "category": "logic",
+    "type": "inference_to_best_explanation",
+    "prompt": "You see wet footprints leading away from a swimming pool on a dry, sunny day. What is the most likely explanation?",
+    "reasoning_steps": [
+      "Observation 1: Wet footprints.",
+      "Observation 2: Footprints lead away from a pool.",
+      "Observation 3: Ground elsewhere is dry and sunny.",
+      "Possible Explanations: a) Someone got out of the pool and walked. b) Someone spilled water in the shape of footprints. c) It rained only in that specific path.",
+      "Evaluate Explanations: a) Simple, common, fits all facts. b) Possible but less likely/contrived. c) Very unlikely given 'sunny day'.",
+      "Conclusion: The best explanation is that someone recently got out of the pool."
+    ],
+    "answer": "The most likely explanation is that someone recently got out of the swimming pool and walked away, leaving wet footprints."
+  },
+  {
+    "id": "sl_038",
+    "category": "science",
+    "type": "cell_biology",
+    "prompt": "What is the main function of mitochondria in a cell?",
+    "reasoning_steps": [
+      "Identify Organelle: Mitochondria.",
+      "Common Name: Often called the 'powerhouse' of the cell.",
+      "Process: Site of cellular respiration.",
+      "Transformation: Convert chemical energy stored in glucose and oxygen into adenosine triphosphate (ATP).",
+      "ATP Function: ATP is the main energy currency used by the cell to power various activities.",
+      "Conclusion: Generate most of the cell's supply of ATP."
+    ],
+    "answer": "The main function of mitochondria is to generate most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy. They are the site of cellular respiration."
+  },
+  {
+    "id": "sl_039",
+    "category": "logic",
+    "type": "argument_validity",
+    "prompt": "Argument: 1. All dogs are mammals. 2. Fido is a dog. 3. Therefore, Fido is a mammal. Is this argument valid?",
+    "reasoning_steps": [
+      "Definition of Validity: An argument is valid if the conclusion logically follows from the premises. If the premises are true, the conclusion *must* be true.",
+      "Analyze Structure: The argument follows the structure: All A are B. C is A. Therefore, C is B.",
+      "Evaluate Structure: This is a standard valid deductive form (syllogism).",
+      "Conclusion: Yes, the argument is valid because the conclusion necessarily follows from the premises."
+    ],
+    "answer": "Yes, the argument is valid. The conclusion logically follows from the premises."
+  },
+  {
+    "id": "sl_040",
+    "category": "science",
+    "type": "gravity_effect",
+    "prompt": "Why do astronauts float in the International Space Station (ISS)? Is it because there's no gravity?",
+    "reasoning_steps": [
+      "Gravity in Orbit: There is significant gravity at the altitude of the ISS (about 90% of Earth's surface gravity).",
+      "ISS Motion: The ISS is not stationary; it is constantly falling *around* the Earth in orbit.",
+      "Astronaut Motion: The astronauts inside are also falling at the same rate as the station.",
+      "Apparent Weightlessness: Because the station and everything in it are falling together, they experience a state of continuous freefall, which appears as weightlessness or floating.",
+      "Analogy: Similar to the brief feeling of weightlessness at the top of a rollercoaster drop."
+    ],
+    "answer": "No, there is substantial gravity. Astronauts float because both they and the ISS are in a constant state of freefall around the Earth. They are falling together, creating the sensation of weightlessness."
+  },
+  {
+    "id": "sl_041",
+    "category": "logic",
+    "type": "counterexample",
+    "prompt": "How can you disprove the statement 'All birds can fly'?",
+    "reasoning_steps": [
+      "Statement Type: Universal claim ('All A have property B').",
+      "Disproof Method: Find a counterexample - an instance of A that does *not* have property B.",
+      "Search for Counterexample: Think of birds that do not fly.",
+      "Examples: Penguins, ostriches, kiwis.",
+      "Conclusion: Providing a single example of a bird that cannot fly (like a penguin) disproves the universal statement."
+    ],
+    "answer": "By providing a counterexample, such as a penguin or an ostrich, which are birds but cannot fly."
+  },
+  {
+    "id": "sl_042",
+    "category": "science",
+    "type": "magnetism",
+    "prompt": "What happens if you break a bar magnet in half?",
+    "reasoning_steps": [
+      "Nature of Magnetism: Magnetism arises from the alignment of magnetic domains within the material.",
+      "Bar Magnet Structure: Has a North pole and a South pole.",
+      "Breaking the Magnet: When broken, the alignment of domains persists in each piece.",
+      "Result: Each new piece will immediately have its own North and South pole.",
+      "Conclusion: You get two smaller magnets, each with a North and a South pole. You cannot isolate a single pole (monopole)."
+    ],
+    "answer": "You get two smaller magnets, each with its own North pole and South pole. You cannot create a magnet with only a North or only a South pole."
+  },
+  {
+    "id": "sl_043",
+    "category": "logic",
+    "type": "necessary_sufficient",
+    "prompt": "Consider 'Being a square is a _______ condition for having four sides'. Fill in the blank (necessary, sufficient, or both).",
+    "reasoning_steps": [
+      "Analyze 'Sufficient': If X is sufficient for Y, then X guarantees Y (If X, then Y). If something is a square, does it guarantee it has four sides? Yes.",
+      "Analyze 'Necessary': If X is necessary for Y, then Y requires X (If Y, then X). If something has four sides, does it require it to be a square? No (e.g., rectangle, rhombus).",
+      "Conclusion: Being a square guarantees four sides (sufficient), but having four sides doesn't require being a square (not necessary)."
+    ],
+    "answer": "sufficient"
+  },
+  {
+    "id": "sl_044",
+    "category": "science",
+    "type": "water_cycle",
+    "prompt": "Where does the water in clouds come from?",
+    "reasoning_steps": [
+      "Source: Water on Earth's surface (oceans, lakes, rivers, soil, plants).",
+      "Process 1 (Evaporation/Transpiration): Heat from the sun causes surface water to evaporate (turn into water vapor, a gas). Plants also release water vapor (transpiration).",
+      "Process 2 (Rising Air): Warm, moist air rises.",
+      "Process 3 (Cooling): As air rises, it cools.",
+      "Process 4 (Condensation): Cooler air can hold less water vapor. The excess vapor condenses onto tiny particles (dust, pollen) forming tiny water droplets or ice crystals.",
+      "Result (Clouds): Masses of these tiny droplets or crystals form clouds."
+    ],
+    "answer": "The water in clouds comes from water vapor that has evaporated from the Earth's surface (like oceans and lakes) or transpired from plants. This vapor rises, cools, and condenses into tiny water droplets or ice crystals that form clouds."
+  },
+  {
+    "id": "sl_045",
+    "category": "logic",
+    "type": "soundness",
+    "prompt": "Argument: 1. All fish live in trees. 2. A salmon is a fish. 3. Therefore, a salmon lives in trees. Is this argument sound?",
+    "reasoning_steps": [
+      "Definition of Soundness: An argument is sound if it is *both* valid *and* all its premises are true.",
+      "Step 1: Check Validity. The argument structure (All A are B. C is A. Therefore, C is B) is valid.",
+      "Step 2: Check Premises. Premise 1 ('All fish live in trees') is false. Premise 2 ('A salmon is a fish') is true.",
+      "Conclusion: Since at least one premise (Premise 1) is false, the argument is not sound, even though it is valid."
+    ],
+    "answer": "No, the argument is not sound. Although it is logically valid, the first premise ('All fish live in trees') is false."
+  },
+  {
+    "id": "sl_046",
+    "category": "science",
+    "type": "light_spectrum",
+    "prompt": "Why does a prism split white light into different colors?",
+    "reasoning_steps": [
+      "Nature of White Light: White light is actually composed of a mixture of all visible colors (the spectrum - ROYGBIV).",
+      "Nature of Light: Light travels as waves.",
+      "Refraction: When light passes from one medium to another (like air to glass), it bends (refracts).",
+      "Wavelength Dependence: The amount of bending depends on the wavelength (color) of the light. Shorter wavelengths (blue/violet) bend more than longer wavelengths (red).",
+      "Prism Effect: As white light enters the prism, each color bends by a slightly different amount. As it exits, it bends again, further separating the colors.",
+      "Result: The different colors spread out, forming a visible spectrum."
+    ],
+    "answer": "A prism splits white light because different colors of light (which have different wavelengths) bend by slightly different amounts when they pass through the glass. This phenomenon, called dispersion, separates the colors, revealing the spectrum."
+  },
+  {
+    "id": "sl_047",
+    "category": "logic",
+    "type": "paradox",
+    "prompt": "Consider the statement: 'This statement is false'. If it's true, what does that imply? If it's false, what does that imply?",
+    "reasoning_steps": [
+      "Assume True: If 'This statement is false' is true, then what it says must be correct. Therefore, the statement must be false.",
+      "Contradiction 1: We assumed it was true, and concluded it must be false.",
+      "Assume False: If 'This statement is false' is false, then what it says must be incorrect. Therefore, the statement must not be false, meaning it must be true.",
+      "Contradiction 2: We assumed it was false, and concluded it must be true.",
+      "Nature: This is a self-referential statement that leads to a contradiction, known as the Liar Paradox."
+    ],
+    "answer": "This is the Liar Paradox. If you assume the statement is true, it implies it must be false. If you assume it's false, it implies it must be true. It creates a logical contradiction."
+  },
+  {
+    "id": "sl_048",
+    "category": "science",
+    "type": "buoyancy",
+    "prompt": "Why does a heavy steel ship float, while a small steel ball sinks?",
+    "reasoning_steps": [
+      "Principle: Archimedes' Principle - An object submerged in fluid experiences an upward buoyant force equal to the weight of the fluid it displaces.",
+      "Steel Ball: Displaces a small volume of water. The weight of this displaced water (buoyant force) is less than the weight of the steel ball, so it sinks.",
+      "Ship's Shape: A ship has a hollow shape, enclosing a large volume.",
+      "Ship Displacement: The ship displaces a very large volume of water.",
+      "Buoyant Force on Ship: The weight of this large volume of displaced water is greater than or equal to the total weight of the ship (steel + cargo + air inside).",
+      "Conclusion: The large buoyant force acting on the ship counteracts its weight, allowing it to float."
+    ],
+    "answer": "A ship floats because its shape allows it to displace a large volume of water. The weight of this displaced water creates an upward buoyant force that is large enough to support the ship's total weight. A small steel ball displaces much less water, so the buoyant force is smaller than its weight, causing it to sink."
+  },
+  {
+    "id": "sl_049",
+    "category": "logic",
+    "type": "abductive_reasoning",
+    "prompt": "The grass is wet. Possible explanations: 1) It rained. 2) The sprinklers were on. 3) Someone spilled water. You notice the street and sidewalks are also wet. Which explanation becomes more likely?",
+    "reasoning_steps": [
+      "Initial Observation: Wet grass.",
+      "Possible Causes: Rain, sprinklers, spill.",
+      "New Observation: Street and sidewalks are also wet.",
+      "Evaluate Causes with New Data:",
+      " - Rain: Consistent with widespread wetness.",
+      " - Sprinklers: Usually confined to the lawn.",
+      " - Spill: Unlikely to cover such a large, distributed area.",
+      "Conclusion (Abduction): Rain is the most likely explanation given the widespread wetness."
+    ],
+    "answer": "The explanation 'It rained' becomes more likely because rain would typically make the grass, street, and sidewalks wet, while sprinklers or a spill are usually more localized."
+  },
+  {
+    "id": "sl_050",
+    "category": "science",
+    "type": "heat_transfer",
+    "prompt": "How does heat from the sun reach Earth?",
+    "reasoning_steps": [
+      "Heat Transfer Methods: Conduction (direct contact), Convection (fluid movement), Radiation (electromagnetic waves).",
+      "Medium between Sun and Earth: Mostly empty space (vacuum).",
+      "Evaluate Methods:",
+      " - Conduction: Requires direct contact, not possible through vacuum.",
+      " - Convection: Requires a fluid medium (liquid or gas), not present in vacuum.",
+      " - Radiation: Electromagnetic waves (like light and infrared) can travel through a vacuum.",
+      "Conclusion: Heat reaches Earth primarily through radiation."
+    ],
+    "answer": "Heat reaches Earth from the sun primarily through radiation, in the form of electromagnetic waves (including infrared radiation and visible light) that can travel through the vacuum of space."
+  },
+  {
+    "id": "sl_051",
+    "category": "logic",
+    "type": "universal_instantiation",
+    "prompt": "Given the premise 'All humans are mortal', what can you conclude about Socrates, who is a human?",
+    "reasoning_steps": [
+      "Premise (Universal): All members of category H (humans) have property M (mortal).",
+      "Instance: Socrates is a member of category H (human).",
+      "Rule (Universal Instantiation): If a property applies to all members of a category, it applies to any specific member of that category.",
+      "Conclusion: Therefore, Socrates has property M (is mortal)."
+    ],
+    "answer": "Socrates is mortal."
+  },
+  {
+    "id": "sl_052",
+    "category": "science",
+    "type": "sound_pitch",
+    "prompt": "What determines the pitch (highness or lowness) of a sound?",
+    "reasoning_steps": [
+      "Nature of Sound: Sound travels as waves.",
+      "Wave Property: Frequency - the number of wave cycles passing a point per second (measured in Hertz, Hz).",
+      "Relationship: The frequency of the sound wave determines its pitch.",
+      "High Frequency = High Pitch.",
+      "Low Frequency = Low Pitch.",
+      "Source Example: Tightening a guitar string increases its vibration frequency, resulting in a higher pitch."
+    ],
+    "answer": "The pitch of a sound is determined by the frequency of its sound waves. Higher frequency corresponds to higher pitch, and lower frequency corresponds to lower pitch."
+  },
+  {
+    "id": "sl_053",
+    "category": "logic",
+    "type": "fallacy_appeal_to_authority",
+    "prompt": "'Dr. Smith, a famous physicist, says this brand of toothpaste is the best. Therefore, it must be the best.' Identify the potential fallacy.",
+    "reasoning_steps": [
+      "Argument Structure: Citing an authority (Dr. Smith) to support a claim (best toothpaste).",
+      "Identify Flaw: The authority cited (physicist) is an expert in a field (physics) unrelated to the claim (dentistry/toothpaste quality).",
+      "Name Fallacy: Appeal to Inappropriate Authority. Expertise in one area does not automatically confer expertise in another.",
+      "Caveat: If Dr. Smith were a renowned dentist, the appeal would be more relevant (though still not absolute proof)."
+    ],
+    "answer": "Appeal to Inappropriate Authority. Dr. Smith's expertise in physics does not make him a qualified authority on toothpaste quality."
+  },
+  {
+    "id": "sl_054",
+    "category": "science",
+    "type": "atmospheric_pressure",
+    "prompt": "Why is it harder to breathe at high altitudes?",
+    "reasoning_steps": [
+      "Atmosphere Composition: The percentage of oxygen in the air remains roughly constant (~21%) at different altitudes.",
+      "Atmospheric Pressure: Air pressure (the weight of the air column above) decreases significantly with increasing altitude.",
+      "Partial Pressure of Oxygen: Because the total air pressure is lower, the partial pressure of oxygen (the pressure exerted by oxygen molecules alone) is also lower.",
+      "Breathing Mechanism: Our lungs rely on a pressure difference to draw in air. More importantly, the transfer of oxygen from the lungs to the bloodstream depends on this partial pressure.",
+      "Effect: Lower partial pressure of oxygen at high altitudes means less oxygen gets transferred into the blood with each breath.",
+      "Result: Body gets less oxygen, making breathing feel harder and potentially causing altitude sickness."
+    ],
+    "answer": "It's harder to breathe at high altitudes not because there's less oxygen percentage-wise, but because the overall air pressure is lower. This results in a lower partial pressure of oxygen, making it less efficient for oxygen to transfer from the lungs into the bloodstream."
+  },
+  {
+    "id": "sl_055",
+    "category": "logic",
+    "type": "affirming_the_consequent",
+    "prompt": "Argument: 1. If it rains, the ground is wet. 2. The ground is wet. 3. Therefore, it rained. Is this argument valid?",
+    "reasoning_steps": [
+      "Premise 1 (Conditional): If P (it rains), then Q (ground is wet).",
+      "Premise 2: Q (ground is wet).",
+      "Conclusion: P (it rained).",
+      "Analyze Structure: This form is 'If P then Q. Q. Therefore P.'",
+      "Evaluate Validity: This is a logical fallacy called Affirming the Consequent. The ground could be wet for other reasons (sprinklers, spilled water). Q being true does not guarantee P is true.",
+      "Conclusion: The argument is invalid."
+    ],
+    "answer": "No, the argument is invalid. This is the fallacy of Affirming the Consequent. The ground could be wet for reasons other than rain."
+  },
+  {
+    "id": "sl_056",
+    "category": "science",
+    "type": "genetics",
+    "prompt": "What is the difference between genotype and phenotype?",
+    "reasoning_steps": [
+      "Genotype: Refers to the specific genetic makeup of an organism – the set of genes it carries.",
+      "Phenotype: Refers to the observable physical or biochemical characteristics of an organism.",
+      "Relationship: Genotype determines the potential for the phenotype.",
+      "Influence: Phenotype is a result of the interaction between the genotype and environmental factors.",
+      "Example: Genotype might be the genes for eye color (e.g., BB, Bb, bb). Phenotype is the actual eye color observed (e.g., brown, blue)."
+    ],
+    "answer": "Genotype is the genetic code or set of genes an organism carries. Phenotype is the observable physical or biochemical traits expressed by the organism (like hair color or height), resulting from the interaction of its genotype and the environment."
+  },
+  {
+    "id": "sl_057",
+    "category": "logic",
+    "type": "denying_the_antecedent",
+    "prompt": "Argument: 1. If it rains, the ground is wet. 2. It did not rain. 3. Therefore, the ground is not wet. Is this argument valid?",
+    "reasoning_steps": [
+      "Premise 1 (Conditional): If P (it rains), then Q (ground is wet).",
+      "Premise 2: Not P (it did not rain).",
+      "Conclusion: Not Q (ground is not wet).",
+      "Analyze Structure: This form is 'If P then Q. Not P. Therefore Not Q.'",
+      "Evaluate Validity: This is a logical fallacy called Denying the Antecedent. The ground could still be wet for other reasons even if it didn't rain (sprinklers, etc.). P being false does not guarantee Q is false.",
+      "Conclusion: The argument is invalid."
+    ],
+    "answer": "No, the argument is invalid. This is the fallacy of Denying the Antecedent. The ground could be wet for other reasons, even if it didn't rain."
+  },
+  {
+    "id": "sl_058",
+    "category": "science",
+    "type": "conservation_of_energy",
+    "prompt": "A ball is dropped from a height. Describe the energy transformations as it falls (ignore air resistance).",
+    "reasoning_steps": [
+      "Initial State (At height): Ball is stationary. Maximum potential energy (due to height), zero kinetic energy (due to no motion).",
+      "Falling (Mid-point): Ball is moving. Height decreases, so potential energy decreases. Speed increases, so kinetic energy increases.",
+      "Transformation: Potential energy is being converted into kinetic energy.",
+      "Just Before Impact: Ball is at maximum speed, minimum height (near zero). Maximum kinetic energy, minimum (near zero) potential energy.",
+      "Principle: The total mechanical energy (potential + kinetic) remains constant throughout the fall (Conservation of Energy)."
+    ],
+    "answer": "As the ball falls, its potential energy (due to height) is converted into kinetic energy (due to motion). Its potential energy decreases while its kinetic energy increases, but the total mechanical energy (potential + kinetic) remains constant."
+  },
+  {
+    "id": "sl_059",
+    "category": "logic",
+    "type": "inductive_strength",
+    "prompt": "Observation: Every day for the past 10 years, the sun has risen in the east. Conclusion: The sun will rise in the east tomorrow. Is this conclusion guaranteed?",
+    "reasoning_steps": [
+      "Reasoning Type: Inductive. Based on past observations to predict the future.",
+      "Strength of Evidence: Extremely strong, based on vast, consistent experience and scientific understanding (Earth's rotation).",
+      "Certainty: While highly probable, it's not logically guaranteed in the same way a deductive conclusion is. An unforeseen cosmic event could theoretically change things.",
+      "Conclusion: The conclusion is extremely likely and supported by overwhelming evidence, but it's an inductive inference, not a deductive certainty."
+    ],
+    "answer": "No, it is not logically guaranteed (it's an inductive conclusion, not deductive). However, based on overwhelming past evidence and our understanding of physics, it is extremely probable."
+  },
+  {
+    "id": "sl_060",
+    "category": "science",
+    "type": "acid_base",
+    "prompt": "What happens when an acid and a base react together?",
+    "reasoning_steps": [
+      "Reactants: An acid (e.g., HCl) and a base (e.g., NaOH).",
+      "Process: Neutralization reaction.",
+      "Mechanism: The H+ ions from the acid react with the OH- ions from the base.",
+      "Products: Water (H2O) is formed from H+ and OH-.",
+      "Other Product: A salt is formed from the remaining ions (the cation from the base and the anion from the acid, e.g., NaCl).",
+      "Energy: Neutralization reactions are typically exothermic (release heat)."
+    ],
+    "answer": "When an acid and a base react, they neutralize each other, typically forming water and a salt. This is called a neutralization reaction."
+  },
+  {
+    "id": "sl_061",
+    "category": "logic",
+    "type": "exclusive_or",
+    "prompt": "Statement: 'You can take Route A or Route B, but not both'. If you take Route A, can you take Route B?",
+    "reasoning_steps": [
+      "Operator: 'or..., but not both' signifies Exclusive OR (XOR).",
+      "Meaning of XOR: One or the other, but specifically *not* both.",
+      "Condition: You take Route A.",
+      "Conclusion: Since you took one option (Route A), the 'not both' clause excludes taking the other option (Route B)."
+    ],
+    "answer": "No, because the condition specifies 'but not both', meaning the choices are mutually exclusive."
+  },
+  {
+    "id": "sl_062",
+    "category": "science",
+    "type": "fossil_fuels",
+    "prompt": "How are fossil fuels like coal and oil formed?",
+    "reasoning_steps": [
+      "Source Material: Remains of ancient living organisms (mostly plants for coal, marine organisms for oil/gas).",
+      "Time Scale: Millions of years ago.",
+      "Process:",
+      " 1. Deposition: Organisms die and accumulate in environments like swamps (coal) or ocean floors (oil/gas), getting buried under layers of sediment (mud, sand).",
+      " 2. Burial & Pressure: Over time, deep burial increases pressure and temperature.",
+      " 3. Transformation: Lack of oxygen prevents complete decomposition. Intense heat and pressure chemically transform the organic matter into coal, oil, or natural gas.",
+      "Result: Concentrated stores of carbon-rich fuel."
+    ],
+    "answer": "Fossil fuels formed over millions of years from the remains of ancient organisms buried under layers of sediment. Intense heat and pressure, combined with a lack of oxygen, transformed these remains into coal, oil, or natural gas."
+  },
+  {
+    "id": "sl_063",
+    "category": "logic",
+    "type": "circular_reasoning",
+    "prompt": "Argument: 'The Bible is true because it is the word of God. We know it is the word of God because the Bible says so.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Claim 1: Bible is true.",
+      "Reason for Claim 1: It's the word of God.",
+      "Claim 2: Bible is the word of God.",
+      "Reason for Claim 2: The Bible says it is.",
+      "Identify Flaw: The argument assumes what it is trying to prove. The truth of the Bible is used to prove it's God's word, and the fact it's God's word (taken from the Bible itself) is used to prove it's true. The reasoning goes in a circle.",
+      "Name Fallacy: Circular Reasoning (or Begging the Question)."
+    ],
+    "answer": "Circular Reasoning (or Begging the Question). The argument assumes the conclusion (the Bible is true/the word of God) as part of its premises."
+  },
+  {
+    "id": "sl_064",
+    "category": "science",
+    "type": "immune_system",
+    "prompt": "How do vaccines work?",
+    "reasoning_steps": [
+      "Goal: Protect against future infection by a specific pathogen (virus or bacteria).",
+      "Vaccine Content: Contains a harmless version or component of the pathogen (e.g., weakened virus, killed bacteria, protein fragment).",
+      "Immune Response Trigger: The vaccine introduces this harmless form to the immune system.",
+      "Recognition: The immune system recognizes it as foreign.",
+      "Activation & Memory: The immune system mounts a response, learning to identify and fight the pathogen. Crucially, it creates 'memory cells'.",
+      "Future Exposure: If the person is later exposed to the actual, harmful pathogen, the memory cells quickly recognize it and launch a strong, rapid defense, preventing or minimizing illness."
+    ],
+    "answer": "Vaccines introduce a harmless piece or weakened/killed version of a pathogen (like a virus or bacterium) into the body. This triggers the immune system to learn how to fight it off and create memory cells, without causing significant illness. If the person encounters the real pathogen later, their immune system remembers it and mounts a quick, strong defense."
+  },
+  {
+    "id": "sl_065",
+    "category": "logic",
+    "type": "probability",
+    "prompt": "You roll a standard six-sided die. What is the probability of rolling an even number?",
+    "reasoning_steps": [
+      "Total Possible Outcomes: {1, 2, 3, 4, 5, 6}. Number of outcomes = 6.",
+      "Favorable Outcomes (Even Numbers): {2, 4, 6}. Number of favorable outcomes = 3.",
+      "Probability Definition: (Number of Favorable Outcomes) / (Total Number of Possible Outcomes).",
+      "Calculation: 3 / 6.",
+      "Simplification: 1/2."
+    ],
+    "answer": "1/2 (or 0.5 or 50%)."
+  },
+  {
+    "id": "sl_066",
+    "category": "science",
+    "type": "climate_change",
+    "prompt": "What is the primary cause of recent global warming?",
+    "reasoning_steps": [
+      "Observed Phenomenon: Increase in global average temperatures.",
+      "Mechanism: Greenhouse Effect - Certain gases in the atmosphere trap heat.",
+      "Key Greenhouse Gases: Carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O).",
+      "Human Activity: Burning of fossil fuels (coal, oil, gas) for energy, deforestation, industrial processes, agriculture release large amounts of these gases.",
+      "Effect: Increased concentration of greenhouse gases enhances the natural greenhouse effect, trapping more heat and causing the planet to warm.",
+      "Conclusion: The primary cause is the increase in greenhouse gas concentrations due to human activities."
+    ],
+    "answer": "The primary cause of recent global warming is the increased concentration of greenhouse gases (especially carbon dioxide) in the atmosphere, mainly due to human activities like burning fossil fuels and deforestation."
+  },
+  {
+    "id": "sl_067",
+    "category": "logic",
+    "type": "straw_man_fallacy",
+    "prompt": "Person A: 'I think we should invest more in renewable energy.' Person B: 'So you're saying we should completely shut down all fossil fuel plants immediately and plunge the economy into chaos?' Identify the fallacy used by Person B.",
+    "reasoning_steps": [
+      "Person A's Position: Invest *more* in renewables.",
+      "Person B's Representation: Shut down *all* fossil fuels *immediately*, causing chaos.",
+      "Identify Flaw: Person B misrepresents Person A's argument, making it seem much more extreme and unreasonable than it actually is.",
+      "Purpose: This misrepresentation (the 'straw man') is easier to attack than Person A's actual position.",
+      "Name Fallacy: Straw Man Fallacy."
+    ],
+    "answer": "Straw Man Fallacy. Person B misrepresents Person A's position (investing more in renewables) as a much more extreme and easily attackable position (shutting down everything immediately)."
+  },
+  {
+    "id": "sl_068",
+    "category": "science",
+    "type": "radioactivity",
+    "prompt": "What is radioactive decay?",
+    "reasoning_steps": [
+      "Context: Unstable atomic nuclei.",
+      "Instability: Nuclei have an unfavorable ratio of protons and neutrons or excess energy.",
+      "Process: The unstable nucleus spontaneously transforms to reach a more stable state.",
+      "Mechanism: Releases energy and/or particles (e.g., alpha particles, beta particles, gamma rays).",
+      "Result: The original nucleus changes into a different nucleus (different element or isotope) or a lower energy state.",
+      "Rate: Occurs at a predictable rate characterized by half-life."
+    ],
+    "answer": "Radioactive decay is the spontaneous process by which an unstable atomic nucleus loses energy by emitting radiation (like alpha particles, beta particles, or gamma rays) to transform into a more stable nucleus."
+  },
+  {
+    "id": "sl_069",
+    "category": "logic",
+    "type": "correlation_causation",
+    "prompt": "Data shows that ice cream sales and crime rates increase during the summer. Does eating ice cream cause crime?",
+    "reasoning_steps": [
+      "Observation: Correlation between ice cream sales (A) and crime rates (B) - both increase in summer.",
+      "Proposed Causation: A causes B.",
+      "Identify Flaw: Correlation does not imply causation.",
+      "Alternative Explanation (Lurking Variable): A third factor, warm weather (C), likely causes both A (people buy more ice cream when it's hot) and B (people are outdoors more, potentially leading to more opportunities for crime).",
+      "Conclusion: No, the correlation is likely due to a third variable (warm weather) influencing both."
+    ],
+    "answer": "No, this is a classic example of correlation not implying causation. Both ice cream sales and crime rates tend to increase in warmer weather (summer), which is the likely underlying cause for the correlation."
+  },
+  {
+    "id": "sl_070",
+    "category": "science",
+    "type": "osmosis",
+    "prompt": "What happens if you place a red blood cell in pure water?",
+    "reasoning_steps": [
+      "Concept: Osmosis - movement of water across a semipermeable membrane from an area of lower solute concentration to an area of higher solute concentration.",
+      "Red Blood Cell Interior: Contains salts, proteins, etc. (higher solute concentration).",
+      "Pure Water Exterior: Very low solute concentration.",
+      "Membrane: Cell membrane is semipermeable.",
+      "Water Movement: Water will move from the outside (low solute) into the red blood cell (high solute) via osmosis.",
+      "Effect: The cell will swell up as water enters.",
+      "Outcome: Because animal cells lack a rigid cell wall, the influx of water can cause the cell membrane to stretch beyond its limit and burst (hemolysis)."
+    ],
+    "answer": "Water will move into the red blood cell via osmosis because the solute concentration inside the cell is higher than in pure water. The cell will swell and likely burst (hemolysis) because it lacks a rigid cell wall to withstand the pressure."
+  },
+  {
+    "id": "sl_071",
+    "category": "logic",
+    "type": "false_dilemma",
+    "prompt": "Argument: 'You're either with us, or you're against us.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Argument Structure: Presents only two possible options (with us, against us).",
+      "Identify Flaw: Ignores or denies the possibility of other options or neutral positions (e.g., being neutral, agreeing partially, disagreeing for different reasons).",
+      "Nature: Unfairly limits choices to force agreement or disagreement with one extreme.",
+      "Name Fallacy: False Dilemma (or False Dichotomy, Black-and-White Fallacy)."
+    ],
+    "answer": "False Dilemma (or False Dichotomy). It presents only two extreme options as if they are the only possibilities, ignoring potential neutral or alternative stances."
+  },
+  {
+    "id": "sl_072",
+    "category": "science",
+    "type": "static_electricity",
+    "prompt": "Why do you sometimes get a shock when you touch a doorknob after walking on carpet?",
+    "reasoning_steps": [
+      "Friction: Walking on carpet causes friction between your shoes and the carpet fibers.",
+      "Charge Transfer (Triboelectric Effect): Friction can cause electrons (negative charges) to transfer from the carpet to your body (or vice versa, depending on materials).",
+      "Charge Accumulation: Your body builds up an excess of static electric charge (becomes negatively or positively charged).",
+      "Approach Doorknob: The metal doorknob is a conductor, usually electrically neutral or grounded.",
+      "Discharge: When your charged hand gets close enough to the conductor, the charge difference becomes large enough for the excess charge to suddenly jump from your body to the doorknob (or from the doorknob to your body if you were positively charged).",
+      "Sensation (Shock): This rapid flow of charge is the electric shock you feel."
+    ],
+    "answer": "Walking on carpet can cause friction that transfers electrons, building up static electricity on your body. When you touch the metal doorknob (a conductor), the excess charge rapidly discharges between your body and the doorknob, creating the spark and shock."
+  },
+  {
+    "id": "sl_073",
+    "category": "logic",
+    "type": "ad_hominem",
+    "prompt": "Person A presents a detailed argument for a new tax policy. Person B responds, 'We shouldn't listen to Person A's ideas; they failed math in college!' Identify the fallacy.",
+    "reasoning_steps": [
+      "Person A's Action: Presents an argument/idea.",
+      "Person B's Response: Attacks Person A's character or past (failed math) instead of addressing the argument itself.",
+      "Identify Flaw: The response shifts focus from the substance of the argument to irrelevant personal characteristics of the arguer.",
+      "Name Fallacy: Ad Hominem (specifically, circumstantial or abusive depending on intent/tone). The validity of an argument does not depend on the personal attributes of the person making it."
+    ],
+    "answer": "Ad Hominem Fallacy. Person B attacks Person A personally (their past math failure) instead of addressing the merits or flaws of the proposed tax policy argument."
+  },
+  {
+    "id": "sl_074",
+    "category": "science",
+    "type": "inertia",
+    "prompt": "Why do you feel pushed forward when a car suddenly stops?",
+    "reasoning_steps": [
+      "Initial State: Both you and the car are moving forward at the same velocity.",
+      "Car Action: Brakes are applied, exerting a stopping force *on the car*.",
+      "Your Body's Tendency (Inertia): Your body, due to inertia (Newton's First Law), tends to continue moving forward at the original velocity.",
+      "Relative Motion: Since the car is slowing down rapidly beneath you, and your body continues forward, you feel as if you are being pushed forward relative to the car's interior.",
+      "Actual Force: The force is actually the car stopping *under* you; your inertia keeps you moving until something (like a seatbelt) applies a force to slow you down too."
+    ],
+    "answer": "You feel pushed forward due to inertia. When the car stops suddenly, your body tends to continue moving forward at the speed it was traveling. Relative to the slowing car, this continuation of motion feels like being pushed forward."
+  },
+  {
+    "id": "sl_075",
+    "category": "logic",
+    "type": "appeal_to_emotion",
+    "prompt": "A commercial shows sad puppies in a shelter and asks for donations, without giving details about how the money is used. What persuasive technique is primarily being used?",
+    "reasoning_steps": [
+      "Content: Images designed to evoke sadness and sympathy (sad puppies).",
+      "Request: Donation.",
+      "Missing Information: Lack of logical reasons or evidence about the organization's effectiveness or specific use of funds.",
+      "Technique: Manipulating emotions (sympathy, pity) to persuade the audience to donate, rather than relying on logical arguments or factual evidence.",
+      "Name Fallacy/Technique: Appeal to Emotion (specifically, Appeal to Pity)."
+    ],
+    "answer": "Appeal to Emotion (specifically, Appeal to Pity). The commercial primarily uses images of sad puppies to evoke an emotional response and persuade viewers to donate, rather than presenting logical arguments or evidence about the charity's effectiveness."
+  },
+  {
+    "id": "sl_076",
+    "category": "science",
+    "type": "refraction_illusion",
+    "prompt": "Why does a straw in a glass of water appear bent at the water's surface?",
+    "reasoning_steps": [
+      "Light Travel: Light rays travel from the part of the straw underwater, through the water, across the surface into the air, and then to your eyes.",
+      "Refraction: When light passes from one medium (water) to another (air) at an angle, it changes speed and bends (refracts). Light travels faster in air than in water.",
+      "Bending Direction: Light rays coming from the submerged part of the straw bend *away* from the normal (an imaginary line perpendicular to the surface) as they exit the water into the air.",
+      "Brain Interpretation: Your brain assumes light travels in straight lines. It extrapolates the bent rays backward in a straight line to perceive the submerged part of the straw as being in a shallower position than it actually is.",
+      "Result: This difference in perceived position makes the straw look bent or broken at the surface."
+    ],
+    "answer": "This happens because light rays traveling from the submerged part of the straw bend (refract) when they pass from water into air before reaching your eyes. Your brain interprets these bent rays as if they traveled in a straight line, making the underwater part of the straw appear to be in a different, shallower position, thus looking bent at the surface."
+  },
+  {
+    "id": "sl_077",
+    "category": "logic",
+    "type": "slippery_slope",
+    "prompt": "Argument: 'If we allow kids to choose their own bedtime, next they'll want to choose their own meals, then skip school, and soon they'll be uncontrollable anarchists!' Identify the fallacy.",
+    "reasoning_steps": [
+      "Initial Action: Allow kids to choose bedtime.",
+      "Argument Structure: Claims that this initial action will inevitably lead to a chain reaction of increasingly negative consequences (choosing meals -> skipping school -> anarchy).",
+      "Identify Flaw: Asserts this chain reaction will occur without providing sufficient evidence that each step necessarily follows from the previous one. It exaggerates the likely consequences of the initial action.",
+      "Name Fallacy: Slippery Slope."
+    ],
+    "answer": "Slippery Slope Fallacy. The argument claims that a relatively small first step will inevitably lead to a chain of related negative events, without sufficient evidence that this chain reaction will actually occur."
+  },
+  {
+    "id": "sl_078",
+    "category": "science",
+    "type": "Doppler_effect",
+    "prompt": "Why does an ambulance siren sound higher pitched as it approaches you and lower pitched as it moves away?",
+    "reasoning_steps": [
+      "Sound Source: Ambulance siren emits sound waves at a constant frequency.",
+      "Relative Motion (Approaching): As the ambulance approaches, it is moving towards the sound waves traveling in front of it. This effectively compresses the waves, decreasing the wavelength and increasing the frequency of the waves reaching your ear.",
+      "Perception (Approaching): Higher frequency is perceived as higher pitch.",
+      "Relative Motion (Moving Away): As the ambulance moves away, it is moving away from the sound waves traveling behind it. This effectively stretches the waves, increasing the wavelength and decreasing the frequency of the waves reaching your ear.",
+      "Perception (Moving Away): Lower frequency is perceived as lower pitch.",
+      "Name Effect: This change in observed frequency due to relative motion between the source and observer is the Doppler Effect."
+    ],
+    "answer": "This is the Doppler Effect. As the ambulance approaches, the sound waves are compressed, leading to a higher frequency and higher perceived pitch. As it moves away, the sound waves are stretched out, leading to a lower frequency and lower perceived pitch."
+  },
+  {
+    "id": "sl_079",
+    "category": "logic",
+    "type": "burden_of_proof",
+    "prompt": "Person A: 'Unicorns exist.' Person B: 'Prove it.' Person A: 'You can't prove they *don't* exist, so they must exist!' Identify the fallacy used by Person A.",
+    "reasoning_steps": [
+      "Person A's Claim: Unicorns exist (makes a positive claim).",
+      "Person B's Request: Asks for proof (places burden of proof on the claimant).",
+      "Person A's Response: Shifts the burden of proof, arguing that since Person B cannot disprove the claim, the claim must be true.",
+      "Identify Flaw: The burden of proof lies with the person making the claim, not on others to disprove it. Lack of evidence against a claim is not evidence for it.",
+      "Name Fallacy: Shifting the Burden of Proof (related to Appeal to Ignorance)."
+    ],
+    "answer": "Shifting the Burden of Proof (or Appeal to Ignorance). Person A incorrectly claims their assertion is true because the opponent cannot disprove it. The responsibility (burden) to provide evidence lies with the person making the positive claim."
+  },
+  {
+    "id": "sl_080",
+    "category": "science",
+    "type": "convection_currents",
+    "prompt": "How does heating a pot of water on a stove cause the water to circulate?",
+    "reasoning_steps": [
+      "Heat Source: Stove heats the bottom of the pot.",
+      "Heating Water at Bottom: Water at the bottom gets heated by conduction from the pot.",
+      "Density Change: Heated water expands and becomes less dense than the cooler water above it.",
+      "Buoyancy: Being less dense, the hot water rises.",
+      "Cooling at Top: As the hot water reaches the surface, it may cool slightly (losing heat to air) or be displaced.",
+      "Sinking Cooler Water: Cooler, denser water from the top and sides sinks to take the place of the rising hot water at the bottom.",
+      "Cycle: This sinking water gets heated at the bottom, becomes less dense, rises, and the cycle repeats.",
+      "Name Process: This circulation driven by density differences due to heating is called convection (specifically, convection currents)."
+    ],
+    "answer": "Heating the bottom makes that water less dense, causing it to rise. Cooler, denser water from the top sinks to take its place, gets heated, and then rises itself. This continuous circulation of rising hot water and sinking cool water creates convection currents."
+  },
+  {
+    "id": "sl_081",
+    "category": "logic",
+    "type": "genetic_fallacy",
+    "prompt": "Argument: 'That idea came from a dream, so it must be nonsense.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Idea Presented: An idea (content unspecified).",
+      "Argument Against Idea: Based solely on the origin or source of the idea (a dream).",
+      "Identify Flaw: Judging the merit or truth value of an idea based purely on its origin or history, rather than on its actual content, logic, or evidence.",
+      "Name Fallacy: Genetic Fallacy. The source of an idea is irrelevant to its validity."
+    ],
+    "answer": "Genetic Fallacy. The argument dismisses the idea based on its origin (a dream) rather than evaluating the idea itself on its merits."
+  },
+  {
+    "id": "sl_082",
+    "category": "science",
+    "type": "plant_tropism",
+    "prompt": "Why do plant stems typically grow upwards and roots downwards?",
+    "reasoning_steps": [
+      "Phenomenon: Directional growth in response to stimuli (tropism).",
+      "Stimulus: Gravity.",
+      "Stem Response (Negative Gravitropism): Stems grow away from the pull of gravity (upwards). This maximizes exposure to sunlight for photosynthesis.",
+      "Root Response (Positive Gravitropism): Roots grow towards the pull of gravity (downwards). This anchors the plant and helps find water and nutrients in the soil.",
+      "Mechanism: Involves plant hormones (like auxin) redistributing in response to gravity, causing differential growth rates on opposite sides of the stem/root."
+    ],
+    "answer": "This is due to gravitropism. Stems exhibit negative gravitropism, growing upwards against gravity to reach sunlight for photosynthesis. Roots exhibit positive gravitropism, growing downwards with gravity to anchor the plant and access water and nutrients in the soil."
+  },
+  {
+    "id": "sl_083",
+    "category": "logic",
+    "type": "appeal_to_tradition",
+    "prompt": "Argument: 'We've always done things this way, so it must be the right way.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Justification for Action/Belief: Based on the fact that it has been done or believed for a long time (tradition).",
+      "Identify Flaw: Assumes that traditional practices or beliefs are automatically correct or better, simply because they are traditional. It avoids evaluating the practice based on its current merits, effectiveness, or ethical implications.",
+      "Name Fallacy: Appeal to Tradition."
+    ],
+    "answer": "Appeal to Tradition. The argument assumes something is correct or best simply because it's the way things have always been done, without considering its actual merits."
+  },
+  {
+    "id": "sl_084",
+    "category": "science",
+    "type": "pressure_cooking",
+    "prompt": "How does a pressure cooker cook food faster?",
+    "reasoning_steps": [
+      "Normal Boiling: At standard atmospheric pressure, water boils at 100°C (212°F). Temperature cannot go higher in liquid form.",
+      "Pressure Cooker Mechanism: Seals the pot, trapping steam generated from boiling water.",
+      "Pressure Increase: Trapped steam increases the pressure inside the cooker significantly above normal atmospheric pressure.",
+      "Effect on Boiling Point: Increased pressure raises the boiling point of water.",
+      "Higher Temperature: Water inside the pressure cooker boils at a higher temperature (e.g., 121°C / 250°F).",
+      "Faster Cooking: Cooking processes (chemical reactions) happen faster at higher temperatures.",
+      "Conclusion: By increasing the pressure, the pressure cooker raises the boiling point of water, allowing food to cook at a higher temperature and thus faster."
+    ],
+    "answer": "A pressure cooker traps steam, increasing the pressure inside. This higher pressure raises the boiling point of water above 100°C (212°F). Cooking food at this higher temperature significantly speeds up the cooking process."
+  },
+  {
+    "id": "sl_085",
+    "category": "logic",
+    "type": "composition_fallacy",
+    "prompt": "Argument: 'Each player on this basketball team is an excellent player. Therefore, this team must be an excellent team.' Identify the potential fallacy.",
+    "reasoning_steps": [
+      "Premise: Individual parts (players) have a certain property (excellent).",
+      "Conclusion: The whole (team) must have that same property (excellent).",
+      "Identify Flaw: Assumes that what is true of the parts must also be true of the whole. Team success depends not only on individual skill but also on teamwork, strategy, coaching, and how well the players complement each other.",
+      "Name Fallacy: Fallacy of Composition."
+    ],
+    "answer": "Fallacy of Composition. The argument incorrectly assumes that because the individual parts (players) have a property (being excellent), the whole (the team) must also have that property. Team success depends on more than just individual talent."
+  },
+  {
+    "id": "sl_086",
+    "category": "science",
+    "type": "surface_tension",
+    "prompt": "Why can insects like water striders walk on water?",
+    "reasoning_steps": [
+      "Property of Water: Surface tension - caused by cohesive forces between water molecules.",
+      "Effect: Water molecules at the surface are pulled more strongly by molecules below and beside them than by the air above, creating a sort of 'skin' or membrane on the surface.",
+      "Insect Adaptation: Water striders have specialized legs with water-repellent (hydrophobic) hairs.",
+      "Weight Distribution: They distribute their weight over a large surface area via their legs.",
+      "Interaction: Their weight is not enough to break the surface tension of the water. The hydrophobic legs also help prevent them from breaking through the surface layer.",
+      "Conclusion: They utilize the water's surface tension, combined with their light weight and specialized legs, to stay afloat."
+    ],
+    "answer": "Water striders can walk on water due to surface tension, a property of water created by the attraction between water molecules, forming a 'skin' on the surface. Their light weight and specially adapted water-repellent legs allow them to distribute their weight without breaking this surface tension."
+  },
+  {
+    "id": "sl_087",
+    "category": "logic",
+    "type": "division_fallacy",
+    "prompt": "Argument: 'This basketball team is excellent. Therefore, every player on the team must be an excellent player.' Identify the potential fallacy.",
+    "reasoning_steps": [
+      "Premise: The whole (team) has a certain property (excellent).",
+      "Conclusion: Each individual part (player) must have that same property (excellent).",
+      "Identify Flaw: Assumes that what is true of the whole must also be true of its parts. A team can be excellent due to strategy, coaching, or specific players complementing each other, even if not every single player is individually considered 'excellent'.",
+      "Name Fallacy: Fallacy of Division."
+    ],
+    "answer": "Fallacy of Division. The argument incorrectly assumes that because the whole (the team) has a property (being excellent), each individual part (player) must also have that property. Team success might rely on factors other than every single player being individually excellent."
+  },
+  {
+    "id": "sl_088",
+    "category": "science",
+    "type": "sound_loudness",
+    "prompt": "What determines the loudness (volume) of a sound?",
+    "reasoning_steps": [
+      "Nature of Sound: Sound travels as waves.",
+      "Wave Property: Amplitude - the maximum displacement or variation (e.g., in pressure) from the equilibrium position during one wave cycle.",
+      "Relationship: The amplitude of the sound wave determines its loudness or intensity.",
+      "Large Amplitude = Loud Sound.",
+      "Small Amplitude = Soft Sound.",
+      "Energy: Amplitude is related to the energy carried by the wave; larger amplitude waves carry more energy."
+    ],
+    "answer": "The loudness of a sound is determined by the amplitude of its sound waves. Larger amplitude corresponds to a louder sound, and smaller amplitude corresponds to a softer sound."
+  },
+  {
+    "id": "sl_089",
+    "category": "logic",
+    "type": "equivocation",
+    "prompt": "Argument: 'Feathers are light. What is light cannot be dark. Therefore, feathers cannot be dark.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Premise 1: Feathers are light (meaning 'not heavy').",
+      "Premise 2: What is light (meaning 'not dark' in color) cannot be dark.",
+      "Conclusion: Feathers cannot be dark.",
+      "Identify Flaw: The word 'light' is used with two different meanings in the premises ('not heavy' vs. 'not dark'). The argument illicitly switches between these meanings.",
+      "Name Fallacy: Equivocation."
+    ],
+    "answer": "Equivocation. The argument uses the word 'light' with two different meanings (low weight vs. bright color) to reach an invalid conclusion."
+  },
+  {
+    "id": "sl_090",
+    "category": "science",
+    "type": "photosynthesis_location",
+    "prompt": "In which part of a plant cell does photosynthesis primarily occur?",
+    "reasoning_steps": [
+      "Process: Photosynthesis - converting light energy into chemical energy (glucose).",
+      "Requirement: Needs chlorophyll (green pigment) to capture light energy.",
+      "Cell Structure: Plant cells contain various organelles.",
+      "Organelle Identification: Chloroplasts are organelles specific to plant cells (and some algae) that contain chlorophyll.",
+      "Conclusion: Photosynthesis takes place within the chloroplasts."
+    ],
+    "answer": "Photosynthesis primarily occurs in the chloroplasts."
+  },
+  {
+    "id": "sl_091",
+    "category": "logic",
+    "type": "appeal_to_novelty",
+    "prompt": "Argument: 'This new software update must be better because it's the latest version.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Justification for Belief: Based on the newness or modernity of the software.",
+      "Identify Flaw: Assumes that something is automatically better simply because it is new, recent, or modern. Newness does not guarantee improvement; updates can sometimes introduce bugs or remove useful features.",
+      "Name Fallacy: Appeal to Novelty."
+    ],
+    "answer": "Appeal to Novelty. The argument assumes something is better simply because it is new or the latest version, without considering its actual features or performance."
+  },
+  {
+    "id": "sl_092",
+    "category": "science",
+    "type": "tides",
+    "prompt": "What primarily causes ocean tides?",
+    "reasoning_steps": [
+      "Observation: Regular rise and fall of sea levels (tides).",
+      "Primary Cause: Gravitational pull of the Moon.",
+      "Mechanism: The Moon's gravity pulls more strongly on the side of Earth facing it, creating a bulge of water (high tide). It also pulls less strongly on the opposite side of Earth than on the Earth itself, causing the Earth to be pulled away from the water on the far side, creating another bulge (high tide).",
+      "Low Tides: Areas between these bulges experience low tides.",
+      "Earth's Rotation: As the Earth rotates, different locations pass through these bulges, experiencing high and low tides.",
+      "Sun's Influence: The Sun's gravity also contributes (causing spring and neap tides), but the Moon's effect is stronger due to its proximity."
+    ],
+    "answer": "Ocean tides are primarily caused by the gravitational pull of the Moon on Earth's oceans. This pull creates bulges of water on the sides of Earth facing towards and away from the Moon, resulting in high tides."
+  },
+  {
+    "id": "sl_093",
+    "category": "logic",
+    "type": "argument_from_silence",
+    "prompt": "Argument: 'Historian X wrote extensively about ancient Rome but never mentioned Emperor Nero owning a pet giraffe. Therefore, Nero definitely did not own a pet giraffe.' Identify the potential fallacy.",
+    "reasoning_steps": [
+      "Premise: Lack of mention of an event/fact (Nero's giraffe) in a relevant source (Historian X's writings).",
+      "Conclusion: The event/fact did not happen/is false.",
+      "Identify Flaw: Assumes that the absence of evidence is conclusive evidence of absence. The historian might not have known, might not have considered it relevant, or the records might be incomplete. While the silence might be suggestive, it's not definitive proof.",
+      "Name Fallacy: Argument from Silence (related to Appeal to Ignorance)."
+    ],
+    "answer": "Argument from Silence. The argument concludes something is false based solely on the lack of evidence for it in a particular source. Absence of evidence is not necessarily evidence of absence."
+  },
+  {
+    "id": "sl_094",
+    "category": "science",
+    "type": "atomic_structure",
+    "prompt": "What are the three main subatomic particles that make up an atom, and what are their charges?",
+    "reasoning_steps": [
+      "Atom Structure: Atoms are the basic units of chemical elements.",
+      "Subatomic Particles: Composed of smaller particles.",
+      "Particle 1 (Proton): Located in the nucleus. Charge: Positive (+1).",
+      "Particle 2 (Neutron): Located in the nucleus. Charge: Neutral (0).",
+      "Particle 3 (Electron): Orbits the nucleus in electron shells. Charge: Negative (-1).",
+      "Summary: Protons (+), Neutrons (0), Electrons (-)."
+    ],
+    "answer": "The three main subatomic particles are protons (positive charge), neutrons (neutral/no charge), and electrons (negative charge)."
+  },
+  {
+    "id": "sl_095",
+    "category": "logic",
+    "type": "hasty_generalization",
+    "prompt": "Observation: 'I met two people from City Y, and both were rude. Therefore, all people from City Y must be rude.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Sample Size: Small (two people).",
+      "Observation: Both individuals exhibited a certain characteristic (rudeness).",
+      "Conclusion: Generalizes this characteristic to the entire population of City Y.",
+      "Identify Flaw: Draws a broad conclusion about a large group based on a very small and potentially unrepresentative sample.",
+      "Name Fallacy: Hasty Generalization."
+    ],
+    "answer": "Hasty Generalization. The conclusion about all people in City Y is based on an insufficient sample size (only two people)."
+  },
+  {
+    "id": "sl_096",
+    "category": "science",
+    "type": "conductivity",
+    "prompt": "Why are metals generally good conductors of electricity?",
+    "reasoning_steps": [
+      "Electricity Definition: Flow of electric charge (usually electrons).",
+      "Metal Atomic Structure: Metal atoms typically have loosely bound electrons in their outermost shell (valence electrons).",
+      "Metallic Bonding: In a solid metal, these valence electrons are delocalized, forming a 'sea' of electrons that are not tied to any specific atom and are free to move throughout the metal lattice.",
+      "Applying Voltage: When an electric potential (voltage) is applied across the metal, these free electrons are easily pushed and flow through the material, creating an electric current.",
+      "Conclusion: The presence of abundant, mobile, delocalized electrons allows charge to flow easily, making metals good conductors."
+    ],
+    "answer": "Metals are good conductors because their atoms have loosely held outer electrons (valence electrons) that become delocalized and form a 'sea' of free electrons. These free electrons can move easily throughout the metal when a voltage is applied, allowing electric current to flow."
+  },
+  {
+    "id": "sl_097",
+    "category": "logic",
+    "type": "begging_the_question",
+    "prompt": "Argument: 'Freedom of speech is important because people should be able to speak freely.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Claim: Freedom of speech is important.",
+      "Reason Given: People should be able to speak freely.",
+      "Identify Flaw: The reason given is essentially a restatement of the claim in different words. 'Being able to speak freely' is the definition of 'freedom of speech'. The argument assumes the very point it is trying to establish.",
+      "Name Fallacy: Begging the Question (a form of Circular Reasoning)."
+    ],
+    "answer": "Begging the Question (Circular Reasoning). The reason provided ('people should be able to speak freely') is just a restatement of the conclusion ('Freedom of speech is important') and doesn't offer independent support."
+  },
+  {
+    "id": "sl_098",
+    "category": "science",
+    "type": "greenhouse_effect",
+    "prompt": "Explain the basic mechanism of the greenhouse effect on Earth.",
+    "reasoning_steps": [
+      "Step 1 (Incoming Solar Radiation): The Sun emits energy, mostly as visible light, which passes through Earth's atmosphere.",
+      "Step 2 (Absorption by Surface): Earth's surface absorbs this solar energy and warms up.",
+      "Step 3 (Outgoing Infrared Radiation): The warmed Earth surface radiates energy back outwards, but mostly as infrared radiation (heat).",
+      "Step 4 (Trapping by Greenhouse Gases): Certain gases in the atmosphere (greenhouse gases like CO2, H2O vapor, CH4) absorb some of this outgoing infrared radiation.",
+      "Step 5 (Re-radiation): These gases then re-radiate the absorbed heat in all directions, including back towards Earth's surface.",
+      "Result: This process traps heat in the lower atmosphere, keeping the planet warmer than it would be otherwise, similar to how a greenhouse traps heat."
+    ],
+    "answer": "Sunlight warms the Earth's surface. The surface radiates heat (infrared radiation) back out. Greenhouse gases in the atmosphere absorb some of this outgoing heat and re-radiate it back towards the surface, trapping heat and keeping the planet warm."
+  },
+  {
+    "id": "sl_099",
+    "category": "logic",
+    "type": "appeal_to_popularity",
+    "prompt": "Argument: 'Millions of people believe in astrology, so there must be some truth to it.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Justification for Belief: Based on the large number of people who hold the belief.",
+      "Identify Flaw: Assumes that the popularity of an idea is evidence of its truth or validity. The number of people who believe something is irrelevant to whether it is actually true.",
+      "Name Fallacy: Appeal to Popularity (Argumentum ad Populum)."
+    ],
+    "answer": "Appeal to Popularity (Argumentum ad Populum). The argument assumes something must be true simply because many people believe it, which is not a valid measure of truth."
+  },
+  {
+    "id": "sl_100",
+    "category": "science",
+    "type": "centripetal_force",
+    "prompt": "When you swing a bucket of water in a vertical circle, why doesn't the water fall out when the bucket is upside down at the top?",
+    "reasoning_steps": [
+      "Circular Motion Requirement: For an object to move in a circle, there must be a net force acting towards the center of the circle (centripetal force).",
+      "Forces at the Top: On the water at the top of the loop, there are two main forces: gravity (pulling down) and the force from the bucket bottom (pushing down).",
+      "Centripetal Force Provision: Both gravity and the bucket bottom contribute to the necessary downward centripetal force required to keep the water moving in the circular path.",
+      "Inertia: The water's inertia (tendency to move in a straight line tangent to the circle) also plays a role. It 'wants' to fly outwards.",
+      "Condition for Not Falling: As long as the bucket is swung fast enough, the required centripetal force (provided by gravity + bucket) is sufficient to continuously change the water's direction, keeping it moving in the circle. The water's inertia effectively presses it against the bucket bottom.",
+      "If Swung Too Slowly: If the speed is too low, gravity will be greater than the required centripetal force, and the water will fall out."
+    ],
+    "answer": "The water doesn't fall out because its inertia makes it tend to continue moving in a straight line, effectively pressing it against the bottom of the bucket. Gravity and the force from the bucket provide the necessary inward (centripetal) force to keep the water moving in a circle, as long as the bucket is swung fast enough."
+  },
+  {
+    "id": "sl_101",
+    "category": "logic",
+    "type": "deductive_certainty",
+    "prompt": "Premise 1: If A is true, then B is true. Premise 2: A is true. Conclusion: B is true. If the premises are accepted as true, is the conclusion certain or only probable?",
+    "reasoning_steps": [
+      "Argument Form: Modus Ponens (If P then Q. P. Therefore Q).",
+      "Nature of Form: This is a fundamental valid deductive argument form.",
+      "Definition of Validity: In a valid deductive argument, if the premises are true, the conclusion *must* be true.",
+      "Conclusion Certainty: Therefore, the truth of the premises guarantees the truth of the conclusion.",
+      "Result: The conclusion is certain, given the truth of the premises."
+    ],
+    "answer": "Certain. This is a valid deductive argument (Modus Ponens), meaning if the premises are true, the conclusion is guaranteed to be true."
+  },
+  {
+    "id": "sl_102",
+    "category": "science",
+    "type": "chemical_vs_physical_change",
+    "prompt": "Is boiling water a chemical change or a physical change? Explain why.",
+    "reasoning_steps": [
+      "Define Physical Change: A change in the form or appearance of a substance, but not its chemical composition. Usually reversible.",
+      "Define Chemical Change: A change that results in the formation of new chemical substances with different properties. Usually involves breaking/forming chemical bonds.",
+      "Analyze Boiling Water: Water (H2O) changes state from liquid to gas (steam).",
+      "Chemical Composition: The molecules are still H2O in both liquid and gas states. No new substances are formed.",
+      "Reversibility: Steam can condense back into liquid water.",
+      "Conclusion: Boiling is a change of state, not composition."
+    ],
+    "answer": "Boiling water is a physical change. The water changes state from liquid to gas (steam), but its chemical composition (H2O) remains the same. No new substance is formed."
+  },
+  {
+    "id": "sl_103",
+    "category": "logic",
+    "type": "inductive_generalization",
+    "prompt": "You observe 1000 crows, and all of them are black. You conclude 'All crows are black'. What type of reasoning is this, and what is its main limitation?",
+    "reasoning_steps": [
+      "Reasoning Process: Moving from specific observations (1000 black crows) to a general conclusion (All crows are black).",
+      "Type of Reasoning: Inductive reasoning (specifically, inductive generalization).",
+      "Limitation: The conclusion is probabilistic, not guaranteed. Even with many observations, there might exist a non-black crow that hasn't been observed (e.g., an albino crow). Inductive conclusions can be overturned by new evidence.",
+      "Contrast: Deductive reasoning provides certainty if premises are true and the form is valid."
+    ],
+    "answer": "This is inductive reasoning. Its main limitation is that the conclusion ('All crows are black') is not guaranteed to be true, even if all observations so far support it. There might be unobserved exceptions."
+  },
+  {
+    "id": "sl_104",
+    "category": "science",
+    "type": "sound_in_vacuum",
+    "prompt": "If an explosion happens in the vacuum of space, would you hear it if you were nearby (but safely outside the blast radius)?",
+    "reasoning_steps": [
+      "Nature of Sound: Sound requires a medium (like air, water, solid) to propagate as vibrations.",
+      "Environment: Space is essentially a vacuum, lacking a medium.",
+      "Explosion Effect: An explosion creates rapidly expanding gases and debris, and releases energy (light, heat).",
+      "Sound Propagation: The vibrations caused by the explosion cannot travel through the vacuum to reach an observer.",
+      "Conclusion: No sound would be heard.",
+      "Note: You would *see* the explosion (light travels through vacuum)."
+    ],
+    "answer": "No, you would not hear it. Sound needs a medium (like air) to travel, and space is a vacuum. You would see the explosion, as light can travel through a vacuum."
+  },
+  {
+    "id": "sl_105",
+    "category": "logic",
+    "type": "conditional_logic_error",
+    "prompt": "Rule: 'All employees must wash hands before returning to work'. Fact: John washed his hands. Conclusion: Therefore, John is an employee. Is this conclusion valid?",
+    "reasoning_steps": [
+      "Rule (Conditional Form): If you are an employee (P), then you must wash hands (Q). (P → Q)",
+      "Fact: John washed his hands (Q).",
+      "Conclusion: John is an employee (P).",
+      "Analysis: This argument structure is 'If P then Q. Q. Therefore P.' This is the fallacy of Affirming the Consequent.",
+      "Reasoning: Just because John fulfilled the condition required of employees doesn't mean he *is* an employee. Non-employees (e.g., customers) might also wash their hands.",
+      "Conclusion: The conclusion is invalid."
+    ],
+    "answer": "No, this conclusion is invalid. This is the fallacy of Affirming the Consequent. John could have washed his hands for other reasons; fulfilling the condition doesn't prove he belongs to the group required to fulfill it."
+  },
+  {
+    "id": "sl_106",
+    "category": "science",
+    "type": "friction",
+    "prompt": "What is friction, and what causes it at a microscopic level?",
+    "reasoning_steps": [
+      "Definition: Friction is a force that opposes motion (or attempted motion) between surfaces in contact.",
+      "Microscopic Cause 1 (Surface Roughness): Even surfaces that appear smooth are rough at a microscopic level, with peaks and valleys.",
+      "Interaction 1: When surfaces slide, these microscopic irregularities interlock and collide, resisting motion.",
+      "Microscopic Cause 2 (Adhesion): Atoms on the surfaces can form temporary electromagnetic attractions (bonds) where they come into close contact.",
+      "Interaction 2: Force is required to break these temporary bonds as the surfaces slide.",
+      "Result: Both roughness and adhesion contribute to the overall frictional force."
+    ],
+    "answer": "Friction is a force opposing motion between surfaces in contact. Microscopically, it's caused by the interlocking of surface irregularities (roughness) and adhesive forces (temporary bonds) between atoms on the contacting surfaces."
+  },
+  {
+    "id": "sl_107",
+    "category": "logic",
+    "type": "scope_fallacy",
+    "prompt": "Statement: 'A citizen of Country X can visit Country Y without a visa.' Does this imply that *all* citizens of Country X can visit Country Y without a visa?",
+    "reasoning_steps": [
+      "Statement Analysis: 'A citizen...' uses an indefinite article ('a'). This typically refers to *at least one* member of the group, or describes a general possibility or rule that applies individually.",
+      "Interpretation 1 (Existential): There exists at least one citizen who can visit without a visa.",
+      "Interpretation 2 (General Rule): The rule is that *if* you are a citizen, you *can* visit without a visa (applies to each citizen individually).",
+      "Ambiguity: The statement is slightly ambiguous but usually implies the general rule.",
+      "Implication Check: Does 'A citizen can...' mean the same as 'All citizens can...'? Not necessarily. There might be exceptions (e.g., citizens with criminal records, specific passport types).",
+      "Fallacy Potential: Assuming 'A...' means 'All...' can be a scope fallacy if exceptions exist.",
+      "Conclusion: The statement usually implies a general rule applicable to typical citizens, but doesn't logically guarantee *every single* citizen without exception can."
+    ],
+    "answer": "Not necessarily. While it often implies a general rule that applies to typical citizens, it doesn't logically guarantee that *every single* citizen without any possible exception can visit without a visa. Assuming 'a citizen' means 'all citizens' could be a scope fallacy if exceptions exist."
+  },
+  {
+    "id": "sl_108",
+    "category": "science",
+    "type": "DNA_function",
+    "prompt": "What is the primary function of DNA in living organisms?",
+    "reasoning_steps": [
+      "Molecule: DNA (Deoxyribonucleic acid).",
+      "Location: Found in the nucleus of eukaryotic cells (and cytoplasm of prokaryotes).",
+      "Structure: Double helix.",
+      "Content: Contains genetic instructions.",
+      "Function 1 (Information Storage): Stores the long-term blueprint or code for the development, functioning, growth, and reproduction of organisms.",
+      "Function 2 (Transmission): This genetic information is passed from one generation to the next.",
+      "Mechanism: The sequence of nucleotide bases (A, T, C, G) encodes instructions for building proteins and RNA molecules.",
+      "Conclusion: Primary function is to store and transmit genetic information."
+    ],
+    "answer": "The primary function of DNA is to store the long-term genetic instructions (the blueprint) needed for the development, functioning, growth, and reproduction of all known living organisms and many viruses. It also transmits this information from one generation to the next."
+  },
+  {
+    "id": "sl_109",
+    "category": "logic",
+    "type": "relevance",
+    "prompt": "During a debate about climate change policy, one speaker says, 'My opponent drives a large SUV!' Is this relevant to the policy debate?",
+    "reasoning_steps": [
+      "Topic of Debate: Climate change policy (e.g., effectiveness, cost, feasibility of proposed solutions).",
+      "Speaker's Statement: Focuses on the opponent's personal vehicle choice (large SUV).",
+      "Relevance Check: Does the opponent's personal vehicle choice directly address the merits or flaws of the proposed climate policy?",
+      "Analysis: No. While potentially hypocritical (depending on the opponent's stance), the type of car driven does not logically prove or disprove anything about the policy itself.",
+      "Potential Fallacy: This is likely an Ad Hominem attack (specifically, Tu Quoque or circumstantial), attempting to discredit the opponent or their argument based on personal actions rather than addressing the policy's substance.",
+      "Conclusion: The statement is generally considered irrelevant to the logical substance of the policy debate."
+    ],
+    "answer": "No, this is generally irrelevant to the substance of the climate change policy debate. It's likely an Ad Hominem fallacy, attacking the opponent personally rather than addressing the merits of their arguments about the policy."
+  },
+  {
+    "id": "sl_110",
+    "category": "science",
+    "type": "expansion_on_heating",
+    "prompt": "Why do sidewalks have gaps (expansion joints) built into them?",
+    "reasoning_steps": [
+      "Material Property (Thermal Expansion): Most materials, including concrete used for sidewalks, expand when heated and contract when cooled.",
+      "Environmental Factor: Temperature changes throughout the day and seasons.",
+      "Effect of Heating: On hot days, the concrete expands.",
+      "Problem without Gaps: If there were no gaps, the expanding concrete sections would push against each other with immense force.",
+      "Result without Gaps: This force would cause the concrete to buckle, crack, or shatter.",
+      "Function of Gaps (Expansion Joints): The gaps provide space for the concrete to expand into when the temperature rises, preventing stress buildup.",
+      "Conclusion: Expansion joints accommodate the thermal expansion and contraction of the concrete, preventing damage due to temperature changes."
+    ],
+    "answer": "Sidewalks have expansion joints to allow space for the concrete to expand when it gets hot. Without these gaps, the expanding concrete would push against itself, causing it to buckle and crack. The joints prevent this damage by accommodating thermal expansion."
+  },
+  {
+    "id": "sl_111",
+    "category": "logic",
+    "type": "analogy_strength",
+    "prompt": "Argument: 'Trying to regulate the internet is like trying to nail Jell-O to a wall. It's impossible.' Evaluate the strength of this analogy.",
+    "reasoning_steps": [
+      "Analogy Components: Target (regulating internet), Source (nailing Jell-O to a wall).",
+      "Claimed Similarity: Both are impossible or extremely difficult due to the nature of the subject (internet's decentralization/fluidity vs. Jell-O's lack of structure).",
+      "Strength Evaluation:",
+      " - Relevance: Captures the difficulty and perhaps futility felt by some.",
+      " - Accuracy: Is regulation truly *impossible*? Governments do implement various forms of internet regulation (censorship, data laws, copyright enforcement), though effectiveness varies and can be circumvented. 'Impossible' is likely an overstatement.",
+      " - Potential Weakness: Oversimplifies the complex issue of internet regulation, ignoring existing methods and nuances. Jell-O is physically impossible to nail; internet regulation is complex and challenging but not strictly impossible in the same physical sense.",
+      "Conclusion: The analogy effectively conveys extreme difficulty but is likely an exaggeration and oversimplification, making it rhetorically strong but potentially logically weak if taken literally as 'impossible'."
+    ],
+    "answer": "The analogy strongly conveys the perceived difficulty and perhaps futility of regulating the internet due to its fluid nature. However, it's likely an overstatement ('impossible') and oversimplifies a complex issue, as various forms of internet regulation do exist, even if challenging. Its strength is more rhetorical than strictly logical."
+  },
+  {
+    "id": "sl_112",
+    "category": "science",
+    "type": "lever_principle",
+    "prompt": "How does a seesaw work as a lever?",
+    "reasoning_steps": [
+      "Lever Definition: A rigid bar that pivots around a fixed point (fulcrum).",
+      "Seesaw Components:",
+      " - Lever: The seesaw plank.",
+      " - Fulcrum: The pivot point in the middle.",
+      " - Effort/Load: The weights (people) sitting on either end.",
+      "Principle of Moments: For balance, the clockwise moment must equal the counter-clockwise moment.",
+      "Moment Calculation: Moment = Force × Distance from Fulcrum.",
+      "Application: A lighter person can balance a heavier person by sitting further away from the fulcrum, increasing their distance and thus their moment (Force × larger Distance). Conversely, the heavier person sits closer (Force × smaller Distance).",
+      "Function: Allows forces to be balanced or multiplied based on distance from the fulcrum."
+    ],
+    "answer": "A seesaw acts as a Class 1 lever, with the fulcrum (pivot) in the middle. It works based on the principle of moments: Force × Distance from Fulcrum. A person's weight (force) multiplied by their distance from the center must balance the other person's weight multiplied by their distance. This allows people of different weights to balance by adjusting their positions."
+  },
+  {
+    "id": "sl_113",
+    "category": "logic",
+    "type": "statistical_significance",
+    "prompt": "A study finds that Group A performed slightly better than Group B on a test. What does it mean if this difference is reported as 'not statistically significant'?",
+    "reasoning_steps": [
+      "Observation: Difference in average scores between Group A and Group B.",
+      "Statistical Significance Concept: A measure of whether an observed difference is likely due to a real effect or simply due to random chance or sampling variability.",
+      "'Not Statistically Significant' Meaning: The observed difference is small enough that it could plausibly have occurred just by random chance, even if there were no real difference between the groups in the larger population.",
+      "Implication: We cannot confidently conclude that the observed difference reflects a true difference between the groups. There isn't strong enough evidence to reject the 'null hypothesis' (the hypothesis that there is no real difference).",
+      "Caution: It does *not* mean there is definitely no difference, only that this particular study didn't provide strong enough evidence to conclude there is one."
+    ],
+    "answer": "It means that the observed difference between the groups is likely small enough that it could have occurred simply due to random chance or sampling variability, rather than a real underlying difference between the groups. There isn't enough evidence from this study to confidently conclude that Group A truly performs better than Group B."
+  },
+  {
+    "id": "sl_114",
+    "category": "science",
+    "type": "reflection_vs_absorption",
+    "prompt": "Why does wearing a black shirt on a sunny day feel hotter than wearing a white shirt?",
+    "reasoning_steps": [
+      "Incoming Energy: Sunlight contains energy across various wavelengths (visible light, infrared, UV).",
+      "Interaction with Matter: When light hits an object, it can be reflected, absorbed, or transmitted.",
+      "Black Objects: Appear black because they absorb most wavelengths of visible light, reflecting very little.",
+      "White Objects: Appear white because they reflect most wavelengths of visible light, absorbing very little.",
+      "Energy Conversion: Absorbed light energy is converted into heat energy within the object.",
+      "Result (Black Shirt): Absorbs more sunlight energy, converts it to heat, making the shirt (and the wearer) hotter.",
+      "Result (White Shirt): Reflects more sunlight energy, absorbs less, converts less to heat, staying cooler."
+    ],
+    "answer": "Black surfaces absorb most of the light energy that hits them, converting it into heat. White surfaces reflect most of the light energy. Therefore, a black shirt absorbs more energy from sunlight and gets hotter than a white shirt, which reflects more sunlight away."
+  },
+  {
+    "id": "sl_115",
+    "category": "logic",
+    "type": "ambiguity",
+    "prompt": "Headline: 'Police Help Dog Bite Victim'. How can this headline be interpreted in two different ways?",
+    "reasoning_steps": [
+      "Sentence Structure: Subject (Police), Verb (Help), Object (Dog Bite Victim).",
+      "Ambiguity Source: The phrase 'Dog Bite Victim' can be parsed differently.",
+      "Interpretation 1 (Syntactic Ambiguity - Noun Phrase): 'Dog Bite Victim' is a single unit meaning 'a victim who was bitten by a dog'. The police are helping this person.",
+      "Interpretation 2 (Syntactic Ambiguity - Verb Phrase): 'Dog' is the object of 'Help', and 'Bite Victim' describes the action the dog is taking. The police are helping the dog to bite the victim.",
+      "Plausibility: Interpretation 1 is the intended and far more plausible meaning. Interpretation 2 is grammatically possible but semantically absurd in context.",
+      "Type of Ambiguity: Syntactic ambiguity (structural ambiguity)."
+    ],
+    "answer": "The headline is ambiguous due to sentence structure: 1) The police helped a person who was the victim of a dog bite (most likely meaning). 2) The police helped a dog to bite a victim (grammatically possible but absurd meaning)."
+  },
+  {
+    "id": "sl_116",
+    "category": "science",
+    "type": "dissolving",
+    "prompt": "What happens at a molecular level when salt (NaCl) dissolves in water (H2O)?",
+    "reasoning_steps": [
+      "Salt Structure: NaCl is an ionic compound, forming a crystal lattice of positive sodium ions (Na+) and negative chloride ions (Cl-).",
+      "Water Structure: H2O is a polar molecule, with a partial positive charge on the hydrogen atoms and a partial negative charge on the oxygen atom.",
+      "Interaction (Dissociation): When salt is added to water, the polar water molecules surround the ions in the crystal.",
+      "Hydration: The partially negative oxygen ends of water molecules are attracted to the positive Na+ ions. The partially positive hydrogen ends are attracted to the negative Cl- ions.",
+      "Overcoming Lattice Energy: The attraction between water molecules and the ions overcomes the forces holding the ions together in the crystal lattice.",
+      "Result: Individual Na+ and Cl- ions break away from the lattice and become surrounded by water molecules (hydrated ions), dispersing throughout the water.",
+      "Observation: The salt crystal disappears, forming a homogeneous solution."
+    ],
+    "answer": "When salt (NaCl) dissolves, polar water molecules surround the positive (Na+) and negative (Cl-) ions in the salt crystal. The attraction between the water molecules and the ions overcomes the forces holding the crystal together, causing the ions to separate (dissociate) and disperse throughout the water, each surrounded by water molecules (hydration)."
+  },
+  {
+    "id": "sl_117",
+    "category": "logic",
+    "type": "necessary_condition_test",
+    "prompt": "Is having wheels a necessary condition for being a car?",
+    "reasoning_steps": [
+      "Define Necessary Condition: X is necessary for Y if Y cannot occur without X (If Y, then X).",
+      "Test: Can something be a car (Y) without having wheels (X)?",
+      "Analysis: By the standard definition of a car (a road vehicle, typically with four wheels, powered by an internal combustion engine or electric motor and able to carry a small number of people), wheels are essential for its function and definition.",
+      "Hypothetical Exceptions: One might imagine a futuristic hover-car, but that wouldn't fit the *current*, standard definition.",
+      "Conclusion: Based on the standard definition, having wheels is required for something to be classified as a car."
+    ],
+    "answer": "Yes, according to the standard definition of a car, having wheels is a necessary condition. A vehicle without wheels would generally not be classified as a car."
+  },
+  {
+    "id": "sl_118",
+    "category": "science",
+    "type": "capillary_action",
+    "prompt": "How does water seem to climb up inside a thin tube (like a straw or plant xylem)?",
+    "reasoning_steps": [
+      "Forces Involved:",
+      " 1. Adhesion: Attractive force between water molecules and the molecules of the tube's surface (e.g., glass, cellulose).",
+      " 2. Cohesion: Attractive force between water molecules themselves (due to hydrogen bonding).",
+      " 3. Surface Tension: Result of cohesion, tends to minimize surface area.",
+      "Mechanism:",
+      " - Adhesion causes water molecules to 'stick' to the sides of the narrow tube.",
+      " - Cohesion causes the water molecules stuck to the sides to pull other water molecules up with them.",
+      " - Surface tension helps maintain the column of water.",
+      "Effect: If the adhesive forces to the tube wall are stronger than the cohesive forces within the water, the water will be pulled upwards against gravity until the weight of the water column balances the adhesive/cohesive forces.",
+      "Name: This phenomenon is called capillary action."
+    ],
+    "answer": "This is capillary action. Water molecules are attracted to the surface of the thin tube (adhesion) and also to each other (cohesion). Adhesion pulls the water up the sides, and cohesion pulls the rest of the water column along, allowing water to climb against gravity in narrow spaces."
+  },
+  {
+    "id": "sl_119",
+    "category": "logic",
+    "type": "sufficient_condition_test",
+    "prompt": "Is being a mammal a sufficient condition for being able to fly?",
+    "reasoning_steps": [
+      "Define Sufficient Condition: X is sufficient for Y if X guarantees Y (If X, then Y).",
+      "Test: If an animal is a mammal (X), does that guarantee it can fly (Y)?",
+      "Analysis: Consider mammals. Examples include dogs, cats, humans, whales, bats.",
+      "Counterexamples: Dogs, cats, humans, whales are mammals but cannot fly.",
+      "Conclusion: Being a mammal does not guarantee the ability to fly.",
+      "Note: Some mammals *can* fly (bats), but the condition 'mammal' itself is not enough to ensure flight."
+    ],
+    "answer": "No, being a mammal is not a sufficient condition for being able to fly. Many mammals (like dogs, whales, humans) cannot fly, even though some (like bats) can."
+  },
+  {
+    "id": "sl_120",
+    "category": "science",
+    "type": "resonance",
+    "prompt": "Why might a singer be able to break a glass with their voice?",
+    "reasoning_steps": [
+      "Natural Frequency: Every object, including a glass, has a natural frequency (or frequencies) at which it vibrates most easily.",
+      "Sound Waves: Sound consists of vibrations (waves). A singer produces sound waves at specific frequencies (pitch).",
+      "Resonance: If the singer produces a sustained note at a frequency that exactly matches the natural frequency of the glass, resonance occurs.",
+      "Energy Transfer: During resonance, the glass absorbs energy from the sound wave very efficiently.",
+      "Amplitude Increase: This absorbed energy causes the glass to vibrate with increasingly larger amplitude (wider swings).",
+      "Structural Limit: If the amplitude becomes large enough, it can exceed the structural limits of the glass material.",
+      "Result: The glass shatters due to the excessive vibrations.",
+      "Requirement: Requires a precise frequency match, sufficient volume (intensity), and a glass susceptible to shattering."
+    ],
+    "answer": "A singer might break a glass if they sing a note at the glass's precise natural resonant frequency with sufficient volume. This causes the glass to vibrate with increasingly large amplitude (resonance). If the vibrations become too large for the glass structure to handle, it shatters."
+  },
+  {
+    "id": "sl_121",
+    "category": "logic",
+    "type": "tautology",
+    "prompt": "Is the statement 'It is raining or it is not raining' always true, always false, or sometimes true/false?",
+    "reasoning_steps": [
+      "Statement Structure: P ∨ ¬P (P OR Not P), where P = 'It is raining'.",
+      "Logical Principle: Law of Excluded Middle.",
+      "Statement of Law: For any proposition P, either P is true, or its negation ¬P is true. There is no third option.",
+      "Analysis: If P is true ('It is raining'), the statement 'P or Not P' is true. If P is false ('It is not raining'), then ¬P is true, and the statement 'P or Not P' is still true.",
+      "Conclusion: The statement covers all logical possibilities and is therefore always true, regardless of whether it is actually raining.",
+      "Name: Such a statement that is always true by its logical structure is called a tautology."
+    ],
+    "answer": "Always true. This is a tautology based on the Law of Excluded Middle; either a statement or its negation must be true."
+  },
+  {
+    "id": "sl_122",
+    "category": "science",
+    "type": "electromagnetism",
+    "prompt": "How does an electric motor work (basic principle)?",
+    "reasoning_steps": [
+      "Key Components: Source of electricity, magnets (permanent or electromagnets), a rotating coil of wire (armature/rotor), commutator, brushes.",
+      "Principle 1 (Electromagnetism): When electric current flows through a wire, it creates a magnetic field around the wire.",
+      "Principle 2 (Motor Effect): When a current-carrying wire is placed in an external magnetic field, it experiences a force (Lorentz force). The direction of the force depends on the direction of the current and the magnetic field.",
+      "Motor Action:",
+      " 1. Current flows through the coil (rotor) placed within the magnetic field created by the stator magnets.",
+      " 2. The wires on opposite sides of the coil experience forces in opposite directions due to the motor effect.",
+      " 3. These opposing forces create a turning effect (torque) on the coil, causing it to rotate.",
+      " 4. Commutator & Brushes: As the coil rotates, the commutator reverses the direction of the current in the coil at the right moment, ensuring the torque continues to push the coil in the same direction, producing continuous rotation.",
+      "Energy Conversion: Electrical energy is converted into mechanical rotational energy."
+    ],
+    "answer": "An electric motor works by using the principle that a current-carrying wire in a magnetic field experiences a force. Current flows through a coil of wire (rotor) placed in a magnetic field. This creates forces that produce a torque, causing the coil to rotate. A commutator reverses the current direction periodically to maintain continuous rotation, converting electrical energy into mechanical energy."
+  },
+  {
+    "id": "sl_123",
+    "category": "logic",
+    "type": "self-contradiction",
+    "prompt": "Is the statement 'This statement is true' problematic in the same way as 'This statement is false'?",
+    "reasoning_steps": [
+      "Statement 1 (Liar Paradox): 'This statement is false' (P ↔ ¬P). Leads to contradiction whether assumed true or false.",
+      "Statement 2 (Truth-teller): 'This statement is true' (Q ↔ Q).",
+      "Analyze Statement 2:",
+      " - Assume True: If 'This statement is true' is true, then it is true. Consistent.",
+      " - Assume False: If 'This statement is true' is false, then it is false. Consistent.",
+      "Problem: While it doesn't lead to a direct contradiction like the Liar Paradox, it provides no actual information. Its truth value is undetermined by the statement itself. It could be true, or it could be false, without violating logic based solely on its content.",
+      "Conclusion: It's not problematic in the sense of creating a logical contradiction, but it is ungrounded or paradoxical in a different way – its truth value cannot be determined from the statement itself."
+    ],
+    "answer": "No, it's not problematic in the same way. 'This statement is true' doesn't lead to a direct logical contradiction like the Liar Paradox ('This statement is false'). However, it is still considered problematic or ungrounded because its truth value cannot be determined from the statement itself – it could be true or false without internal inconsistency."
+  },
+  {
+    "id": "sl_124",
+    "category": "science",
+    "type": "specific_heat",
+    "prompt": "Why does the sand on a beach get much hotter than the water on a sunny day?",
+    "reasoning_steps": [
+      "Concept: Specific Heat Capacity - The amount of heat energy required to raise the temperature of one unit of mass of a substance by one degree Celsius (or one Kelvin).",
+      "Comparison: Water has a very high specific heat capacity compared to sand (or rock/soil).",
+      "Energy Input: Both sand and water receive roughly the same amount of energy from the sun.",
+      "Effect on Water: Because water has a high specific heat, it requires a lot of energy to increase its temperature. It absorbs the sun's energy without its temperature rising quickly.",
+      "Effect on Sand: Sand has a low specific heat capacity. It requires much less energy to increase its temperature. The same amount of solar energy causes the sand's temperature to rise much more rapidly.",
+      "Conclusion: Due to its lower specific heat capacity, sand heats up much faster and reaches a higher temperature than water when exposed to the same amount of solar energy."
+    ],
+    "answer": "This is mainly because water has a much higher specific heat capacity than sand. This means water requires significantly more heat energy to raise its temperature by the same amount compared to sand. So, under the same sunlight, sand heats up much faster and gets hotter."
+  },
+  {
+    "id": "sl_125",
+    "category": "logic",
+    "type": "conditional_chain",
+    "prompt": "Premise 1: If it rains (P), then the streets are wet (Q). Premise 2: If the streets are wet (Q), then driving is dangerous (R). Conclusion: If it rains (P), then driving is dangerous (R). Is this conclusion valid?",
+    "reasoning_steps": [
+      "Premise 1: P → Q",
+      "Premise 2: Q → R",
+      "Conclusion: P → R",
+      "Logical Rule: This argument structure follows the rule of Hypothetical Syllogism.",
+      "Validity: Hypothetical Syllogism is a valid deductive argument form. If the premises are true, the conclusion must logically follow.",
+      "Analysis: If P guarantees Q, and Q guarantees R, then P must guarantee R.",
+      "Conclusion: Yes, the conclusion is valid."
+    ],
+    "answer": "Yes, the conclusion is valid. This follows the rule of Hypothetical Syllogism (If P implies Q, and Q implies R, then P implies R)."
+  },
+  {
+    "id": "sl_126",
+    "category": "science",
+    "type": "oxidation_reduction",
+    "prompt": "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, which element is oxidized and which is reduced?",
+    "reasoning_steps": [
+      "Definitions:",
+      " - Oxidation: Loss of electrons (increase in oxidation state).",
+      " - Reduction: Gain of electrons (decrease in oxidation state).",
+      "Mnemonic: OIL RIG (Oxidation Is Loss, Reduction Is Gain of electrons).",
+      "Analyze Zinc (Zn): Starts as elemental zinc (oxidation state 0). Ends as Zn²⁺ ion (oxidation state +2). Zinc lost 2 electrons. Therefore, Zinc (Zn) is oxidized.",
+      "Analyze Copper Ion (Cu²⁺): Starts as copper ion (oxidation state +2). Ends as elemental copper (Cu) (oxidation state 0). Copper ion gained 2 electrons. Therefore, Copper ion (Cu²⁺) is reduced.",
+      "Conclusion: Zn is oxidized, Cu²⁺ is reduced."
+    ],
+    "answer": "Zinc (Zn) is oxidized (loses electrons, oxidation state increases from 0 to +2). The copper ion (Cu²⁺) is reduced (gains electrons, oxidation state decreases from +2 to 0)."
+  },
+  {
+    "id": "sl_127",
+    "category": "logic",
+    "type": "modus_tollens_application",
+    "prompt": "Rule: If a creature is a bird (B), then it has feathers (F). Observation: This creature does not have feathers (¬F). What can be concluded?",
+    "reasoning_steps": [
+      "Rule (Conditional): B → F",
+      "Observation: ¬F",
+      "Logical Rule (Modus Tollens): If P implies Q, and Q is false (¬Q), then P must be false (¬P).",
+      "Application: Here P=B and Q=F. We have B → F and ¬F.",
+      "Conclusion: Therefore, ¬B (This creature is not a bird)."
+    ],
+    "answer": "It can be concluded that this creature is not a bird (by Modus Tollens)."
+  },
+  {
+    "id": "sl_128",
+    "category": "science",
+    "type": "catalyst",
+    "prompt": "What is the role of a catalyst in a chemical reaction?",
+    "reasoning_steps": [
+      "Chemical Reaction: Process involving rearrangement of atoms/molecules.",
+      "Reaction Rate: How fast reactants are converted into products.",
+      "Activation Energy: Minimum energy required for a reaction to occur.",
+      "Catalyst Definition: A substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+      "Mechanism: Catalysts typically work by providing an alternative reaction pathway with a lower activation energy.",
+      "Effect: Lower activation energy means more reactant molecules have sufficient energy to react upon collision, increasing the reaction rate.",
+      "Key Feature: The catalyst is not consumed in the reaction and can be recovered chemically unchanged at the end (though it might participate in intermediate steps)."
+    ],
+    "answer": "A catalyst increases the rate of a chemical reaction by lowering its activation energy, providing an alternative pathway for the reaction to occur. The catalyst itself is not consumed in the overall reaction."
+  },
+  {
+    "id": "sl_129",
+    "category": "logic",
+    "type": "disjunctive_syllogism",
+    "prompt": "Premise 1: The switch is either on or off (P ∨ Q). Premise 2: The switch is not on (¬P). Conclusion?",
+    "reasoning_steps": [
+      "Premise 1 (Disjunction): P ∨ Q (P or Q is true).",
+      "Premise 2 (Negation): ¬P (P is false).",
+      "Logical Rule (Disjunctive Syllogism): If P or Q is true, and P is false, then Q must be true.",
+      "Application: Since the switch must be either on or off, and it's not on, it must be the other option.",
+      "Conclusion: Therefore, the switch is off (Q)."
+    ],
+    "answer": "The switch is off."
+  },
+  {
+    "id": "sl_130",
+    "category": "science",
+    "type": "pH_scale",
+    "prompt": "What does the pH scale measure, and what do low and high pH values indicate?",
+    "reasoning_steps": [
+      "pH Scale Definition: A logarithmic scale used to specify the acidity or basicity (alkalinity) of an aqueous solution.",
+      "What it Measures: Concentration of hydrogen ions (H⁺) in a solution.",
+      "Scale Range: Typically 0 to 14.",
+      "Neutral Point: pH 7 is neutral (like pure water), where H⁺ and OH⁻ concentrations are equal.",
+      "Low pH (0 to <7): Indicates acidity. Lower pH means higher H⁺ concentration, stronger acid.",
+      "High pH (>7 to 14): Indicates basicity (alkalinity). Higher pH means lower H⁺ concentration (and higher OH⁻ concentration), stronger base.",
+      "Logarithmic Nature: Each whole pH unit represents a tenfold difference in H⁺ concentration (e.g., pH 4 is 10 times more acidic than pH 5)."
+    ],
+    "answer": "The pH scale measures the acidity or basicity of a solution, based on its hydrogen ion (H⁺) concentration. Low pH values (below 7) indicate acidity (higher H⁺ concentration), while high pH values (above 7) indicate basicity/alkalinity (lower H⁺ concentration). A pH of 7 is neutral."
+  },
+  {
+    "id": "sl_131",
+    "category": "logic",
+    "type": "constructive_dilemma",
+    "prompt": "Premise 1: If I study (P), I will pass the exam (Q). Premise 2: If I cheat (R), I will pass the exam (Q). Premise 3: I will either study or I will cheat (P ∨ R). Conclusion?",
+    "reasoning_steps": [
+      "Premise 1: P → Q",
+      "Premise 2: R → Q",
+      "Premise 3: P ∨ R",
+      "Logical Rule (Constructive Dilemma): If (P → Q) and (R → S), and (P ∨ R) is true, then (Q ∨ S) must be true. In this specific case, S is the same as Q.",
+      "Application: Since both studying (P) and cheating (R) lead to passing (Q), and I will do one of them (P ∨ R), then the outcome must be passing (Q).",
+      "Conclusion: Therefore, I will pass the exam (Q)."
+    ],
+    "answer": "I will pass the exam."
+  },
+  {
+    "id": "sl_132",
+    "category": "science",
+    "type": "isotopes",
+    "prompt": "What are isotopes?",
+    "reasoning_steps": [
+      "Context: Atoms of the same chemical element.",
+      "Defining Property of Element: Number of protons in the nucleus (Atomic Number). All atoms of a given element have the same number of protons.",
+      "Variable Property: Number of neutrons in the nucleus.",
+      "Isotope Definition: Isotopes are variants of a particular chemical element which differ in neutron number, although all isotopes of a given element have the same number of protons.",
+      "Effect: Different isotopes of an element have the same atomic number but different mass numbers (Mass Number = Protons + Neutrons).",
+      "Chemical Properties: Since the number of electrons (which equals the number of protons in a neutral atom) determines chemical behavior, isotopes of an element have very similar chemical properties.",
+      "Example: Carbon-12 (6 protons, 6 neutrons) and Carbon-14 (6 protons, 8 neutrons) are isotopes of carbon."
+    ],
+    "answer": "Isotopes are atoms of the same chemical element that have the same number of protons but different numbers of neutrons. This means they have the same atomic number but different mass numbers, while retaining similar chemical properties."
+  },
+  {
+    "id": "sl_133",
+    "category": "logic",
+    "type": "existential_generalization",
+    "prompt": "Premise: My cat, Whiskers, is black. Conclusion: Therefore, some cats are black. Is this conclusion valid?",
+    "reasoning_steps": [
+      "Premise: A specific instance (Whiskers) belongs to a category (cat) and has a property (is black).",
+      "Conclusion: A general statement that at least one member ('some') of the category (cat) has the property (is black).",
+      "Logical Rule (Existential Generalization): If a specific individual 'a' has property P, then it is valid to conclude that 'There exists at least one x such that x has property P'.",
+      "Application: Whiskers is a cat (x) and Whiskers is black (P). Therefore, there exists at least one cat (x) that is black (P).",
+      "Conclusion: Yes, the conclusion is valid."
+    ],
+    "answer": "Yes, the conclusion is valid. If a specific instance (Whiskers the cat) has a property (being black), it logically follows that at least one member of that category (cats) has that property ('some cats are black')."
+  },
+  {
+    "id": "sl_134",
+    "category": "science",
+    "type": "potential_vs_kinetic_energy",
+    "prompt": "Describe the difference between potential energy and kinetic energy.",
+    "reasoning_steps": [
+      "Energy Definition: The capacity to do work.",
+      "Kinetic Energy (KE): The energy an object possesses due to its motion. Depends on mass and velocity (KE = 1/2 mv²). Example: A moving car.",
+      "Potential Energy (PE): Stored energy an object possesses due to its position, state, or configuration. Examples:",
+      " - Gravitational PE: Energy stored due to an object's height above a reference point (depends on mass, gravity, height). Example: A book held above the ground.",
+      " - Elastic PE: Energy stored in elastic materials due to stretching or compressing. Example: A stretched rubber band.",
+      " - Chemical PE: Energy stored in chemical bonds. Example: Energy in food or fuel.",
+      "Key Difference: Kinetic energy is energy of motion; potential energy is stored energy based on position or state.",
+      "Conversion: Potential energy can often be converted into kinetic energy, and vice versa (e.g., a falling object converts gravitational PE to KE)."
+    ],
+    "answer": "Kinetic energy is the energy of motion (an object must be moving to have it). Potential energy is stored energy based on an object's position (like height in a gravitational field) or state (like energy stored in chemical bonds or a stretched spring)."
+  },
+  {
+    "id": "sl_135",
+    "category": "logic",
+    "type": "categorical_syllogism_validity",
+    "prompt": "Syllogism: 1. All mammals are animals. 2. All dogs are mammals. 3. Therefore, all dogs are animals. Is this syllogism valid?",
+    "reasoning_steps": [
+      "Syllogism Structure:",
+      " - Major Premise: All M are P (M=mammals, P=animals)",
+      " - Minor Premise: All S are M (S=dogs, M=mammals)",
+      " - Conclusion: All S are P (S=dogs, P=animals)",
+      "Form Name: This is a standard valid categorical syllogism form known as AAA-1 (Barbara).",
+      "Venn Diagram Test (Mental or Actual): Draw three overlapping circles for S, M, P. Premise 1 shades the part of M outside P. Premise 2 shades the part of S outside M. Check if the conclusion (the part of S outside P is shaded) necessarily follows. Yes, it does.",
+      "Logical Flow: If the category 'dogs' is entirely within 'mammals', and 'mammals' is entirely within 'animals', then 'dogs' must be entirely within 'animals'.",
+      "Conclusion: Yes, the syllogism is valid."
+    ],
+    "answer": "Yes, this is a valid categorical syllogism (form AAA-1, often called Barbara)."
+  },
+  {
+    "id": "sl_136",
+    "category": "science",
+    "type": "simple_machines",
+    "prompt": "What is the purpose of a simple machine (like a lever, pulley, or inclined plane)?",
+    "reasoning_steps": [
+      "Simple Machine Definition: Basic mechanical devices that change the direction or magnitude of a force.",
+      "Work Principle: Simple machines do *not* reduce the total amount of work done (Work = Force × Distance). In ideal cases (no friction), work input equals work output.",
+      "Primary Purpose 1 (Force Multiplication): Allow a task to be done with less input force (effort) by increasing the distance over which the force is applied. Example: Using a ramp (inclined plane) to lift a heavy object requires less force than lifting it vertically, but over a longer distance.",
+      "Primary Purpose 2 (Direction Change): Change the direction of an applied force to make a task easier or more convenient. Example: A single fixed pulley allows you to pull down to lift an object up.",
+      "Mechanical Advantage: The ratio of output force to input force. Simple machines provide mechanical advantage.",
+      "Conclusion: To make work easier by reducing the required input force (trading force for distance) or by changing the direction of the force."
+    ],
+    "answer": "The purpose of a simple machine is to make work easier by either reducing the amount of force needed to perform a task (by increasing the distance over which the force is applied) or by changing the direction of the applied force."
+  },
+  {
+    "id": "sl_137",
+    "category": "logic",
+    "type": "fallacy_of_accident",
+    "prompt": "Argument: 'Cutting people with knives is a crime. Surgeons cut people with knives. Therefore, surgeons are criminals.' Identify the fallacy.",
+    "reasoning_steps": [
+      "General Rule Premise: Cutting people with knives is a crime.",
+      "Specific Case Premise: Surgeons cut people with knives.",
+      "Conclusion: Surgeons are criminals.",
+      "Identify Flaw: The argument applies a general rule ('Cutting people is a crime') to a specific case (surgery) where special circumstances make the rule inapplicable. The general rule has implicit exceptions (like medical necessity, self-defense).",
+      "Name Fallacy: Fallacy of Accident (Dicto Simpliciter). Applying a general rule to a specific case whose 'accidental' circumstances make the rule inappropriate."
+    ],
+    "answer": "Fallacy of Accident. The argument incorrectly applies a general rule ('Cutting people with knives is a crime') to a specific situation (surgery) where special circumstances (medical procedure) make the rule inapplicable."
+  },
+  {
+    "id": "sl_138",
+    "category": "science",
+    "type": "Newton_third_law",
+    "prompt": "Explain Newton's Third Law of Motion.",
+    "reasoning_steps": [
+      "Statement of Law: For every action, there is an equal and opposite reaction.",
+      "Meaning: Forces always occur in pairs. If object A exerts a force on object B (the 'action'), then object B simultaneously exerts a force on object A (the 'reaction').",
+      "Characteristics of Force Pair:",
+      " - Equal in magnitude (same strength).",
+      " - Opposite in direction.",
+      " - Act on different objects (Action on B, Reaction on A).",
+      "Example: When you push on a wall (action force on wall), the wall pushes back on you with an equal and opposite force (reaction force on you).",
+      "Example 2: A rocket expels gas downwards (action). The gas pushes the rocket upwards (reaction)."
+    ],
+    "answer": "Newton's Third Law states that for every action (force), there is an equal and opposite reaction (force). This means forces always come in pairs: if object A pushes on object B, object B simultaneously pushes back on object A with the same amount of force but in the opposite direction."
+  },
+  {
+    "id": "sl_139",
+    "category": "logic",
+    "type": "converse_fallacy",
+    "prompt": "Premise: All cats are mammals. Conclusion: Therefore, all mammals are cats. Is this conclusion valid?",
+    "reasoning_steps": [
+      "Premise: All S are P (S=cats, P=mammals).",
+      "Conclusion: All P are S (P=mammals, S=cats).",
+      "Analysis: The conclusion attempts to state the converse of the premise.",
+      "Validity Check: Is the converse of a true 'All S are P' statement necessarily true? No.",
+      "Counterexample: While all cats are indeed mammals, there are many mammals (dogs, humans, whales) that are not cats.",
+      "Conclusion: The conclusion is invalid. This is an illicit conversion."
+    ],
+    "answer": "No, the conclusion is invalid. Just because all cats fall into the category of mammals doesn't mean that all mammals must fall into the category of cats. This is an example of an illicit conversion."
+  },
+  {
+    "id": "sl_140",
+    "category": "science",
+    "type": "element_vs_compound",
+    "prompt": "What is the difference between a chemical element and a compound?",
+    "reasoning_steps": [
+      "Element Definition: A pure substance consisting only of atoms that all have the same number of protons in their nuclei (same atomic number). Cannot be broken down into simpler substances by chemical means. Examples: Oxygen (O), Iron (Fe), Carbon (C).",
+      "Compound Definition: A pure substance consisting of two or more different chemical elements chemically bonded together in a fixed ratio. Can be broken down into simpler elements by chemical reactions. Examples: Water (H2O - Hydrogen and Oxygen), Salt (NaCl - Sodium and Chlorine), Carbon Dioxide (CO2 - Carbon and Oxygen).",
+      "Key Distinction: Elements are the fundamental building blocks; compounds are formed by chemically combining elements.",
+      "Properties: Compounds have properties distinct from the elements that compose them."
+    ],
+    "answer": "An element is a pure substance made of only one type of atom (e.g., oxygen, gold) and cannot be broken down chemically. A compound is a substance formed when two or more different elements are chemically bonded together in a fixed ratio (e.g., water H2O, salt NaCl) and can be broken down into elements."
+  },
+  {
+    "id": "sl_141",
+    "category": "logic",
+    "type": "inverse_fallacy",
+    "prompt": "Premise: If it is raining (P), then the ground is wet (Q). Conclusion: Therefore, if it is not raining (¬P), then the ground is not wet (¬Q). Is this conclusion valid?",
+    "reasoning_steps": [
+      "Premise: P → Q",
+      "Conclusion: ¬P → ¬Q",
+      "Analysis: The conclusion attempts to state the inverse of the premise.",
+      "Validity Check: Is the inverse of a true conditional statement necessarily true? No.",
+      "Counterexample: The ground could be wet for other reasons (sprinklers, spilled water) even if it is not raining. So, ¬P being true does not guarantee ¬Q is true.",
+      "Conclusion: The conclusion is invalid. This is the fallacy of denying the antecedent (or fallacy of the inverse)."
+    ],
+    "answer": "No, the conclusion is invalid. This is the fallacy of the inverse (related to denying the antecedent). The ground could be wet for reasons other than rain, so 'not raining' doesn't guarantee 'ground not wet'."
+  },
+  {
+    "id": "sl_142",
+    "category": "science",
+    "type": "diffusion",
+    "prompt": "What is diffusion?",
+    "reasoning_steps": [
+      "Context: Movement of particles (atoms, molecules, ions).",
+      "Driving Force: Random thermal motion of particles.",
+      "Net Movement: Particles tend to move from an area of higher concentration to an area of lower concentration.",
+      "Mechanism: Although individual particle movement is random, statistically, more particles will move away from a high-concentration area than into it, resulting in a net flow down the concentration gradient.",
+      "Result: Over time, diffusion leads to the even distribution of particles throughout the available space (equilibrium).",
+      "Examples: Smell spreading across a room, sugar dissolving and spreading in water.",
+      "Requirement: Does not require external energy input (passive process)."
+    ],
+    "answer": "Diffusion is the net movement of particles (like molecules or atoms) from an area of higher concentration to an area of lower concentration, driven by the random thermal motion of the particles. It leads to the gradual mixing and evening out of concentrations."
+  },
+  {
+    "id": "sl_143",
+    "category": "logic",
+    "type": "contrapositive_validity",
+    "prompt": "Premise: If it is raining (P), then the ground is wet (Q). Conclusion: Therefore, if the ground is not wet (¬Q), then it is not raining (¬P). Is this conclusion valid?",
+    "reasoning_steps": [
+      "Premise: P → Q",
+      "Conclusion: ¬Q → ¬P",
+      "Analysis: The conclusion states the contrapositive of the premise.",
+      "Logical Equivalence: A conditional statement (P → Q) is logically equivalent to its contrapositive (¬Q → ¬P). They always have the same truth value.",
+      "Validity Check: If the premise is true, its logically equivalent contrapositive must also be true.",
+      "Conclusion: Yes, the conclusion is valid."
+    ],
+    "answer": "Yes, the conclusion is valid. It is the contrapositive of the premise, and a conditional statement is always logically equivalent to its contrapositive."
+  },
+  {
+    "id": "sl_144",
+    "category": "science",
+    "type": "acids_properties",
+    "prompt": "What are some common properties of acids?",
+    "reasoning_steps": [
+      "Definition Basis: Substances that produce hydrogen ions (H⁺) or hydronium ions (H₃O⁺) in aqueous solution, or act as proton donors.",
+      "Taste: Sour taste (e.g., lemon juice - citric acid, vinegar - acetic acid). Caution: Never taste unknown chemicals.",
+      "pH: pH values less than 7.",
+      "Reaction with Metals: React with many metals (like zinc, iron) to produce hydrogen gas.",
+      "Reaction with Bases: React with bases in neutralization reactions to form salt and water.",
+      "Reaction with Carbonates: React with carbonates (like limestone, baking soda) to produce carbon dioxide gas, salt, and water.",
+      "Effect on Indicators: Turn blue litmus paper red. Change color of other pH indicators.",
+      "Conductivity: Aqueous solutions of acids conduct electricity (because they form ions)."
+    ],
+    "answer": "Common properties of acids include a sour taste, a pH less than 7, reacting with many metals to produce hydrogen gas, reacting with bases to form salt and water (neutralization), reacting with carbonates to produce CO2, and turning blue litmus paper red."
+  },
+  {
+    "id": "sl_145",
+    "category": "logic",
+    "type": "syllogism_invalidity",
+    "prompt": "Syllogism: 1. All birds have wings. 2. Some winged creatures can fly. 3. Therefore, some birds can fly. Is this syllogism valid?",
+    "reasoning_steps": [
+      "Premise 1: All Birds (B) are Winged (W). (All B are W)",
+      "Premise 2: Some Winged (W) creatures can Fly (F). (Some W are F)",
+      "Conclusion: Some Birds (B) can Fly (F). (Some B are F)",
+      "Analysis: The premises establish that the 'Birds' circle is inside the 'Winged' circle, and that the 'Winged' circle overlaps with the 'Fly' circle. However, the overlap between W and F might occur in a part of W that does *not* include B.",
+      "Venn Diagram Test: Draw circles for B, W, F. Shade 'All B are W' (part of B outside W). Mark 'Some W are F' with an 'X' on the line between W and F, indicating the overlap could be inside or outside B. The conclusion 'Some B are F' (an X inside the B and F overlap) is not guaranteed.",
+      "Conclusion: The syllogism is invalid. The premises do not guarantee the conclusion."
+    ],
+    "answer": "No, this syllogism is invalid. While the conclusion happens to be true in reality (many birds can fly), the premises themselves do not logically guarantee it. The winged creatures that can fly (Premise 2) might not be the birds mentioned in Premise 1."
+  },
+  {
+    "id": "sl_146",
+    "category": "science",
+    "type": "bases_properties",
+    "prompt": "What are some common properties of bases (alkalis)?",
+    "reasoning_steps": [
+      "Definition Basis: Substances that produce hydroxide ions (OH⁻) in aqueous solution, or act as proton acceptors.",
+      "Taste: Bitter taste (e.g., soap, baking soda solution). Caution: Never taste unknown chemicals.",
+      "Feel: Slippery or soapy feel (due to reaction with oils on skin).",
+      "pH: pH values greater than 7.",
+      "Reaction with Acids: React with acids in neutralization reactions to form salt and water.",
+      "Effect on Indicators: Turn red litmus paper blue. Change color of other pH indicators (e.g., phenolphthalein turns pink).",
+      "Conductivity: Aqueous solutions of bases conduct electricity (because they form ions)."
+    ],
+    "answer": "Common properties of bases include a bitter taste, a slippery feel, a pH greater than 7, reacting with acids to form salt and water (neutralization), and turning red litmus paper blue."
+  },
+  {
+    "id": "sl_147",
+    "category": "logic",
+    "type": "quantifier_negation",
+    "prompt": "What is the logical negation of the statement 'Some politicians are honest'?",
+    "reasoning_steps": [
+      "Original Statement Quantifier: Existential ('Some', meaning 'at least one'). Form: ∃x (P(x) ∧ H(x)) - There exists an x such that x is a politician and x is honest.",
+      "Negation Principle: To negate an existential statement ('Some A are B'), you must claim that *no* A is B.",
+      "Apply Negation: The negation is 'No politicians are honest'. Form: ¬∃x (P(x) ∧ H(x)), which is equivalent to ∀x (P(x) → ¬H(x)) - For all x, if x is a politician, then x is not honest."
+    ],
+    "answer": "No politicians are honest (or: All politicians are dishonest)."
+  },
+  {
+    "id": "sl_148",
+    "category": "science",
+    "type": "solution_concentration",
+    "prompt": "If you dissolve 10 grams of sugar in 100 grams of water, what is the mass percentage concentration of the sugar solution?",
+    "reasoning_steps": [
+      "Definition: Mass percentage concentration = (Mass of Solute / Total Mass of Solution) × 100%.",
+      "Identify Solute: Sugar (Mass = 10 g).",
+      "Identify Solvent: Water (Mass = 100 g).",
+      "Calculate Total Mass of Solution: Mass of Solute + Mass of Solvent = 10 g + 100 g = 110 g.",
+      "Calculate Mass Percentage: (10 g / 110 g) × 100%.",
+      "Calculation: (1/11) × 100% ≈ 9.09%.",
+    ],
+    "answer": "Approximately 9.09%. (Calculated as [10 g sugar / (10 g sugar + 100 g water)] * 100%)"
+  },
+  {
+    "id": "sl_149",
+    "category": "logic",
+    "type": "quantifier_negation_universal",
+    "prompt": "What is the logical negation of the statement 'No dogs are purple'?",
+    "reasoning_steps": [
+      "Original Statement Quantifier: Universal Negative ('No'). Form: ∀x (D(x) → ¬P(x)) - For all x, if x is a dog, then x is not purple.",
+      "Negation Principle: To negate a universal negative statement ('No A are B'), you must claim that *at least one* A *is* B.",
+      "Apply Negation: The negation is 'Some dogs are purple'. Form: ¬∀x (D(x) → ¬P(x)), which is equivalent to ∃x (D(x) ∧ P(x)) - There exists an x such that x is a dog and x is purple."
+    ],
+    "answer": "Some dogs are purple."
+  },
+  {
+    "id": "sl_150",
+    "category": "science",
+    "type": "half_life",
+    "prompt": "A radioactive isotope has a half-life of 10 days. If you start with 100 grams, how much will be left after 20 days?",
+    "reasoning_steps": [
+      "Definition Half-life: The time it takes for half of the radioactive atoms in a sample to decay.",
+      "Given Half-life: 10 days.",
+      "Given Starting Amount: 100 grams.",
+      "Time Elapsed: 20 days.",
+      "Number of Half-lives: Time Elapsed / Half-life = 20 days / 10 days = 2 half-lives.",
+      "Calculation:",
+      " - After 1 half-life (10 days): Amount remaining = 100 g / 2 = 50 g.",
+      " - After 2 half-lives (20 days): Amount remaining = 50 g / 2 = 25 g.",
+      "Alternative Formula: Amount remaining = Initial Amount × (1/2)^(Number of half-lives) = 100 g × (1/2)² = 100 g × 1/4 = 25 g."
+    ],
+    "answer": "25 grams will be left. (After 10 days, 50g remain. After another 10 days (20 total), half of the 50g remains, which is 25g)."
+  },
+  {
+    "id": "sl_151",
+    "category": "logic",
+    "type": "set_union",
+    "prompt": "Set A = {apple, banana}. Set B = {banana, orange}. What is the union of Set A and Set B (A ∪ B)?",
+    "reasoning_steps": [
+      "Definition of Union: The union of two sets contains all elements that are in *either* set (or in both). Duplicate elements are listed only once.",
+      "Examine Set A: {apple, banana}",
+      "Examine Set B: {banana, orange}",
+      "Combine Elements: Include all unique elements from both sets.",
+      "Result: A ∪ B = {apple, banana, orange}"
+    ],
+    "answer": "{apple, banana, orange}"
+  },
+  {
+    "id": "sl_152",
+    "category": "science",
+    "type": "exothermic_endothermic",
+    "prompt": "What is the difference between an exothermic and an endothermic reaction?",
+    "reasoning_steps": [
+      "Context: Chemical reactions involve energy changes.",
+      "Exothermic Reaction:",
+      " - Definition: A reaction that releases energy into the surroundings, usually in the form of heat.",
+      " - Energy Change: The products have lower energy than the reactants. Change in enthalpy (ΔH) is negative.",
+      " - Observation: Surroundings feel warmer.",
+      " - Example: Combustion (burning fuel).",
+      "Endothermic Reaction:",
+      " - Definition: A reaction that absorbs energy from the surroundings, usually in the form of heat.",
+      " - Energy Change: The products have higher energy than the reactants. Change in enthalpy (ΔH) is positive.",
+      " - Observation: Surroundings feel cooler.",
+      " - Example: Dissolving ammonium nitrate in water (used in instant cold packs)."
+    ],
+    "answer": "An exothermic reaction releases energy (usually heat) into the surroundings (feels hot, ΔH is negative). An endothermic reaction absorbs energy (usually heat) from the surroundings (feels cold, ΔH is positive)."
+  },
+  {
+    "id": "sl_153",
+    "category": "logic",
+    "type": "probability_independent_events",
+    "prompt": "You flip a fair coin twice. What is the probability of getting heads both times?",
+    "reasoning_steps": [
+      "Event 1: First flip.",
+      " - Possible Outcomes: Heads (H), Tails (T).",
+      " - Probability of Heads (P(H1)): 1/2.",
+      "Event 2: Second flip.",
+      " - Possible Outcomes: Heads (H), Tails (T).",
+      " - Probability of Heads (P(H2)): 1/2.",
+      "Independence: The outcome of the first flip does not affect the outcome of the second flip. The events are independent.",
+      "Probability of Independent Events: P(A and B) = P(A) × P(B).",
+      "Calculation: P(H1 and H2) = P(H1) × P(H2) = (1/2) × (1/2) = 1/4."
+    ],
+    "answer": "1/4 (or 0.25 or 25%)."
+  },
+  {
+    "id": "sl_154",
+    "category": "science",
+    "type": "work_energy",
+    "prompt": "In physics, what is meant by 'work'?",
+    "reasoning_steps": [
+      "Physics Definition: Work is done on an object when a force applied to the object causes it to move a certain distance in the direction of the force.",
+      "Formula: Work (W) = Force (F) × Distance (d) × cos(θ), where θ is the angle between the force vector and the direction of motion.",
+      "Simplified Case: If the force is applied in the same direction as the motion, W = F × d.",
+      "Key Requirements for Work to be Done:",
+      " 1. A force must be applied.",
+      " 2. The object must move (displacement must occur).",
+      " 3. There must be a component of the force in the direction of the displacement.",
+      "Units: Joules (J) in the SI system.",
+      "Relation to Energy: Work is a transfer of energy. Doing work on an object changes its energy (e.g., its kinetic or potential energy)."
+    ],
+    "answer": "In physics, work is done when a force causes an object to move a certain distance. It is calculated as the component of the force in the direction of motion multiplied by the distance moved (W = F × d × cos(θ)). Work represents a transfer of energy."
+  },
+  {
+    "id": "sl_155",
+    "category": "logic",
+    "type": "sampling_bias",
+    "prompt": "To find out how students feel about cafeteria food, a survey is conducted only among students eating pizza in the cafeteria. Why might this survey method be biased?",
+    "reasoning_steps": [
+      "Goal: Understand feelings about *all* cafeteria food among *all* students.",
+      "Survey Sample: Only students currently eating pizza.",
+      "Potential Bias Source 1 (Selection Bias): Students choosing pizza might already have a more positive view of at least that part of the cafeteria food compared to students who chose other options or brought their own lunch.",
+      "Potential Bias Source 2 (Exclusion): The survey excludes students who dislike the cafeteria food so much they don't eat there at all, or those who prefer other menu items.",
+      "Result: The sample is not representative of the entire student population's views on cafeteria food in general.",
+      "Conclusion: The results will likely be skewed towards a more positive view than reality because the sample overrepresents students who like at least one popular item (pizza) and excludes those with strong negative opinions or different preferences."
+    ],
+    "answer": "This method introduces sampling bias. Students choosing pizza might already like that option, and the survey excludes students who dislike the cafeteria food enough to avoid it entirely or prefer other items. The sample isn't representative of all students' opinions on all cafeteria food."
+  },
+  {
+    "id": "sl_156",
+    "category": "science",
+    "type": "conduction_convection_radiation",
+    "prompt": "Name the three main methods of heat transfer and give a brief example of each.",
+    "reasoning_steps": [
+      "Heat Transfer: Movement of thermal energy from a hotter region to a cooler region.",
+      "Method 1: Conduction",
+      " - Mechanism: Transfer through direct contact, via collisions between adjacent particles.",
+      " - Medium: Primarily in solids, but also liquids/gases.",
+      " - Example: The handle of a metal spoon getting hot when the spoon is placed in hot soup.",
+      "Method 2: Convection",
+      " - Mechanism: Transfer through the movement of fluids (liquids or gases). Warmer, less dense fluid rises; cooler, denser fluid sinks, creating currents.",
+      " - Medium: Liquids and gases.",
+      " - Example: Boiling water circulating in a pot; warm air rising from a heater.",
+      "Method 3: Radiation",
+      " - Mechanism: Transfer via electromagnetic waves (like infrared radiation). Does not require a medium.",
+      " - Medium: Can travel through vacuum, gases, liquids, some solids.",
+      " - Example: Heat felt from the sun; heat felt near a campfire or hot stove burner without touching it."
+    ],
+    "answer": "1. Conduction: Heat transfer through direct contact (e.g., a pan handle getting hot on a stove). 2. Convection: Heat transfer through the movement of fluids (e.g., boiling water circulating, warm air rising). 3. Radiation: Heat transfer via electromagnetic waves (e.g., heat from the sun, heat felt from a campfire)."
+  },
+  {
+    "id": "sl_157",
+    "category": "logic",
+    "type": "observational_study_vs_experiment",
+    "prompt": "What is the key difference between an observational study and a controlled experiment?",
+    "reasoning_steps": [
+      "Goal: Both aim to investigate relationships between variables.",
+      "Observational Study:",
+      " - Method: Researchers observe and measure variables of interest without manipulating any variables or assigning subjects to different conditions.",
+      " - Control: Researchers do not control the exposure or treatment.",
+      " - Example: Studying the relationship between smoking and lung cancer by observing groups of smokers and non-smokers over time.",
+      " - Limitation: Can show correlation but difficult to establish causation due to potential confounding variables.",
+      "Controlled Experiment:",
+      " - Method: Researchers deliberately manipulate one or more independent variables (treatments/exposures) and assign subjects randomly to different treatment groups (including a control group).",
+      " - Control: Researchers control the assignment of the treatment.",
+      " - Example: Randomly assigning patients to receive either a new drug or a placebo to test the drug's effectiveness.",
+      " - Strength: Allows for stronger inferences about causation because random assignment helps control for confounding variables.",
+      "Key Difference: Manipulation of variables and random assignment by the researcher in an experiment, versus passive observation in an observational study."
+    ],
+    "answer": "The key difference is manipulation and control. In a controlled experiment, researchers actively manipulate an independent variable and randomly assign subjects to treatment/control groups. In an observational study, researchers observe subjects and measure variables without assigning treatments or manipulating conditions."
+  },
+  {
+    "id": "sl_158",
+    "category": "science",
+    "type": "momentum",
+    "prompt": "What is momentum, and how is it calculated?",
+    "reasoning_steps": [
+      "Concept: A measure of an object's motion, often described as 'mass in motion'.",
+      "Definition: Momentum (p) is the product of an object's mass (m) and its velocity (v).",
+      "Formula: p = m × v",
+      "Nature: Momentum is a vector quantity, meaning it has both magnitude (amount) and direction. Its direction is the same as the velocity's direction.",
+      "Units: Kilogram-meters per second (kg·m/s) in the SI system.",
+      "Importance: Momentum is a conserved quantity in a closed system (total momentum before a collision equals total momentum after)."
+    ],
+    "answer": "Momentum is a measure of an object's mass in motion. It is calculated as the product of the object's mass and its velocity (p = m × v). It is a vector quantity, having both magnitude and direction."
+  },
+  {
+    "id": "sl_159",
+    "category": "logic",
+    "type": "confirmation_bias",
+    "prompt": "Explain confirmation bias.",
+    "reasoning_steps": [
+      "Definition: The tendency to search for, interpret, favor, and recall information in a way that confirms or supports one's pre-existing beliefs or hypotheses.",
+      "Mechanism 1 (Search): Actively seeking out evidence that supports one's views while avoiding or ignoring contradictory evidence.",
+      "Mechanism 2 (Interpretation): Interpreting ambiguous evidence as supporting one's existing position.",
+      "Mechanism 3 (Recall): Remembering details that uphold one's beliefs more easily than details that challenge them.",
+      "Effect: Leads to holding onto beliefs even when evidence might suggest otherwise; reinforces existing views.",
+      "Example: A person who believes a certain political party is corrupt might pay close attention to news stories about scandals involving that party but dismiss or ignore similar stories about other parties."
+    ],
+    "answer": "Confirmation bias is the tendency for people to favor information that confirms their existing beliefs or hypotheses. This can involve actively seeking out supporting evidence, interpreting ambiguous information in a biased way, or selectively remembering details that fit their views, while ignoring or downplaying contradictory information."
+  },
+  {
+    "id": "sl_160",
+    "category": "science",
+    "type": "acids_bases_neutralization",
+    "prompt": "What are the typical products when a strong acid (like HCl) reacts with a strong base (like NaOH)?",
+    "reasoning_steps": [
+      "Reaction Type: Neutralization.",
+      "Reactants: Strong acid (HCl) + Strong base (NaOH).",
+      "Acid Dissociation: HCl → H⁺ + Cl⁻",
+      "Base Dissociation: NaOH → Na⁺ + OH⁻",
+      "Neutralization Core Reaction: H⁺ (from acid) + OH⁻ (from base) → H₂O (water).",
+      "Remaining Ions: Na⁺ (from base) + Cl⁻ (from acid).",
+      "Salt Formation: These remaining ions form an ionic compound (salt), in this case, NaCl (sodium chloride).",
+      "Overall Reaction: HCl + NaOH → H₂O + NaCl",
+      "Products: Water and a salt."
+    ],
+    "answer": "The typical products are water (H₂O) and a salt (in this case, sodium chloride, NaCl)."
+  },
+  {
+    "id": "sl_161",
+    "category": "logic",
+    "type": "availability_heuristic",
+    "prompt": "After seeing several news reports about airplane crashes, someone becomes afraid of flying, even though statistics show driving is much riskier. What cognitive bias might be at play?",
+    "reasoning_steps": [
+      "Situation: Overestimating the risk of flying after exposure to vivid news reports.",
+      "Cognitive Process: People often estimate the likelihood or frequency of an event based on how easily examples come to mind.",
+      "Bias Mechanism: Dramatic, easily recalled events (like plane crashes featured in news) are more 'available' in memory than mundane, statistically more common risks (like car accidents).",
+      "Effect: The ease of recalling examples of plane crashes leads to an overestimation of their actual frequency and risk.",
+      "Name of Bias: Availability Heuristic."
+    ],
+    "answer": "The Availability Heuristic. People overestimate the likelihood of events that are more easily recalled or readily available in memory (like dramatic plane crashes shown on the news), even if those events are statistically rare compared to less memorable risks (like car accidents)."
+  },
+  {
+    "id": "sl_162",
+    "category": "science",
+    "type": "chemical_bonding_ionic",
+    "prompt": "Describe ionic bonding.",
+    "reasoning_steps": [
+      "Context: Formation of chemical bonds between atoms.",
+      "Atoms Involved: Typically occurs between a metal atom (which tends to lose electrons) and a nonmetal atom (which tends to gain electrons).",
+      "Mechanism 1 (Electron Transfer): The metal atom transfers one or more valence electrons to the nonmetal atom.",
+      "Mechanism 2 (Ion Formation): The metal atom becomes a positively charged ion (cation). The nonmetal atom becomes a negatively charged ion (anion).",
+      "Mechanism 3 (Electrostatic Attraction): The oppositely charged ions (cation and anion) are strongly attracted to each other through electrostatic forces.",
+      "Result: This strong attraction holds the ions together, forming an ionic bond and typically creating an ionic compound (often a crystal lattice structure).",
+      "Example: Sodium (Na, metal) transfers an electron to Chlorine (Cl, nonmetal), forming Na⁺ and Cl⁻ ions, which attract to form NaCl (salt)."
+    ],
+    "answer": "Ionic bonding involves the transfer of electrons from one atom (usually a metal) to another (usually a nonmetal). This creates oppositely charged ions (a positive cation and a negative anion) that are held together by strong electrostatic attraction."
+  },
+  {
+    "id": "sl_163",
+    "category": "logic",
+    "type": "anchoring_bias",
+    "prompt": "A store initially prices a jacket at $500, then marks it down to $250. Customers perceive $250 as a great deal, even if the jacket's true value is closer to $200. What bias is influencing their perception?",
+    "reasoning_steps": [
+      "Situation: Judging the value ($250) relative to an initial reference point ($500).",
+      "Cognitive Process: People often rely too heavily on the first piece of information offered (the 'anchor') when making decisions or judgments.",
+      "Bias Mechanism: The initial high price ($500) serves as an anchor. Subsequent judgments about the price ($250) are made by adjusting from that anchor.",
+      "Effect: The $250 price seems much lower and therefore a better deal *in comparison* to the $500 anchor, even if it's still above the item's objective value.",
+      "Name of Bias: Anchoring Bias."
+    ],
+    "answer": "Anchoring Bias. Customers are influenced by the initial high price ($500) which serves as an 'anchor'. They judge the $250 sale price relative to that anchor, making it seem like a better deal than it might be if judged independently."
+  },
+  {
+    "id": "sl_164",
+    "category": "science",
+    "type": "chemical_bonding_covalent",
+    "prompt": "Describe covalent bonding.",
+    "reasoning_steps": [
+      "Context: Formation of chemical bonds between atoms.",
+      "Atoms Involved: Typically occurs between two nonmetal atoms.",
+      "Mechanism (Electron Sharing): Instead of transferring electrons, atoms share one or more pairs of valence electrons.",
+      "Reason for Sharing: Each atom effectively counts the shared electrons towards achieving a stable electron configuration (often a full outer shell, like a noble gas).",
+      "Bond Formation: The shared electron pair(s) are attracted to the nuclei of both atoms, holding the atoms together.",
+      "Result: Forms molecules (discrete units) or network structures.",
+      "Types: Single bond (one shared pair), double bond (two shared pairs), triple bond (three shared pairs).",
+      "Example: In water (H2O), oxygen shares one electron pair with each hydrogen atom."
+    ],
+    "answer": "Covalent bonding involves the sharing of one or more pairs of electrons between atoms (usually nonmetals). This sharing allows each atom to achieve a more stable electron configuration, and the mutual attraction for the shared electrons holds the atoms together, forming molecules."
+  },
+  {
+    "id": "sl_165",
+    "category": "logic",
+    "type": "dunning_kruger_effect",
+    "prompt": "Why might someone with very little knowledge about a complex topic be overly confident in their understanding?",
+    "reasoning_steps": [
+      "Cognitive Bias: Dunning-Kruger Effect.",
+      "Description: A bias where individuals with low ability or knowledge in a specific area tend to overestimate their own ability or knowledge.",
+      "Mechanism: The lack of knowledge and skill prevents them from recognizing their own incompetence. They don't know enough to realize what they don't know.",
+      "Contrast: Highly competent individuals may sometimes underestimate their relative competence, assuming tasks easy for them are also easy for others.",
+      "Result: People with low competence lack the metacognitive ability to accurately evaluate their performance, leading to inflated self-assessments.",
+      "Example: A novice chess player believing they understand the game deeply after learning only the basic rules."
+    ],
+    "answer": "This could be due to the Dunning-Kruger effect. People with low competence in a particular area often lack the metacognitive skills needed to recognize their own lack of knowledge and accurately assess their abilities, leading them to overestimate their understanding."
+  },
+  {
+    "id": "sl_166",
+    "category": "science",
+    "type": "power_physics",
+    "prompt": "In physics, what is power, and how does it relate to work and energy?",
+    "reasoning_steps": [
+      "Definition: Power is the rate at which work is done or the rate at which energy is transferred or converted.",
+      "Formula 1 (Work): Power (P) = Work (W) / Time (t)",
+      "Formula 2 (Energy): Power (P) = Energy Transferred (E) / Time (t)",
+      "Meaning: Power measures how quickly work is performed or energy is used.",
+      "Units: Watts (W) in the SI system (1 Watt = 1 Joule per second).",
+      "Example: Two people lift the same weight to the same height (doing the same work). The person who does it faster exerts more power.",
+      "Relationship: Work/Energy is the total amount; Power is how fast that amount is delivered or used."
+    ],
+    "answer": "In physics, power is the rate at which work is done or energy is transferred/converted. It measures how quickly energy is used. It's calculated as Power = Work / Time or Power = Energy / Time, and its unit is the Watt (Joules per second)."
+  },
+  {
+    "id": "sl_167",
+    "category": "logic",
+    "type": "fundamental_attribution_error",
+    "prompt": "When someone else cuts you off in traffic, you might think 'What a jerk!'. When you cut someone off, you might think 'I was in a hurry and didn't see them'. What bias does this illustrate?",
+    "reasoning_steps": [
+      "Situation 1 (Observing Others): Attributing someone else's negative behavior (cutting you off) to their internal disposition or character ('jerk').",
+      "Situation 2 (Explaining Own Behavior): Attributing your own similar negative behavior (cutting someone off) to external situational factors ('in a hurry', 'didn't see them').",
+      "Bias Mechanism: The tendency to overemphasize dispositional or personality-based explanations for others' behaviors while overemphasizing situational explanations for one's own behavior.",
+      "Name of Bias: Fundamental Attribution Error (or Actor-Observer Bias, which highlights the difference between explaining own vs. others' behavior)."
+    ],
+    "answer": "This illustrates the Fundamental Attribution Error (or Actor-Observer Bias). We tend to attribute others' negative actions to their personality ('they are a jerk') while attributing our own similar actions to situational factors ('I was in a hurry')."
+  },
+  {
+    "id": "sl_168",
+    "category": "science",
+    "type": "black_holes",
+    "prompt": "What is a black hole?",
+    "reasoning_steps": [
+      "Origin: Typically formed from the collapse of a very massive star at the end of its life.",
+      "Defining Property: A region in spacetime where gravity is so strong that nothing—no particles or even electromagnetic radiation such as light—can escape from it.",
+      "Boundary: The boundary beyond which escape is impossible is called the event horizon.",
+      "Cause of Strong Gravity: An immense amount of mass concentrated into an extremely small volume (a singularity, according to general relativity, though quantum effects might alter this picture).",
+      "Detection: Cannot be seen directly (as light cannot escape), but can be inferred by observing their gravitational effects on nearby stars, gas, and light."
+    ],
+    "answer": "A black hole is a region in spacetime with such intense gravity that nothing, not even light, can escape once it crosses the boundary called the event horizon. They are typically formed from the collapse of very massive stars and represent a huge amount of mass concentrated in an incredibly small space."
+  },
+  {
+    "id": "sl_169",
+    "category": "logic",
+    "type": "sunk_cost_fallacy",
+    "prompt": "You've spent a lot of money repairing an old car that keeps breaking down. Even though buying a new car might be more economical now, you decide to spend even more on repairs because you've 'already invested so much'. What fallacy is influencing this decision?",
+    "reasoning_steps": [
+      "Situation: Deciding whether to continue investing in a failing project (repairing the old car) or cut losses (buy a new car).",
+      "Past Investment: Significant money already spent on repairs (these are 'sunk costs' - they cannot be recovered).",
+      "Decision Factor: The decision to continue is based on the past investment ('already invested so much') rather than on the *future* costs and benefits of each option.",
+      "Rational Decision Making: Rational decisions should be based on future prospects, not unrecoverable past costs.",
+      "Fallacy Mechanism: Letting unrecoverable past costs (sunk costs) influence current decisions.",
+      "Name of Fallacy: Sunk Cost Fallacy."
+    ],
+    "answer": "Sunk Cost Fallacy. The decision to continue investing is based on the unrecoverable past investment ('sunk costs') rather than a rational assessment of future costs and benefits. Rational decisions should ignore sunk costs."
+  },
+  {
+    "id": "sl_170",
+    "category": "science",
+    "type": "wave_interference",
+    "prompt": "What happens when two waves meet or overlap?",
+    "reasoning_steps": [
+      "Principle: Superposition Principle - When two or more waves overlap in the same region, the resultant displacement at any point is the vector sum of the displacements due to each individual wave.",
+      "Outcome 1 (Constructive Interference): If the waves meet in phase (e.g., crest meets crest, trough meets trough), their amplitudes add together.",
+      "Result 1: Produces a wave with a larger amplitude than the individual waves.",
+      "Outcome 2 (Destructive Interference): If the waves meet out of phase (e.g., crest meets trough), their amplitudes subtract.",
+      "Result 2: Produces a wave with a smaller amplitude. If the original waves had equal amplitudes, they can cancel each other out completely at that point.",
+      "General Case: Waves can interfere in ways that are partially constructive and partially destructive depending on their relative phase.",
+      "Name: This phenomenon is called wave interference."
+    ],
+    "answer": "When two waves meet, they interfere according to the superposition principle. If they meet in phase (crest to crest), they add up (constructive interference), resulting in a larger amplitude. If they meet out of phase (crest to trough), they subtract (destructive interference), resulting in a smaller amplitude (or cancellation)."
+  },
+  {
+    "id": "sl_171",
+    "category": "logic",
+    "type": "gamblers_fallacy",
+    "prompt": "A fair coin has landed on heads five times in a row. Someone believes tails is now 'due' and more likely to occur on the next flip. What fallacy is this?",
+    "reasoning_steps": [
+      "Situation: Observing a sequence of independent random events (coin flips).",
+      "Belief: Past outcomes influence future outcomes in independent events; specifically, a deviation from the expected average (5 heads) makes the opposite outcome (tails) more likely to 'balance things out'.",
+      "Nature of Independent Events: For a fair coin, each flip is independent. The outcome of previous flips has absolutely no bearing on the outcome of the next flip.",
+      "Probability: The probability of getting tails on the next flip remains 1/2, regardless of the previous results.",
+      "Fallacy Mechanism: Mistaken belief that random processes must self-correct in the short term.",
+      "Name of Fallacy: Gambler's Fallacy."
+    ],
+    "answer": "Gambler's Fallacy. This is the mistaken belief that past outcomes of independent random events (like fair coin flips) influence future outcomes. Each coin flip is independent, and the probability of tails remains 1/2 regardless of previous results."
+  },
+  {
+    "id": "sl_172",
+    "category": "science",
+    "type": "RNA_function",
+    "prompt": "What is a primary role of RNA (Ribonucleic acid) in cells?",
+    "reasoning_steps": [
+      "Molecule: RNA (Ribonucleic acid), similar structure to DNA but usually single-stranded and uses Uracil (U) instead of Thymine (T).",
+      "Central Dogma Context: Genetic information flows from DNA → RNA → Protein.",
+      "Role 1 (Messenger RNA - mRNA): Carries genetic code copied from DNA in the nucleus to the ribosomes in the cytoplasm, serving as a template for protein synthesis.",
+      "Role 2 (Transfer RNA - tRNA): Carries specific amino acids to the ribosome and matches them to the codons on the mRNA template during protein synthesis.",
+      "Role 3 (Ribosomal RNA - rRNA): A major structural component of ribosomes, the cellular machinery responsible for protein synthesis. Also has catalytic activity.",
+      "Other Roles: RNA also plays roles in gene regulation, splicing, and catalysis.",
+      "Primary Role Summary: Acts as an intermediary molecule in the process of converting genetic information stored in DNA into functional proteins."
+    ],
+    "answer": "A primary role of RNA is to act as a messenger (mRNA) carrying genetic instructions from DNA to the ribosomes, where it serves as a template for building proteins. Other types of RNA (like tRNA and rRNA) are also essential for protein synthesis."
+  },
+  {
+    "id": "sl_173",
+    "category": "logic",
+    "type": "bandwagon_fallacy",
+    "prompt": "Argument: 'Everyone is buying this new phone, so it must be the best one available.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Justification for Belief/Action: Based on the popularity or widespread adoption of the phone ('Everyone is buying it').",
+      "Identify Flaw: Assumes that popularity is a reliable indicator of quality or correctness. People might buy something for many reasons unrelated to it being the 'best' (e.g., marketing, trends, peer pressure, lack of awareness of alternatives).",
+      "Name Fallacy: Bandwagon Fallacy (a type of Appeal to Popularity)."
+    ],
+    "answer": "Bandwagon Fallacy (Appeal to Popularity). The argument assumes the phone must be the best simply because it is popular or many people are buying it, which doesn't logically follow."
+  },
+  {
+    "id": "sl_174",
+    "category": "science",
+    "type": "enzymes",
+    "prompt": "What are enzymes, and what do they do?",
+    "reasoning_steps": [
+      "Nature: Enzymes are biological catalysts, typically proteins (though some RNA molecules also have catalytic activity - ribozymes).",
+      "Function: They speed up the rate of specific biochemical reactions within living organisms.",
+      "Mechanism: Like chemical catalysts, they lower the activation energy required for a reaction to occur.",
+      "Specificity: Enzymes are highly specific; each enzyme typically catalyzes only one or a small number of related reactions, acting on specific molecules called substrates.",
+      "Active Site: Enzymes have a specific region called the active site where the substrate binds and the reaction takes place.",
+      "Regulation: Enzyme activity can be regulated (increased or decreased) by various factors within the cell.",
+      "Importance: Essential for virtually all metabolic processes, including digestion, energy production, DNA replication, etc."
+    ],
+    "answer": "Enzymes are biological catalysts (usually proteins) that speed up specific biochemical reactions in living organisms by lowering the activation energy. They are highly specific, acting on particular substrates, and are essential for metabolism."
+  },
+  {
+    "id": "sl_175",
+    "category": "logic",
+    "type": "no_true_scotsman",
+    "prompt": "Person A: 'No Scotsman puts sugar on his porridge.' Person B: 'But my uncle Angus is a Scotsman, and he puts sugar on his porridge.' Person A: 'Ah, but no *true* Scotsman puts sugar on his porridge.' Identify the fallacy used by Person A.",
+    "reasoning_steps": [
+      "Initial Claim (Universal): No Scotsman does X.",
+      "Counterexample Presented: Angus is a Scotsman and does X.",
+      "Person A's Response: Modifies the initial claim by implicitly redefining the group ('Scotsman') to exclude the counterexample ('no *true* Scotsman').",
+      "Fallacy Mechanism: Protecting a universal generalization from counterexamples by arbitrarily modifying the definition of the subject group to exclude the counterexample, rather than revising the generalization.",
+      "Name of Fallacy: No True Scotsman fallacy."
+    ],
+    "answer": "No True Scotsman fallacy. Person A modifies their initial universal claim ('No Scotsman...') by appealing to purity ('no *true* Scotsman...') to exclude the counterexample presented by Person B, rather than acknowledging the counterexample or revising the claim."
+  },
+  {
+    "id": "sl_176",
+    "category": "science",
+    "type": "Newton_second_law",
+    "prompt": "Explain Newton's Second Law of Motion (relationship between force, mass, and acceleration).",
+    "reasoning_steps": [
+      "Statement of Law: The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.",
+      "Formula: F_net = m × a (Net Force = mass × acceleration).",
+      "Meaning 1 (Force & Acceleration): For a given mass, a larger net force produces a larger acceleration.",
+      "Meaning 2 (Mass & Acceleration): For a given net force, a larger mass results in a smaller acceleration (more massive objects are harder to accelerate).",
+      "Vector Nature: Force and acceleration are vector quantities; the acceleration is in the same direction as the net force.",
+      "Importance: Quantifies the relationship between force applied, the object's inertia (mass), and the resulting change in motion (acceleration)."
+    ],
+    "answer": "Newton's Second Law states that the net force acting on an object is equal to its mass multiplied by its acceleration (F=ma). This means acceleration is directly proportional to the net force and inversely proportional to the mass. A larger force produces more acceleration, while a larger mass results in less acceleration for the same force."
+  },
+  {
+    "id": "sl_177",
+    "category": "logic",
+    "type": "fallacy_of_relative_privation",
+    "prompt": "Person A complains about their difficult job. Person B replies, 'You shouldn't complain, think about the starving children in Africa!' What fallacy might Person B be committing?",
+    "reasoning_steps": [
+      "Person A's Statement: Expresses dissatisfaction with their situation (difficult job).",
+      "Person B's Response: Dismisses Person A's complaint by comparing it to a much worse situation (starving children).",
+      "Fallacy Mechanism: Tries to invalidate a problem or complaint by comparing it to a more significant problem elsewhere, implying that the lesser problem is therefore not legitimate or worth addressing.",
+      "Identify Flaw: The existence of worse problems does not negate the reality or validity of a smaller problem. Both can be true and worthy of consideration.",
+      "Name Fallacy: Fallacy of Relative Privation (also known as 'Not as Bad As' or Appeal to Worse Problems)."
+    ],
+    "answer": "Fallacy of Relative Privation (or Appeal to Worse Problems). Person B attempts to dismiss Person A's legitimate (though perhaps smaller) problem by comparing it to a much larger, unrelated problem, implying the smaller problem is therefore insignificant or invalid."
+  },
+  {
+    "id": "sl_178",
+    "category": "science",
+    "type": "thermodynamics_second_law",
+    "prompt": "What is a common statement of the Second Law of Thermodynamics related to entropy?",
+    "reasoning_steps": [
+      "Concept: Entropy (S) - A measure of the disorder, randomness, or energy dispersal in a system.",
+      "Second Law Statement (Entropy): The total entropy of an isolated system can only increase over time, or remain constant in ideal cases where the system is in a steady state or undergoing a reversible process.",
+      "Implication 1: Natural processes tend to move towards a state of greater disorder or randomness.",
+      "Implication 2: Heat naturally flows from hotter objects to colder objects, not the other way around (as this increases overall entropy).",
+      "Implication 3: It's impossible to convert heat completely into work in a cyclical process without some waste heat (limits efficiency of engines).",
+      "Universe as Isolated System: Often stated as 'The entropy of the universe tends to a maximum'."
+    ],
+    "answer": "A common statement is that the total entropy (a measure of disorder or energy dispersal) of an isolated system always increases or stays the same over time; it never decreases. Natural processes tend towards greater disorder."
+  },
+  {
+    "id": "sl_179",
+    "category": "logic",
+    "type": "middle_ground_fallacy",
+    "prompt": "Person A argues the sky is blue. Person B argues the sky is yellow. Person C concludes that the truth must be in the middle, so the sky is green. Identify the fallacy.",
+    "reasoning_steps": [
+      "Positions Presented: Two opposing viewpoints (Sky is blue vs. Sky is yellow).",
+      "Person C's Conclusion: Assumes the truth must lie exactly in the middle or be a compromise between the two extremes (Sky is green).",
+      "Identify Flaw: Assumes that a compromise between two positions is always the correct or best position, regardless of the merits of the original positions. One position might be entirely correct and the other entirely wrong, or the truth might lie elsewhere entirely, not necessarily in the middle.",
+      "Name Fallacy: Middle Ground Fallacy (Argument to Moderation)."
+    ],
+    "answer": "Middle Ground Fallacy. Person C incorrectly assumes that the truth must be a compromise between two opposing positions (blue and yellow), leading to an incorrect conclusion (green). The truth isn't always found in the middle ground."
+  },
+  {
+    "id": "sl_180",
+    "category": "science",
+    "type": "wave_properties",
+    "prompt": "What are wavelength and frequency, and how are they related for electromagnetic waves (like light) traveling in a vacuum?",
+    "reasoning_steps": [
+      "Wave Property 1 (Wavelength, λ): The spatial distance between corresponding points on adjacent cycles of a wave (e.g., distance from crest to crest). Units: meters (m).",
+      "Wave Property 2 (Frequency, f or ν): The number of wave cycles that pass a fixed point per unit of time. Units: Hertz (Hz), which is cycles per second (s⁻¹).",
+      "Wave Speed (v): How fast the wave propagates through a medium.",
+      "General Relationship: Wave Speed (v) = Wavelength (λ) × Frequency (f).",
+      "Electromagnetic Waves in Vacuum: All electromagnetic waves (radio, microwave, infrared, visible light, UV, X-ray, gamma) travel at the same constant speed in a vacuum, known as the speed of light (c). c ≈ 3 × 10⁸ m/s.",
+      "Specific Relationship (in vacuum): c = λ × f.",
+      "Implication: Wavelength and frequency are inversely proportional for electromagnetic waves in a vacuum. If wavelength increases, frequency must decrease to keep their product equal to the constant speed of light (c), and vice versa."
+    ],
+    "answer": "Wavelength (λ) is the distance between wave crests. Frequency (f) is the number of waves passing a point per second. For electromagnetic waves in a vacuum, they travel at a constant speed (the speed of light, c). Their relationship is c = λ × f, meaning wavelength and frequency are inversely proportional: as one increases, the other decreases."
+  },
+  {
+    "id": "sl_181",
+    "category": "logic",
+    "type": "is_ought_fallacy",
+    "prompt": "Argument: 'Humans have always eaten meat. Therefore, eating meat is morally right.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Premise (Descriptive): Describes what *is* or *has been* the case ('Humans have always eaten meat'). This is an 'is' statement.",
+      "Conclusion (Prescriptive/Normative): Makes a claim about what *should* be or what is morally right ('Therefore, eating meat is morally right'). This is an 'ought' statement.",
+      "Identify Flaw: Attempts to derive a moral conclusion (ought) directly from a factual observation (is). Just because something *is* a certain way (or has historically been done) does not logically necessitate that it *should* be that way or that it is morally correct.",
+      "Name Fallacy: Is-Ought Fallacy (or Hume's Guillotine, Appeal to Nature if implying 'natural' equals 'good')."
+    ],
+    "answer": "Is-Ought Fallacy. The argument attempts to derive a moral conclusion ('ought' - eating meat is morally right) directly from a factual premise ('is' - humans have always eaten meat). You cannot logically derive what ought to be solely from what is."
+  },
+  {
+    "id": "sl_182",
+    "category": "science",
+    "type": "aerodynamics_lift",
+    "prompt": "What is the basic principle behind how an airplane wing generates lift?",
+    "reasoning_steps": [
+      "Wing Shape (Airfoil): Airplane wings have a specific shape (airfoil), typically curved on top and flatter on the bottom.",
+      "Airflow: As the wing moves through the air, the air splits to flow above and below the wing.",
+      "Bernoulli's Principle: States that for a fluid (like air), faster-moving fluid exerts lower pressure, and slower-moving fluid exerts higher pressure.",
+      "Air Speed Difference: Due to the airfoil shape, the air flowing over the curved top surface travels a slightly longer distance and thus moves faster than the air flowing along the flatter bottom surface.",
+      "Pressure Difference: According to Bernoulli's principle, the faster-moving air on top exerts lower pressure than the slower-moving air on the bottom.",
+      "Lift Force: This pressure difference creates a net upward force on the wing, called lift.",
+      "Newton's Third Law Contribution: The wing also deflects air downwards. By Newton's third law, the air pushes the wing upwards (action-reaction). Both Bernoulli effect and air deflection contribute to lift."
+    ],
+    "answer": "An airplane wing (airfoil) is shaped so that air flows faster over the curved top surface than the flatter bottom surface. According to Bernoulli's principle, this faster-moving air exerts lower pressure. The higher pressure underneath the wing pushes it upward, generating lift. Deflecting air downwards also contributes via Newton's third law."
+  },
+  {
+    "id": "sl_183",
+    "category": "logic",
+    "type": "false_analogy",
+    "prompt": "Argument: 'Employees are like nails. Just as nails must be hit on the head to make them work, so must employees.' Identify the fallacy.",
+    "reasoning_steps": [
+      "Argument Type: Analogy, comparing employees to nails.",
+      "Claimed Similarity: Both require being 'hit on the head' (force/coercion) to function.",
+      "Identify Flaw: The analogy compares two things (employees and nails) that are dissimilar in relevant ways. Employees are complex beings with motivations, thoughts, and feelings, while nails are inanimate objects. The way to make them 'work' is fundamentally different. Applying the logic for nails to employees is inappropriate.",
+      "Name Fallacy: False Analogy (or Weak Analogy)."
+    ],
+    "answer": "False Analogy (or Weak Analogy). The argument relies on a comparison between employees and nails, which are fundamentally different in ways relevant to how they 'work'. Applying the logic appropriate for an inanimate object like a nail to complex human beings is flawed."
+  },
+  {
+    "id": "sl_184",
+    "category": "science",
+    "type": "cell_membrane_function",
+    "prompt": "What is the main function of the cell membrane?",
+    "reasoning_steps": [
+      "Structure: A thin, flexible barrier surrounding all cells (and many organelles within eukaryotes). Composed primarily of a phospholipid bilayer with embedded proteins.",
+      "Function 1 (Boundary): Separates the internal environment of the cell from the external environment.",
+      "Function 2 (Selective Permeability): Controls the passage of substances into and out of the cell. Small, nonpolar molecules may pass freely; transport proteins regulate the movement of ions and larger polar molecules.",
+      "Function 3 (Cell Signaling): Contains receptor proteins that bind to external signaling molecules (like hormones), initiating responses within the cell.",
+      "Function 4 (Cell Adhesion): Helps cells stick together to form tissues (in multicellular organisms).",
+      "Main Function Summary: Acts as a selective barrier, controlling transport and maintaining the cell's internal environment, while also playing roles in communication and adhesion."
+    ],
+    "answer": "The main function of the cell membrane is to act as a selective barrier, controlling which substances enter and leave the cell, thereby maintaining the cell's internal environment. It also plays roles in cell communication and adhesion."
+  },
+  {
+    "id": "sl_185",
+    "category": "logic",
+    "type": "moving_the_goalposts",
+    "prompt": "Person A provides evidence X to support their claim. Person B dismisses X and demands evidence Y. Person A provides evidence Y. Person B dismisses Y and demands evidence Z. What fallacy might Person B be committing?",
+    "reasoning_steps": [
+      "Situation: Person A presents evidence meeting an initial standard or request.",
+      "Person B's Action: Instead of addressing the evidence presented, Person B changes the criteria or demands different, often higher, standards of evidence after the initial standard has been met.",
+      "Pattern: This continues each time new evidence is presented.",
+      "Fallacy Mechanism: Arbitrarily changing the criteria for proof or acceptance during a debate to avoid conceding the point.",
+      "Name Fallacy: Moving the Goalposts."
+    ],
+    "answer": "Moving the Goalposts. Person B is repeatedly changing the criteria or demands for evidence after Person A has met the previous standard, making it impossible for Person A to satisfy the requirements."
+  }
+]
